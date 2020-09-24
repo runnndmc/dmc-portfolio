@@ -1,0 +1,13 @@
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-end;
+}
+aside{
+  background-color: #EB673D;
+}
+main{
+  background-color: #E7E0CD;
+}
