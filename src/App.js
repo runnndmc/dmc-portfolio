@@ -6,12 +6,16 @@ function App() {
   return (
     <div className="grid-container">
       <header>
-        <h5>about</h5>
-        <h5>work</h5>
-        <button>Resume</button>
+          <ul className='direct-links'>
+            <h5>about</h5>
+            <h5>work</h5>
+            <button>Resume</button>
+          </ul> 
       </header>
       <aside>
-        <h3>Hello World!</h3>
+        <div className='hello'>
+          <h3>Hello World!</h3>
+        </div>
       </aside>
       <main>
         <h5 className='myname'>I'm Dayna Christison</h5>
