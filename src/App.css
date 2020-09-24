@@ -1,13 +1,39 @@
-
+.grid-container{
+  display: grid;
+  grid-template:'header header header header header'
+                'aside main main main main'
+                'aside main main main main'
+                'aside main main main main'
+                'aside footer footer footer footer';
+  grid-gap: 10px;
+}
 header{
+  grid-area: header;
   display: flex;
   justify-content: space-around;
   align-items: center;
   align-content: flex-end;
 }
 aside{
+  grid-area: aside;
   background-color: #EB673D;
 }
+.myname{
+  font-style: italic;
+  margin: 0;
+}
+.fullstack{
+ height: 20px;
+ align: center;
+ margin: 0;
+}
+
+.dot{
+  font-size: 45px;
+  color:#EB673D;
+}
+
 main{
+  grid-area: main;
   background-color: #E7E0CD;
 }
