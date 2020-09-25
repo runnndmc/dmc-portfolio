@@ -6,7 +6,7 @@
 }
 .grid-container{
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 100px;
   grid-template-rows: 30px 1fr 1fr 2.5fr;
 
   grid-gap: 0px;
@@ -19,24 +19,21 @@ header{
 .direct-links{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-content: space-around;
   align-items: center;
   height: 20px;
   grid-column-start: 1;
   margin-top: 50px;
-  margin-right: 1px;
-  width: 200px;
+  width: 100px;
 }
 .title{
   grid-column-start:1;
-  grid-column-end: 3;
+  grid-column-end: span 3;
   grid-row-start: 4;
   background-color: #EB673D;
 }
 main{
   grid-row-start:1;
-  grid-row-end: span 2;
+  grid-row-end: span 3;
   grid-column-start: 1;
   grid-column-end: 4;
   background-color: #E7E0CD;
@@ -44,38 +41,35 @@ main{
 .hello{
   color: #EB673D;
   font-size: 30px;
-  margin: 20px;
+  text-align: center;
 }
 .kill-me{
+  position: relative;
   grid-column-start: 1;
-  grid-column-end:span 2;
+  grid-column-end: span 3;
   grid-row-start: 3;
   background-color: #E7E0CD;
+  font-size: 50px;
+  text-align: right;
+  margin-top: 50px;
 }
 
-.myname{
-  position: fixed;
-  height: 20px;
-  text-align: center; 
-  padding-top: 70px;
-  font-size: 50px;
-  margin: 20px;
-}
+
 
 .fullstack{
-  color: #000000;
-  position: relative;
+  color: #ffffff;
+  position: absolute;
   height: 20px;
-  font-size: 30px;
+  font-size: 45px;
   text-align: center; 
-  left:90px;
+  right:6%;
   margin: 20px;
-  padding-bottom: 100px;
-
 }
 .dot{
-  font-size: 45px;
+  font-size: 57px;
   color:#EB673D;
+  bottom: 0;
+
 }
 
 

@@ -19,11 +19,11 @@ function App() {
       </main>
 
       <div className='kill-me'>
-        <h3 className='myname'>I'm Dayna Christison</h3>
+        <h3 className='kill-me'>I'm Dayna Christison</h3>
       </div>
      
       <div className='title'>
-        <h2 className='fullstack'>Full Stack Developer<span className='dot'>.</span></h2>
+        <h2 className='fullstack'>Full Stack Developer <span className='dot'>.</span></h2>
       </div>
 
     </div>
