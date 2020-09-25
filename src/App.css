@@ -6,8 +6,8 @@
 }
 .grid-container{
   display: grid;
-  grid-template-columns: 100px 1fr 2fr 1fr;
-  grid-template-rows: 30px 1fr 1fr 1fr 1fr;
+  grid-template-columns: 300px 1fr 1fr;
+  grid-template-rows: 30px 1fr 1fr 2.5fr;
   grid-template-areas:"a a a a a"
                       "c c c c c"
                       "c c c c c"
@@ -23,42 +23,12 @@ header{
 .direct-links{
   display: flex;
   justify-content: space-around;
-
   height: 20px;
   grid-column-start: 1;
   margin-top: 10px;
   margin-right: 1px;
   width: 200px;
 }
-aside{
-  grid-area: 'b';
-  grid-column-start: 1;
-  grid-column-end: 6;
-  grid-row-start:4;
-  grid-row-end: 7;
-  background-color: #EB673D;
-}
-.hello{
-  grid-area: "d";
-  
-}
-.myname{
-  font-style: italic;
-  margin: 0;
-}
-.fullstack{
- height: 20px;
- align: center;
- margin: 0;
- background-color: #E7E0CD;
- padding-bottom: 100px;
-}
-
-.dot{
-  font-size: 45px;
-  color:#EB673D;
-}
-
 main{
   grid-area: "c";
   grid-row-start:2;
@@ -67,6 +37,34 @@ main{
   grid-column-end: 5;
   background-color: #E7E0CD;
 }
+.hello{
+  grid-area: "d";
+}
+.title{
+  grid-area: 'b';
+  grid-column-start:1;
+  grid-column-end: 6;
+  grid-row-start:4;
+  grid-row-end: 7;
+  background-color: #EB673D;
+}
+.myname{
+ 
+  font-style: italic;
+  margin: 0;
+}
+.fullstack{
+ height: 20px;
+ align: center;
+ margin: 0;
+ padding-bottom: 100px;
+}
+.dot{
+  font-size: 45px;
+  color:#EB673D;
+}
+
+
 
 @media (max-width: 480px){
   .fullstack{

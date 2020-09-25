@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 import './App.css';
 
@@ -7,20 +8,21 @@ function App() {
     <div className="grid-container">
       <header>
           <ul className='direct-links'>
-            <h5>about</h5>
-            <h5>work</h5>
+            <Link to='/about'>about</Link>
+            <Link to='/work'>work</Link>
             <button>Resume</button>
           </ul> 
       </header>
-      <aside>
+      <main>
         <div className='hello'>
           <h3>Hello World!</h3>
         </div>
-      </aside>
-      <main>
-        <h5 className='myname'>I'm Dayna Christison</h5>
-        <h2 className='fullstack'>Full Stack Developer<span className='dot'>.</span></h2>
       </main>
+      <div className='title'>
+        <h3 className='myname'>I'm Dayna Christison</h3>
+        <h2 className='fullstack'>Full Stack Developer<span className='dot'>.</span></h2>
+      </div>
+
     </div>
   )
 }
