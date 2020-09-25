@@ -6,11 +6,9 @@
 }
 .grid-container{
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: 30px 2fr 2.5fr;
-  grid-template-areas:"a a a a a"
-                      "c c c c c"
-                      "b b b b b";
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 30px 1fr 1fr 2.5fr;
+
   grid-gap: 0px;
   width: 100vw;
   height: 100vh;
@@ -20,42 +18,60 @@ header{
 }
 .direct-links{
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
   height: 20px;
   grid-column-start: 1;
-  margin-top: 10px;
+  margin-top: 50px;
   margin-right: 1px;
   width: 200px;
 }
+.title{
+  grid-column-start:1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  background-color: #EB673D;
+}
 main{
-  grid-area: "c";
-  grid-row-start:2;
+  grid-row-start:1;
+  grid-row-end: span 2;
   grid-column-start: 1;
-  grid-column-end: 5;
+  grid-column-end: 4;
   background-color: #E7E0CD;
 }
 .hello{
-  color: white;
+  color: #EB673D;
+  font-size: 30px;
+  margin: 20px;
 }
-.title{
-  grid-area: 'b';
-  grid-column-start:1;
-  grid-column-end: 6;
-  grid-row-start:3;
-  background-color: #EB673D;
+.kill-me{
+  grid-column-start: 1;
+  grid-column-end:span 2;
+  grid-row-start: 3;
+  background-color: #E7E0CD;
 }
+
 .myname{
-  grid-column-start: 4;
-  grid-row-start: 2;
-  font-style: italic;
-  margin: 0;
+  position: fixed;
+  height: 20px;
+  text-align: center; 
+  padding-top: 70px;
+  font-size: 50px;
+  margin: 20px;
 }
+
 .fullstack{
- height: 20px;
- align: center;
- margin: 0;
- padding-bottom: 100px;
- grid-column-start: 2;
+  color: #000000;
+  position: relative;
+  height: 20px;
+  font-size: 30px;
+  text-align: center; 
+  left:90px;
+  margin: 20px;
+  padding-bottom: 100px;
+
 }
 .dot{
   font-size: 45px;
