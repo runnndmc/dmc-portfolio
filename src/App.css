@@ -6,12 +6,10 @@
 }
 .grid-container{
   display: grid;
-  grid-template-columns: 300px 1fr 1fr;
-  grid-template-rows: 30px 1fr 1fr 2.5fr;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 30px 2fr 2.5fr;
   grid-template-areas:"a a a a a"
                       "c c c c c"
-                      "c c c c c"
-                      "b b b b b"
                       "b b b b b";
   grid-gap: 0px;
   width: 100vw;
@@ -32,24 +30,23 @@ header{
 main{
   grid-area: "c";
   grid-row-start:2;
-  grid-row-end: 4;
   grid-column-start: 1;
   grid-column-end: 5;
   background-color: #E7E0CD;
 }
 .hello{
-  grid-area: "d";
+  color: white;
 }
 .title{
   grid-area: 'b';
   grid-column-start:1;
   grid-column-end: 6;
-  grid-row-start:4;
-  grid-row-end: 7;
+  grid-row-start:3;
   background-color: #EB673D;
 }
 .myname{
- 
+  grid-column-start: 4;
+  grid-row-start: 2;
   font-style: italic;
   margin: 0;
 }
@@ -58,6 +55,7 @@ main{
  align: center;
  margin: 0;
  padding-bottom: 100px;
+ grid-column-start: 2;
 }
 .dot{
   font-size: 45px;

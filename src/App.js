@@ -14,12 +14,10 @@ function App() {
           </ul> 
       </header>
       <main>
-        <div className='hello'>
-          <h3>Hello World!</h3>
-        </div>
+          <h3 className='hello'>Hello World!</h3>
       </main>
+      <h3 className='myname'>I'm Dayna Christison</h3>
       <div className='title'>
-        <h3 className='myname'>I'm Dayna Christison</h3>
         <h2 className='fullstack'>Full Stack Developer<span className='dot'>.</span></h2>
       </div>
 
