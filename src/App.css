@@ -53,6 +53,12 @@
    grid-area: about;
    background-color: yellow;
  }
+ .about-container{
+   display: flex;
+ }
+ .statement{
+   width: 50vw;
+ }
  .work{
    grid-area: work;
    background-color: purple;

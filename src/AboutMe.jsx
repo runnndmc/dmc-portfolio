@@ -4,8 +4,11 @@ const AboutMe = () => {
 
     return(
         <div className='about-me'>
-            <h2>ABOUT</h2>
-            <p>Puffy vagina. Oh, yeah! We're like Luke and Leia! ...Uh, except no kissing part. What's another famous brother–sister team? "And"? What more do you want tacked on to this? I turned myself into a pickle, and 9/11 was an inside job?" The fucking amish bitch shot me!</p>
+            <div className='about-container'>
+                <h2>ABOUT</h2>
+                <h5>[she, her, hers]</h5>
+                <p className='statement'>I believe that culture can be shaped by the connectivity of technology. My code is a result of  lateral thinking merged with modern design, grounded in form that follows function. When building full stack applications, my aim is to deliver clean, effective technology that can aid the needs of others.</p>
+            </div>
         </div>
     )
 }
