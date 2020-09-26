@@ -5,7 +5,7 @@
     grid-template-rows: 1fr;
     grid-gap: 5px;
 
-    margin: 5em 2em;
+    margin: 7em 2em;
 }
 
 .app-still{
@@ -24,10 +24,36 @@
     justify-content: center;
     text-align: justify;
     margin: 0px auto;
+    padding: 30px;
 }
 .text-left{
     grid-row-start: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    margin: 0px auto;
+    padding: 30px;
 }
 .title{
     margin: 0;
+}
+.button-container{
+    display: flex;
+    justify-content: space-around;
+}
+.button-container-left{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.lookup{
+    margin: 20px 0;
+    width: 100px;
+}
+.built-with{
+    align-self: flex-start;
+}
+.built-with-right{
+    align-self: flex-end;
 }
