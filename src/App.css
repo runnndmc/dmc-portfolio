@@ -1,13 +1,16 @@
 
-header{
+/*#EB673D
+#E7E0CD; */
+
+/* header{
   display: flex;
   justify-content: space-around;
   align-items: center;
   align-content: flex-end;
 }
-aside{
-  background-color: #EB673D;
-}
-main{
-  background-color: #E7E0CD;
-}
+ */
+
+/* .body{
+  display: grid;
+  grid-template-rows: 20em 50vh auto 20em
+ } */
