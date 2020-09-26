@@ -10,7 +10,39 @@
 }
  */
 
-/* .body{
+.body{
   display: grid;
-  grid-template-rows: 20em 50vh auto 20em
- } */
+  grid-template-rows: 5em 50vh auto 5em;
+  grid-template-columns: 1fr 5fr 3fr 1fr;
+  grid-template-areas:"header header header header"
+                      ". hero hero ."
+                      ". nav nav ."
+                      "about about about about"
+                      "work work work work"
+                      "footer footer footer footer"; 
+ }
+
+ .header{
+   grid-area: header;
+   background-color: teal;
+ }
+ .hero{
+   grid-area: hero;
+   background-color: tomato;
+ }
+ .nav{
+   grid-area: nav;
+   background-color: turquoise;
+ }
+ .about-me{
+   grid-area: about;
+   background-color: yellow;
+ }
+ .work{
+   grid-area: work;
+   background-color: purple;
+ }
+ .footer{
+   grid-area: footer;
+   background-color: palegreen;
+ }

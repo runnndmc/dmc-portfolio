@@ -14,7 +14,7 @@ import Footer from './Footer';
 function App() {
   return (
     <div className='body'>
-      <Header />
+      <Header/>
       <Hero />
       <aside></aside>
       <Nav />
