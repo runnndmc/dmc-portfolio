@@ -1,21 +1,26 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
+import About from './Nav';
 
 import './App.css';
 
+import Header from './Header';
+import Hero from './Hero';
+import Nav from './Nav';
+import AboutMe from './AboutMe';
+import Work from './Work';
+import Footer from './Footer';
+
 function App() {
   return (
-    <div className="App">
-      <header>
-        <h5>about</h5>
-        <h5>work</h5>
-        <button>Resume</button>
-      </header>
-      <main>
-        <h2>This is the main section</h2>
-      </main>
-      <aside>
-        <h3>Hello World</h3>
-      </aside>
+    <div className='body'>
+      <Header/>
+      <Hero />
+      <aside></aside>
+      <Nav />
+      <AboutMe />
+      <Work />
+      <Footer />
     </div>
   );
 }

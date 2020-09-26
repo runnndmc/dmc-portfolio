@@ -1,13 +1,69 @@
 
-header{
+/*#EB673D
+#E7E0CD; */
+
+/* header{
   display: flex;
   justify-content: space-around;
   align-items: center;
   align-content: flex-end;
 }
-aside{
-  background-color: #EB673D;
-}
-main{
-  background-color: #E7E0CD;
-}
+ */
+
+.body{
+  display: grid;
+  grid-template-rows: 5em 70vh 5em 5em 10em 5em auto 5em 60vh 5em;
+  grid-template-columns: 1fr 5fr 3fr 1fr;
+  grid-template-areas:"header header header header"
+                      ". hero hero ."
+                      ". nav nav ."
+                      ". . . ."
+                      "about about about about"
+                      ". . . ."
+                      "work work work work"
+                      ". . . ."
+                      ". contact contact ."
+                      "footer footer footer footer"; 
+ }
+
+ .header{
+   grid-area: header;
+   background-color: white;
+ }
+ .dmc{
+   display: flex;
+   justify-content: center;
+ }
+ .hero{
+   grid-area: hero;
+   background-color: tomato;
+ }
+ .nav{
+   grid-area: nav;
+   background-color: turquoise;
+ }
+ .nav-bar{
+   display: flex;
+   justify-content: space-between;
+   align-content: flex-end;
+   margin-left: 30vw;
+   margin-right: 10px;
+ }
+ .about-me{
+   grid-area: about;
+   background-color: yellow;
+ }
+ .about-container{
+   display: flex;
+ }
+ .statement{
+   width: 50vw;
+ }
+ .work{
+   grid-area: work;
+   background-color: purple;
+ }
+ .footer{
+   grid-area: footer;
+   background-color: palegreen;
+ }
