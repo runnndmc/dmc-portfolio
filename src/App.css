@@ -12,11 +12,12 @@
 
 .body{
   display: grid;
-  grid-template-rows: 5em 50vh auto 5em;
+  grid-template-rows: 5em 70vh 5em 5em 10em auto 5em;
   grid-template-columns: 1fr 5fr 3fr 1fr;
   grid-template-areas:"header header header header"
                       ". hero hero ."
                       ". nav nav ."
+                      ". . . ."
                       "about about about about"
                       "work work work work"
                       "footer footer footer footer"; 
@@ -33,6 +34,9 @@
  .nav{
    grid-area: nav;
    background-color: turquoise;
+ }
+ .nav-bar{
+   display: flex;
  }
  .about-me{
    grid-area: about;
