@@ -4,7 +4,7 @@ const Header = () => {
 
     return(
         <div className='header'>
-            <h1>DMC</h1>
+            <h1 className='dmc'>DMC</h1>
         </div> 
     )
 }
