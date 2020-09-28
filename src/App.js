@@ -15,6 +15,7 @@ import ContactForm from './ContactForm';
 function App() {
   return (
     <div className='body'>
+      <span id='home'> &nbsp; </span>
       <Header/>
       <Hero />
       <aside></aside>

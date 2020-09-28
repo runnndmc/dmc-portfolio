@@ -87,6 +87,11 @@
    margin: 20px;
    margin-top: 15px;
  }
+ #home{
+  margin-top: px;        
+  padding-bottom: 100px; 
+  display: block; 
+ }
  span { 
   margin-top: -100px;        
   padding-bottom: 100px; 
