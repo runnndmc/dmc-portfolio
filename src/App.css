@@ -89,6 +89,11 @@
    grid-area: work;
    background-color: purple;
  }
+ .contact-form{
+   grid-area: contact;
+   display: flex;
+   width: 100%;
+ }
  .footer{
    grid-area: footer;
    background-color: palegreen;

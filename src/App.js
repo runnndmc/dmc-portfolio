@@ -10,6 +10,7 @@ import Nav from './Nav';
 import AboutMe from './AboutMe';
 import Work from './Work';
 import Footer from './Footer';
+import ContactForm from './ContactForm';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Nav />
       <AboutMe />
       <Work />
+      <ContactForm />
       <Footer />
     </div>
   );
