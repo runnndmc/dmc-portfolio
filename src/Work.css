@@ -2,30 +2,34 @@
 .work{
     display: grid;
     grid-template-columns: 2fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 5px;
-
+    grid-template-rows: .5fr .5fr .5fr;
+    grid-gap: 40px;
     margin: 7em 2em;
+}
+.description{
+    
 }
 
 .description-1{
     grid-row-start: 2;
+    height: fit-content;
 }
 .description-2{
     grid-row-start: 3;
 }
 
 .app-still{
-    width: 30vw;
+    width: 40vw;
 }
 .website-still{
-    width: 55vw;
+    width: 80vw;
 }
 .website-still-right{
-    width: 55vw;
+    width: 80vw;
     grid-column-start: 2;
 }
 .text{
+    grid-column-start: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
