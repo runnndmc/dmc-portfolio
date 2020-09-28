@@ -97,6 +97,9 @@
   padding-bottom: 100px; 
   display: block; 
 }
+a{
+  text-decoration: none;
+}
  .about-tag{
    margin-top: 0;
  }
