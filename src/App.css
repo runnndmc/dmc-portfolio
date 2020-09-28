@@ -12,8 +12,12 @@
   align-content: flex-end;
 }
  */
+ @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poller+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat&family=Poller+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@400;700&family=Poller+One&display=swap');
 
-.body{
+ .body{
+  font-family: 'Montserrat', sans-serif;
   display: grid;
   grid-template-rows: 5em 70vh 5em 5em 10em 5em auto 5em 60vh 5em;
   grid-template-columns: 1fr 5fr 3fr 1fr;
@@ -36,14 +40,44 @@
  .dmc{
    display: flex;
    justify-content: center;
+   color: #EB673D;
+   font-family: 'Archivo Black', sans-serif;
  }
  .hero{
    grid-area: hero;
-   background-color: tomato;
+   background-color: #E7E0CD;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .hello{
+   color: #FFFFFF;
+   font-weight: bold;
+   text-align: center;
+   margin-top:0;
+ }
+ .intro{
+   color: #EB673D;
+   font-family: 'Archivo Black', sans-serif;
+   margin-bottom: 5px;
+   font-size: 46px;
+
+ }
+ .job-title{
+   color: #EB673D;
+   margin-top: 0;
+   font-family: 'Archivo Black', sans-serif;
+   font-weight: 300;
+   letter-spacing: 1.7px;
  }
  .nav{
    grid-area: nav;
-   background-color: turquoise;
+   position: fixed;
+   top: 90%;
+   width: 100vw;
+   background-color: #FFFFFF;
+   z-index: 100;
  }
  .nav-bar{
    display: flex;
