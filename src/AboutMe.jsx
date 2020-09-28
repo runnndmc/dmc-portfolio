@@ -4,6 +4,7 @@ const AboutMe = () => {
 
     return(
         <div className='about-me'>
+            <span id="about"> &nbsp; </span>
             <div className='about-container'>
                 <h2 className='about-title'>ABOUT</h2>
                 <h5 className='pronouns'>[she, her, hers]</h5>

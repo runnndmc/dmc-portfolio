@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import { Route, Switch} from 'react-router-dom'
 import About from './Nav';
 
 import './App.css';
@@ -22,7 +22,6 @@ function App() {
       <AboutMe />
       <Work />
       <ContactForm />
-      <Footer />
     </div>
   );
 }

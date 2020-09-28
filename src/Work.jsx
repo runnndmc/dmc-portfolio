@@ -5,8 +5,9 @@ import './Work.css'
 const Work = () => {
 
     return(
-        <div className='work'>
+        <div className='work'>  
             <div className='description'>
+            <h2 className='work-title'>  <span id='work'> &nbsp; </span>Work</h2>
             <h3 className='title'>MovieWorm</h3>
             <a href='https://moiveworm.netlify.app' target="_blank"><img className='website-still' src='https://i.imgur.com/U5lC9z8.png' alt='Movie Worm website preview'/></a>
                 <div className='text'>                

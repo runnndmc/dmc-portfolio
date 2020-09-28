@@ -7,7 +7,11 @@
     margin: 7em 2em;
     margin-bottom: 0;
 }
+.work-title{
+    color: orangered;
+}
 .description{
+    grid-row-start: 1;
     align-self: center;
     display: flex;
     flex-direction: column;
