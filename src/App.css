@@ -1,6 +1,9 @@
 
-/*#EB673D
-#E7E0CD; */
+/*
+#E7E0CD - tan
+
+#EB673D - orange*/
+
 
 /* header{
   display: flex;
@@ -44,10 +47,10 @@
  }
  .nav-bar{
    display: flex;
-   justify-content: space-between;
-   align-content: flex-end;
-   margin-left: 30vw;
-   margin-right: 10px;
+   justify-content: space-around;
+   align-items: center;
+   align-content: space-between;
+   padding-left: 0;
  }
  .about-me{
    grid-area: about;

@@ -18,7 +18,7 @@ const Work = () => {
                     <p className='built-with'>Built with Ruby on Rails and React </p>
                 </div>
             </div>
-            <div className='description'>
+            <div className='description-1'>
             <a href='http://new-alternatives-site.surge.sh/'  target="_blank"><img className='website-still-right' src='https://i.imgur.com/1aUVjGC.png' alt='New Alternatives website preview'/></a>
                 <div className='text-left'>
                     <h3 className='title'>New Alternatives</h3>
@@ -30,7 +30,7 @@ const Work = () => {
                     <p className='built-with-right'>Built with Express MongoDB Mongoose and React </p>
                 </div>
             </div>
-            <div className='description'>
+            <div className='description-2'>
             <a href='https://examine-tracker.netlify.app/' target="_blank"><img className='app-still' src="https://i.imgur.com/W9x9TgU.png" alt='examine application preview'/></a>
                 <div className='text'>
                     <h3 className='title'>Examine App</h3>
