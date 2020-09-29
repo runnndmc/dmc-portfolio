@@ -87,8 +87,7 @@
    margin: 20px;
    margin-top: 15px;
  }
- #home{
-  margin-top: px;        
+ #home{       
   padding-bottom: 100px; 
   display: block; 
  }
@@ -159,7 +158,7 @@ a{
  }
  .work{
    grid-area: work;
-   background-color: purple;
+
  }
  .contact-form{
    grid-area: contact;
@@ -173,10 +172,22 @@ a{
    outline: 10px solid #E7E0CD;
    margin-top: 50px;
  }
+.linked-in{
+  max-width: 2em;
+  margin: 22px;
+  margin-top: 10px;
+}
+.dev-icon{
+  max-width: 3em;
+  margin: 10px;
+}
  .contact-title{
    color: #EB673D;
    font-family: 'Archivo Black', sans-serif;
    text-align: center;
+   font-size: 30px;
+   margin-top: 0;
+   margin-bottom: 10px;
  }
  .contact-links{
   display: flex;
@@ -185,7 +196,7 @@ a{
   text-decoration: underline;
  }
  .email-link{
-   color: #FFFFFF;
+   color: #000000;
    font-weight: 800;
  }
 .label{

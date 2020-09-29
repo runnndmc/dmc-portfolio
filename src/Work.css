@@ -7,9 +7,6 @@
     margin: 7em 2em;
     margin-bottom: 0;
 }
-.work-title{
-    color: orangered;
-}
 .description{
     grid-row-start: 1;
     align-self: center;
@@ -18,6 +15,10 @@
     align-items: center;
 }
 
+.work-title{
+    color: #EB673D;
+    align-self: flex-start;
+}
 .description-1{
     grid-row-start: 2;
     height: fit-content;
@@ -36,13 +37,16 @@
 
 .app-still{
     width: 40vw;
+    box-shadow: 10px 10px 8px grey;
 }
 .website-still{
     width: 80vw;
+    box-shadow: 10px 10px 8px grey;
 }
 .website-still-right{
     width: 80vw;
     grid-column-start: 2;
+    box-shadow: 10px 10px 8px grey;
 }
 .text{
     grid-column-start: auto;
@@ -52,7 +56,8 @@
     text-align: justify;
     margin: 0px auto;
     padding: 10px;
-    width: 50vw;
+    width: 70vw;
+    font-weight: 500;
 }
 .text-left{
     grid-row-start: 1;
@@ -62,11 +67,14 @@
     text-align: justify;
     margin: 0px auto;
     padding: 10px;
-    width: 50vw;
+    width: 70vw;
+    font-weight: 500;
 }
 .title{
     margin: 15px;
     text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
 }
 .button-container{
     display: flex;
@@ -82,8 +90,8 @@
     width: 100px;
 }
 .built-with{
-    align-self: flex-start;
+    align-self: center;
 }
 .built-with-right{
-    align-self: flex-end;
+    align-self: center;
 }
