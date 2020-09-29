@@ -102,12 +102,15 @@ a{
 }
  .about-tag{
    margin-top: 0;
+   color: #000000;
  }
  .work-tag{
    margin-top: 0;
+   color: #000000;
  }
  .contact-tag{
    margin-top: 0;
+   color: #000000;
  }
  .about-me{
    grid-area: about;
@@ -161,9 +164,31 @@ a{
  .contact-form{
    grid-area: contact;
    display: flex;
+   flex-direction: column;
+   justify-content: center;
    width: 100%;
+   height: 50%;
+   background-color: #E7E0CD;
+   border: 3px solid #EB673D;
+   outline: 10px solid #E7E0CD;
+   margin-top: 50px;
  }
- .footer{
-   grid-area: footer;
-   background-color: palegreen;
+ .contact-title{
+   color: #EB673D;
+   font-family: 'Archivo Black', sans-serif;
+   text-align: center;
  }
+ .contact-links{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  text-decoration: underline;
+ }
+ .email-link{
+   color: #FFFFFF;
+   font-weight: 800;
+ }
+.label{
+  margin-bottom: 0;
+
+}
