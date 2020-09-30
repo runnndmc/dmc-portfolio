@@ -55,6 +55,8 @@
    font-weight: bold;
    text-align: center;
    margin-top:0;
+   font-size: 30px;
+   margin-bottom: 0;
  }
  .intro{
    color: #EB673D;
@@ -73,7 +75,7 @@
  .nav{
    grid-area: nav;
    position: fixed;
-   top: 90%;
+   top: 93%;
    width: 100vw;
    background-color: #FFFFFF;
    z-index: 100;
@@ -212,4 +214,27 @@ a{
 .label{
   margin-bottom: 0;
 
+}
+@media (max-width: 319px){
+  .statement{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 414px){
+  .statement{
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px){
+  .statement{
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px){
+  .statement{
+    font-size: 23px;
+  }
 }
