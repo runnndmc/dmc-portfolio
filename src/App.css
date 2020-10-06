@@ -52,10 +52,10 @@
  }
  .hello{
    color: #FFFFFF;
-   font-weight: bold;
+   font-weight: bolder;
    text-align: center;
    margin-top:0;
-   font-size: 30px;
+   font-size: 33px;
    margin-bottom: 0;
  }
  .intro{
@@ -219,6 +219,22 @@ a{
   .statement{
     font-size: 12px;
   }
+  .intro{
+    font-size: 40px;
+  }
+  .job-title{
+    letter-spacing: 0px;
+  }
+  .nav{
+    margin-top: 10px;
+  }
+  .nav-bar{
+    font-size: 13px;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+
 }
 
 @media (min-width: 414px){
