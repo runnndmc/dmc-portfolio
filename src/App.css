@@ -144,18 +144,20 @@ a{
  .about-title{
   position: absolute;
   margin:0;
-  width: 90%; 
+  width: 91%; 
   height: 100%;
   color:#FFFFFF;
   margin-top:-20px;
+  font-size: 29px;
  }
  .pronouns{
   position: absolute;
   margin:5px;
   top: 20px; 
-  width: 90%; 
+  width: 90.5%; 
   height: 100%;
   margin-top:-10px;
+  font-size: 15px;
  }
  .statement{
    position: absolute;
@@ -166,11 +168,10 @@ a{
    text-align: right;
    background-color: #EB673D;
    margin-top:-20px;
-   font-size: 14px;
+   font-size: 13px;
  }
  .work{
    grid-area: work;
-
  }
  .contact-form{
    grid-area: contact;

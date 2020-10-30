@@ -18,6 +18,7 @@
 .work-title{
     color: #EB673D;
     align-self: flex-start;
+    font-size: 29px;
 }
 .description-1{
     grid-row-start: 2;
