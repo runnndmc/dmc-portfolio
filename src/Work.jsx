@@ -10,7 +10,7 @@ const Work = () => {
                 <h3 className='title'>MovieWorm</h3>
                 <a href='https://moiveworm.netlify.app' target="_blank"><img className='website-still' src='https://i.imgur.com/U5lC9z8.png' alt='Movie Worm website preview'/></a>
                 <div className='built-with'> 
-                            <img className='dev-icon' src="https://img.icons8.com/color/64/000000/ruby-programming-language.png"/>
+                            <img className='dev-icon' src="./ruby.png"/>
                             <img className='dev-icon' src='https://www.iconfinder.com/data/icons/scripting-and-programming-languages/158/Ruby_on_Rails_2-512.png'/>
                             <img className='dev-icon' src="https://img.icons8.com/color/48/000000/react-native.png"/>
                 </div>

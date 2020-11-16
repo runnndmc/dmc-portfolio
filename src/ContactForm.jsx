@@ -12,10 +12,10 @@ const ContactForm = () => {
             </div> 
             <div className='contact-links'>
                 <a href='https://www.linkedin.com/in/daynachristison/' >
-                <img className='linked-in' src="https://img.icons8.com/ios/48/000000/linkedin-circled.png"/>
+                <img className='linked-in' src="./linkedin.png"/>
                 </a>
                 <a href='https://github.com/runnndmc'>
-                <img className='linked-in' src="https://img.icons8.com/wired/64/000000/github.png"/>
+                <img className='linked-in'src="./github.png"/>
                 </a>
             </div>
         </div>    
