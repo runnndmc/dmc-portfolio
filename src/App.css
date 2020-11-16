@@ -202,16 +202,21 @@ a{
    margin-top: 0;
    margin-bottom: 10px;
  }
+ .mail-link{
+  width: 2.5em;
+  margin-top: -10px;
+ }
  .contact-links{
+   margin-top: 1em;
   display: flex;
-  align-items: baseline;
-  justify-content: center;
-  text-decoration: underline;
+  align-items: center;
+  justify-content: space-evenly;
  }
  .email-link{
    color: #000000;
    font-weight: 800;
  }
+
 .label{
   margin-bottom: 0;
 
