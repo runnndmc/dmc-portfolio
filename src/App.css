@@ -14,7 +14,7 @@
  .body{
   font-family: 'Montserrat', sans-serif;
   display: grid;
-  grid-template-rows: 5em 70vh 5em 5em 10em 5em auto 5em 60vh 5em;
+  grid-template-rows: 5em 70vh 5em 5em 18em 5em auto 5em 60vh 5em;
   grid-template-columns: 1fr 5fr 3fr 1fr;
   grid-template-areas:"header header header header"
                       ". hero hero ."
@@ -37,6 +37,7 @@
    z-index: 100;
  }
  .dmc{
+   font-size: 35px;
    display: flex;
    justify-content: center;
    color: #EB673D;
@@ -132,43 +133,34 @@ a{
    top:0;
    height: auto;
  }
-
+/* ======= ABOUT SECTION ====== */
  .about-container{
   background-color: #EB673D;
-   display: flex;
    position: relative;
    margin: 20px;
    text-align: right;
-   padding-bottom: 10%;
  }
  .about-title{
-  position: absolute;
   margin:0;
-  width: 91%; 
+  width: 90%; 
   height: 100%;
   color:#FFFFFF;
   margin-top:-20px;
-  font-size: 29px;
+  font-size: 50px;
  }
  .pronouns{
-  position: absolute;
-  margin:5px;
-  top: 20px; 
-  width: 90.5%; 
+  color:#FFFFFF;
+  width: 90%; 
   height: 100%;
-  margin-top:-10px;
-  font-size: 15px;
+  margin-top:-5px;
+  font-size: 25px;
  }
  .statement{
-   position: absolute;
-   margin: 0;
-   top: 50px; 
-   left: 10px;
    width: 90%; 
    text-align: right;
    background-color: #EB673D;
-   margin-top:-20px;
    font-size: 13px;
+   margin-top: 0;
  }
  .work{
    grid-area: work;

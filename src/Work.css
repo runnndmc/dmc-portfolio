@@ -7,20 +7,21 @@
     margin: 7em 2em;
     margin-bottom: 0;
 }
-.description{
+.movie-worm-desc{
     grid-row-start: 1;
     align-self: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .work-title{
     color: #EB673D;
     align-self: flex-start;
-    font-size: 29px;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 3em;
 }
-.description-1{
+.new-alt-desc{
     grid-row-start: 2;
     height: fit-content;
     align-self: center;
@@ -28,7 +29,7 @@
     flex-direction: column;
     align-items: center;
 }
-.description-2{
+.examine-desc{
     grid-row-start: 3;
     align-self: center;
     display: flex;

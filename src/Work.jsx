@@ -5,7 +5,7 @@ const Work = () => {
 
     return(
         <div className='work'>  
-            <div className='description'>
+            <div className='movie-worm-desc'>
                 <h2 className='work-title'>  <span id='work'> &nbsp; </span>WORK</h2>
                 <h3 className='title'>MovieWorm</h3>
                 <a href='https://moiveworm.netlify.app' target="_blank" rel="noopener noreferrer"><img className='website-still' src='https://i.imgur.com/U5lC9z8.png' alt='Movie Worm website preview'/></a>
@@ -23,7 +23,7 @@ const Work = () => {
                 </div>
             </div>
 
-            <div className='description-1'>
+            <div className='new-alt-desc'>
                 <h3 className='title'>New Alternatives</h3>
                 <a href='http://new-alternatives-site.surge.sh/'  target="_blank" rel="noopener noreferrer"><img className='website-still-right' src='https://i.imgur.com/1aUVjGC.png' alt='New Alternatives website preview'/></a>
                 <div className='built-with'>
@@ -39,7 +39,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <div className='description-2'>
+            <div className='examine-desc'>
                 <h3 className='title'>ExaMine</h3>
                 <a href='https://examine-tracker.netlify.app/' target="_blank" rel="noopener noreferrer"><img className='app-still' src="https://i.imgur.com/W9x9TgU.png" alt='examine application preview'/></a>
                 <div className='built-with'>
