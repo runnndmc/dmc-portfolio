@@ -5,8 +5,26 @@ const Work = () => {
 
     return(
         <div className='work'>  
+
+            <div className='stp-desc'>
+            <h2 className='work-title'>  <span id='work'> &nbsp; </span>WORK</h2>
+                <h3 className='title'>Still Positive</h3>
+                <a href='https://stillpositive.netlify.app/'  target="_blank" rel="noopener noreferrer"><img className='app-still' src='https://i.imgur.com/tZyhoWe.png' alt='Still Positive website preview'/></a>
+                <div className='built-with'>
+                    <img className='dev-icon' src="https://img.icons8.com/color/48/000000/react-native.png" alt='a React.js icon'/>
+                    <img className='dev-icon' src="https://img.icons8.com/color/48/000000/css3.png"alt='a CSS3 icon'/>   
+                    <img className='dev-icon' src="./airtable.png"alt='an airtable icon'/>   
+                
+                </div>
+                <div className='text-left'>
+                    <p>A PWA with emphasis on Accessibility to host the podcast Still Positive for people who are chronically ill and/or disabled. Built with React Hooks with complete responsive modern design and utilizes Airtable's API to fetch and store the data.</p>
+                    <div className='button-container-left'>
+                        <a href='https://stillpositive.netlify.app/'  target="_blank" rel="noopener noreferrer"><button className='lookup'>Site</button></a>
+                        <a href='https://github.com/runnndmc/still-positive' target="_blank" rel="noopener noreferrer"><button className='lookup'>Code</button></a>
+                    </div>
+                </div>
+            </div>
             <div className='movie-worm-desc'>
-                <h2 className='work-title'>  <span id='work'> &nbsp; </span>WORK</h2>
                 <h3 className='title'>MovieWorm</h3>
                 <a href='https://moiveworm.netlify.app' target="_blank" rel="noopener noreferrer"><img className='website-still' src='https://i.imgur.com/U5lC9z8.png' alt='Movie Worm website preview'/></a>
                 <div className='built-with'> 
@@ -25,7 +43,7 @@ const Work = () => {
 
             <div className='new-alt-desc'>
                 <h3 className='title'>New Alternatives</h3>
-                <a href='http://new-alternatives-site.surge.sh/'  target="_blank" rel="noopener noreferrer"><img className='website-still-right' src='https://i.imgur.com/1aUVjGC.png' alt='New Alternatives website preview'/></a>
+                <a href='http://new-alternatives-site.surge.sh/'  target="_blank" rel="noopener noreferrer"><img className='website-still' src='https://i.imgur.com/1aUVjGC.png' alt='New Alternatives website preview'/></a>
                 <div className='built-with'>
                         <img className='dev-icon' src="https://img.icons8.com/color/48/000000/mongodb.png" alt='a mongoDB icon'/>
                         <img className='dev-icon' src="https://img.icons8.com/color/48/000000/nodejs.png" alt='a node icon'/>
@@ -39,6 +57,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
+
             <div className='examine-desc'>
                 <h3 className='title'>ExaMine</h3>
                 <a href='https://examine-tracker.netlify.app/' target="_blank" rel="noopener noreferrer"><img className='app-still' src="https://i.imgur.com/W9x9TgU.png" alt='examine application preview'/></a>
