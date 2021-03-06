@@ -1,38 +1,59 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 const Nav = () => {
+  const [hover, setHover] = useState("orange");
 
-    const [hover, setHover] = useState(false)
-    const [color, setColor] = useState("")
+  const preHoverStyles = {
+    fontSize: "50px",
+    color: `${hover}`,
+  };
 
-    function grabEvent(){
-        setHover(true)
-        setColor('blue')
-        console.log('hover')
-    }
+  const postHoverStyles = {
+    fontSize: "20px",
+    color: "purple",
+  };
 
-    useEffect(grabEvent, [hover])
+  function onMouseEnter() {
+    console.log("event:mouseEnter");
+    setHover("purple");
+  }
+  function onMouseLeave() {
+    console.log("event:mouseLeave");
+    setHover("orange");
+  }
 
+  const handleHover = (color) => {
+    setHover(color);
+    console.log(color);
+  };
 
   return (
     <div className="nav">
       <ul className="nav-bar">
-
-        <a href="#about" onMouseEnter={grabEvent}>{hover}
-          <h5 className="about-tag">ABOUT</h5>
+        <a href="#about">
+          <h5
+            className="about-tag"
+            style={preHoverStyles}
+            onMouseEnter={() => handleHover("white")}
+            onMouseLeave={() => handleHover("orange")}
+          >
+            {" "}
+            ABOUT
+          </h5>
         </a>
 
-        <a href="#work" onMouseEnter={grabEvent}>
+        <a href="#work">
           <h5 className="work-tag">WORK</h5>
         </a>
-        <a href="#contact" onMouseEnter={grabEvent} >
+
+        <a href="#contact">
           <h5 className="contact-tag">CONTACT</h5>
         </a>
+
         <a
           href="https://drive.google.com/file/d/1k_wNLq3TvGvQ8nmJBkKg7FrS1E7YoiGu/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
-          onMouseEnter={grabEvent}
         >
           <button>RESUME</button>
         </a>
