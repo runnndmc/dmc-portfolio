@@ -8,20 +8,6 @@ const Nav = () => {
     color: `${hover}`,
   };
 
-  const postHoverStyles = {
-    fontSize: "20px",
-    color: "purple",
-  };
-
-  function onMouseEnter() {
-    console.log("event:mouseEnter");
-    setHover("purple");
-  }
-  function onMouseLeave() {
-    console.log("event:mouseLeave");
-    setHover("orange");
-  }
-
   const handleHover = (color) => {
     setHover(color);
     console.log(color);
@@ -43,11 +29,27 @@ const Nav = () => {
         </a>
 
         <a href="#work">
-          <h5 className="work-tag">WORK</h5>
+          <h5
+            className="work-tag"
+            style={preHoverStyles}
+            onMouseEnter={() => handleHover("white")}
+            onMouseLeave={() => handleHover("orange")}
+          >
+            {" "}
+            WORK
+          </h5>
         </a>
 
         <a href="#contact">
-          <h5 className="contact-tag">CONTACT</h5>
+          <h5
+            className="contact-tag"
+            style={preHoverStyles}
+            onMouseEnter={() => handleHover("white")}
+            onMouseLeave={() => handleHover("orange")}
+          >
+            {" "}
+            CONTACT
+          </h5>
         </a>
 
         <a
