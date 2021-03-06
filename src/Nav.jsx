@@ -3,10 +3,23 @@ import React, { useState } from "react";
 const Nav = () => {
   const [hover, setHover] = useState("orange");
 
-  const preHoverStyles = {
+  const aboutHoverStyles = {
     fontSize: "50px",
-    color: `${hover}`,
+    color: 'blue'
   };
+  const workHoverStyles ={
+    fontSize: "50px",
+    color: 'yellow'
+  }
+  const contactHoverStyles = {
+    fontSize: "50px",
+    color: 'red'
+  };
+
+
+  const postHoverStyles = {
+    background: `${hover}`
+  }
 
   const handleHover = (color) => {
     setHover(color);
@@ -16,36 +29,39 @@ const Nav = () => {
   return (
     <div className="nav">
       <ul className="nav-bar">
-        <a href="#about">
+        <a href="#about"
+          style={postHoverStyles}>
           <h5
             className="about-tag"
-            style={preHoverStyles}
-            onMouseEnter={() => handleHover("white")}
-            onMouseLeave={() => handleHover("orange")}
+            style={aboutHoverStyles}
+            onMouseEnter={() => handleHover("orange")}
+            onMouseLeave={() => handleHover("white")}
           >
             {" "}
             ABOUT
           </h5>
         </a>
 
-        <a href="#work">
+        <a href="#work"
+         style={postHoverStyles}>
           <h5
             className="work-tag"
-            style={preHoverStyles}
-            onMouseEnter={() => handleHover("white")}
-            onMouseLeave={() => handleHover("orange")}
+            style={workHoverStyles}
+            onMouseEnter={() => handleHover("orange")}
+            onMouseLeave={() => handleHover("white")}
           >
             {" "}
             WORK
           </h5>
         </a>
 
-        <a href="#contact">
+        <a href="#contact"
+          style={postHoverStyles}>
           <h5
             className="contact-tag"
-            style={preHoverStyles}
-            onMouseEnter={() => handleHover("white")}
-            onMouseLeave={() => handleHover("orange")}
+            style={contactHoverStyles}
+            onMouseEnter={() => handleHover("orange")}
+            onMouseLeave={() => handleHover("white")}
           >
             {" "}
             CONTACT
