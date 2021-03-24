@@ -125,7 +125,6 @@ a{
  }
  .about-me{
    grid-area: about;
-   grid-row-end: span 2;
    background-color: #EB673D;
    position: relative;
    box-sizing: border-box;
@@ -163,6 +162,9 @@ a{
   /* ===== WORK SECTION ===== */
  .work{
    grid-area: work;
+ }
+ #work{
+   padding: 0;
  }
   /* ===== CONTACT SECTION ===== */
  .contact-form{

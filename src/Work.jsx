@@ -9,7 +9,7 @@ const Work = () => {
             <div className='stp-desc'>
             <h2 className='work-title'>  <span id='work'> &nbsp; </span>WORK</h2>
                 <h3 className='title'>Still Positive</h3>
-                <a href='https://stillpositive.netlify.app/'  target="_blank" rel="noopener noreferrer"><img className='app-still' src='https://i.imgur.com/tZyhoWe.png' alt='Still Positive website preview'/></a>
+                <a href='https://stillpositive.netlify.app/'  target="_blank" rel="noopener noreferrer"><img className='app-still' src='https://i.imgur.com/XqKz45j.png' alt='Still Positive website preview'/></a>
                 <div className='built-with'>
                     <img className='dev-icon' src="https://img.icons8.com/color/48/000000/react-native.png" alt='a React.js icon'/>
                     <img className='dev-icon' src="https://img.icons8.com/color/48/000000/css3.png"alt='a CSS3 icon'/>   

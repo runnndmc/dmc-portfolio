@@ -1,12 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Nav = () => {
-  const [hover, setHover] = useState("orange");
-
-  const handleHover = (color) => {
-    setHover(color);
-    console.log(color);
-  };
 
   return (
     <div className="nav">
