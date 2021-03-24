@@ -43,6 +43,7 @@
    color: #EB673D;
    font-family: 'Archivo Black', sans-serif;
  }
+  /* ===== HERO BLOCK ===== */
  .hero{
    grid-area: hero;
    background-color: #E7E0CD;
@@ -73,6 +74,8 @@
    font-weight: 300;
    letter-spacing: 1.7px;
  }
+
+ /* ===== NAV ===== */
  .nav{
    grid-area: nav;
    position: fixed;
@@ -86,19 +89,20 @@
    justify-content: space-around;
    align-items: baseline;
    align-content: space-between;
-   margin:0 auto;
+   margin: 0 auto;
    padding: .5em 0 3em 0;
+   font-size: 30px;
  }
-button{
-background-color: #EB673D;
-border-radius: 2em;
-color: #FFFFFF;
-text-decoration: none;
-font-weight: 700;
-padding: 1em 1.2em;
-box-sizing: border-box;
-border: none;
-font-size: 15px;
+.resume-link{
+  background-color: #EB673D;
+  border-radius: 2em;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 600;
+  padding: .5em .5em;
+  box-sizing: border-box;
+  border: none;
+  font-size: 25px;
 }
  #home{       
   padding-bottom: 100px; 
@@ -112,6 +116,7 @@ font-size: 15px;
 a{
   text-decoration: none;
 }
+ /* ===== ABOUT SECTION ===== */
  .about-tag{
    margin-top: 0;
    color: #000000;
@@ -133,7 +138,6 @@ a{
    top:0;
    height: auto;
  }
-/* ======= ABOUT SECTION ====== */
  .about-container{
   background-color: #EB673D;
    position: relative;
@@ -162,9 +166,11 @@ a{
    font-size: 13px;
    margin-top: 0;
  }
+  /* ===== WORK SECTION ===== */
  .work{
    grid-area: work;
  }
+  /* ===== CONTACT SECTION ===== */
  .contact-form{
    grid-area: contact;
    display: flex;
@@ -211,8 +217,9 @@ a{
 
 .label{
   margin-bottom: 0;
-
 }
+
+ /* ===== MEDIA QUERIES ===== */
 @media (max-width: 319px){
   .statement{
     font-size: 12px;
