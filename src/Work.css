@@ -45,11 +45,12 @@
 }
 
 .app-still{
-    width: 40vw;
+    width: 25vw;
+    height: 70vh;
     box-shadow: 10px 10px 8px grey;
 }
 .website-still{
-    width: 80vw;
+    width: 60vw;
     box-shadow: 10px 10px 8px grey;
 }
 .text{

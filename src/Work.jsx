@@ -17,7 +17,7 @@ const Work = () => {
                 
                 </div>
                 <div className='text-left'>
-                    <p>A PWA with emphasis on Accessibility to host the podcast Still Positive for people who are chronically ill and/or disabled. Built with React Hooks with complete responsive modern design and utilizes Airtable's API to fetch and store the data.</p>
+                    <p>A PWA with emphasis on accessibility. The site was created to host the podcast Still Positive for people who are chronically ill and/or disabled. Built with React Hooks with complete responsive modern design, Still Positive utilizes Airtable's API to fetch and store the data.</p>
                     <div className='button-container-left'>
                         <a href='https://stillpositive.netlify.app/'  target="_blank" rel="noopener noreferrer"><button className='lookup'>Site</button></a>
                         <a href='https://github.com/runnndmc/still-positive' target="_blank" rel="noopener noreferrer"><button className='lookup'>Code</button></a>
