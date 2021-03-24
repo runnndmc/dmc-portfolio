@@ -2,7 +2,7 @@
 .work{
     display: grid;
     grid-template-columns: 2fr;
-    grid-template-rows: .5fr .5fr .5fr .5fr;
+    grid-template-rows: .5fr .5fr .5fr;
     grid-gap: 50px;
     margin: 7em 2em;
     margin-bottom: 0;
@@ -21,23 +21,16 @@
     flex-direction: column;
     align-items: center;
 }
-.movie-worm-desc{
-    grid-row-start: 2;
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .new-alt-desc{
-    grid-row-start: 3;
+    grid-row-start: 2;
     height: fit-content;
     align-self: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.examine-desc{
-    grid-row-start: 4;
+.movie-worm-desc{
+    grid-row-start: 3;
     align-self: center;
     display: flex;
     flex-direction: column;
@@ -46,7 +39,7 @@
 
 .app-still{
     width: 25vw;
-    height: 70vh;
+    height: 60vh;
     box-shadow: 10px 10px 8px grey;
 }
 .website-still{

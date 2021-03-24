@@ -24,22 +24,6 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <div className='movie-worm-desc'>
-                <h3 className='title'>MovieWorm</h3>
-                <a href='https://moiveworm.netlify.app' target="_blank" rel="noopener noreferrer"><img className='website-still' src='https://i.imgur.com/U5lC9z8.png' alt='Movie Worm website preview'/></a>
-                <div className='built-with'> 
-                            <img className='dev-icon' src="./ruby.png" alt='a ruby gem'/>
-                            <img className='dev-icon' src='https://www.iconfinder.com/data/icons/scripting-and-programming-languages/158/Ruby_on_Rails_2-512.png' alt='a rails icon'/>
-                            <img className='dev-icon' src="https://img.icons8.com/color/48/000000/react-native.png" alt='a React.js icon'/>
-                </div>
-                <div className='text'>                
-                    <p>Built a  on Rails server, with three database tables which included user authentication and a join table. Created an interactive React front-end with full CRUD on all movies and the ability to create a review and rating for each specific movie.</p>
-                    <div className='button-container'>
-                        <a href='https://moiveworm.netlify.app' target="_blank" rel="noopener noreferrer"><button className='lookup'>Site</button></a>
-                        <a href='https://github.com/runnndmc/MovieWorm' target="_blank" rel="noopener noreferrer"><button className='lookup'>Code</button></a>
-                    </div>          
-                </div>
-            </div>
 
             <div className='new-alt-desc'>
                 <h3 className='title'>New Alternatives</h3>
@@ -58,21 +42,23 @@ const Work = () => {
                 </div>
             </div>
 
-            <div className='examine-desc'>
-                <h3 className='title'>ExaMine</h3>
-                <a href='https://examine-tracker.netlify.app/' target="_blank" rel="noopener noreferrer"><img className='app-still' src="https://i.imgur.com/W9x9TgU.png" alt='examine application preview'/></a>
-                <div className='built-with'>
-                        <img className='dev-icon' src="https://img.icons8.com/color/48/000000/react-native.png" alt='a React.js icon'/>
-                        <img className='dev-icon' src="https://img.icons8.com/color/48/000000/css3.png"alt='a CSS3 icon'/>   
+            <div className='movie-worm-desc'>
+                <h3 className='title'>MovieWorm</h3>
+                <a href='https://moiveworm.netlify.app' target="_blank" rel="noopener noreferrer"><img className='website-still' src='https://i.imgur.com/U5lC9z8.png' alt='Movie Worm website preview'/></a>
+                <div className='built-with'> 
+                            <img className='dev-icon' src="./ruby.png" alt='a ruby gem'/>
+                            <img className='dev-icon' src='https://www.iconfinder.com/data/icons/scripting-and-programming-languages/158/Ruby_on_Rails_2-512.png' alt='a rails icon'/>
+                            <img className='dev-icon' src="https://img.icons8.com/color/48/000000/react-native.png" alt='a React.js icon'/>
                 </div>
-                <div className='text'>
-                    <p>A medical tracker application with mobile first design. Examine is built with a React front-end utilizing Hooks. The bills display and utilize all CRUD actions which allows the user to interact with their medical bills. Airtable host's the data API.</p>     
+                <div className='text'>                
+                    <p>Built a  on Rails server, with three database tables which included user authentication and a join table. Created an interactive React front-end with full CRUD on all movies and the ability to create a review and rating for each specific movie.</p>
                     <div className='button-container'>
-                        <a href='https://examine-tracker.netlify.app/' target="_blank" rel="noopener noreferrer"><button className='lookup'>Site</button></a>
-                        <a href='https://github.com/runnndmc/examine' target="_blank" rel="noopener noreferrer"><button className='lookup'>Code</button></a>
-                    </div>
+                        <a href='https://moiveworm.netlify.app' target="_blank" rel="noopener noreferrer"><button className='lookup'>Site</button></a>
+                        <a href='https://github.com/runnndmc/MovieWorm' target="_blank" rel="noopener noreferrer"><button className='lookup'>Code</button></a>
+                    </div>          
                 </div>
             </div>
+
         </div> 
     )
 }
