@@ -3,24 +3,6 @@ import React, { useState } from "react";
 const Nav = () => {
   const [hover, setHover] = useState("orange");
 
-  // const aboutHoverStyles = {
-  //   fontSize: "50px",
-  //   color: 'blue'
-  // };
-  // const workHoverStyles ={
-  //   fontSize: "50px",
-  //   color: 'yellow'
-  // }
-  // const contactHoverStyles = {
-  //   fontSize: "50px",
-  //   color: 'red'
-  // };
-
-
-  const postHoverStyles = {
-    background: `${hover}`
-  }
-
   const handleHover = (color) => {
     setHover(color);
     console.log(color);
@@ -29,46 +11,16 @@ const Nav = () => {
   return (
     <div className="nav">
       <ul className="nav-bar">
-        <a href="#about"
-          // style={postHoverStyles}
-          >
-          <h5
-            className="about-tag"
-            // style={aboutHoverStyles}
-            onMouseEnter={() => handleHover("orange")}
-            onMouseLeave={() => handleHover("white")}
-          >
-            {" "}
-            ABOUT
-          </h5>
+        <a href="#about">
+          <h5 className="tag"> ABOUT</h5>
         </a>
 
-        <a href="#work"
-         // style={postHoverStyles}
-         >
-          <h5
-            className="work-tag"
-            // style={workHoverStyles}
-            onMouseEnter={() => handleHover("orange")}
-            onMouseLeave={() => handleHover("white")}
-          >
-            {" "}
-            WORK
-          </h5>
+        <a href="#work">
+          <h5 className="tag"> WORK</h5>
         </a>
 
-        <a href="#contact"
-         // style={postHoverStyles}
-         >
-          <h5
-            className="contact-tag"
-            // style={contactHoverStyles}
-            onMouseEnter={() => handleHover("orange")}
-            onMouseLeave={() => handleHover("white")}
-          >
-            {" "}
-            CONTACT
-          </h5>
+        <a href="#contact">
+          <h5 className="tag"> CONTACT</h5>
         </a>
 
         <a
@@ -76,7 +28,7 @@ const Nav = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className='resume-link'>RESUME</button>
+          <button className="resume-link">RESUME</button>
         </a>
       </ul>
     </div>
