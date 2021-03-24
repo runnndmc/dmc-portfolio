@@ -37,13 +37,16 @@
    z-index: 100;
  }
  .dmc{
-   font-size: 35px;
+   font-size: 25px;
    display: flex;
    justify-content: center;
    color: #EB673D;
    font-family: 'Archivo Black', sans-serif;
+   margin-bottom: 0;
+   margin-top: 2em;
  }
- .hero{
+  /* ===== HERO BLOCK ===== */
+ .hero{   
    grid-area: hero;
    background-color: #E7E0CD;
    display: flex;
@@ -56,14 +59,14 @@
    font-weight: bolder;
    text-align: center;
    margin-top:0;
-   font-size: 35px;
+   font-size: 23px;
    margin-bottom: 0;
  }
  .intro{
    color: #EB673D;
    font-family: 'Archivo Black', sans-serif;
    margin-bottom: 5px;
-   font-size: 46px;
+   font-size: 36px;
 
  }
  .job-title{
@@ -73,6 +76,8 @@
    font-weight: 300;
    letter-spacing: 1.7px;
  }
+
+ /* ===== NAV ===== */
  .nav{
    grid-area: nav;
    position: fixed;
@@ -86,19 +91,21 @@
    justify-content: space-around;
    align-items: baseline;
    align-content: space-between;
-   margin:0 auto;
-   padding: .5em 0 3em 0;
+   margin: 0 auto;
+   padding: 0 0 3em 0;
+   font-size: 25px;
+   color: #EB673D;
  }
 button{
-background-color: #EB673D;
-border-radius: 3em;
-color: #FFFFFF;
-text-decoration: none;
-font-weight: 700;
-padding: 1em 1.2em;
-box-sizing: border-box;
-border: none;
-font-size: 15px;
+  background-color: #EB673D;
+  border-radius: 2em;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 600;
+  padding: .5em .5em;
+  box-sizing: border-box;
+  border: none;
+  font-size: 25px;
 }
  #home{       
   padding-bottom: 100px; 
@@ -111,29 +118,21 @@ font-size: 15px;
 }
 a{
   text-decoration: none;
+  color: #EB673D;
 }
- .about-tag{
-   margin-top: 0;
-   color: #000000;
- }
- .work-tag{
-   margin-top: 0;
-   color: #000000;
- }
- .contact-tag{
+ /* ===== ABOUT SECTION ===== */
+ .tag{
    margin-top: 0;
    color: #000000;
  }
  .about-me{
    grid-area: about;
-   grid-row-end: span 2;
    background-color: #EB673D;
    position: relative;
    box-sizing: border-box;
    top:0;
    height: auto;
  }
-/* ======= ABOUT SECTION ====== */
  .about-container{
   background-color: #EB673D;
    position: relative;
@@ -162,9 +161,14 @@ a{
    font-size: 13px;
    margin-top: 0;
  }
+  /* ===== WORK SECTION ===== */
  .work{
    grid-area: work;
  }
+ #work{
+   padding: 0;
+ }
+  /* ===== CONTACT SECTION ===== */
  .contact-form{
    grid-area: contact;
    display: flex;
@@ -174,7 +178,6 @@ a{
    height: 50%;
    background-color: #E7E0CD;
    border: 3px solid #EB673D;
-   outline: 10px solid #E7E0CD;
    margin-top: 50px;
  }
 .linked-in{
@@ -186,8 +189,8 @@ a{
   margin: 10px;
 }
  .contact-title{
-   color: #EB673D;
    font-family: 'Archivo Black', sans-serif;
+   color: #EB673D;
    text-align: center;
    font-size: 30px;
    margin-top: 0;
@@ -205,14 +208,14 @@ a{
   justify-content: space-around;
  }
  .email-link{
-   color: #000000;
    font-weight: 800;
  }
 
 .label{
   margin-bottom: 0;
-
 }
+
+ /* ===== MEDIA QUERIES ===== */
 @media (max-width: 319px){
   .statement{
     font-size: 12px;
