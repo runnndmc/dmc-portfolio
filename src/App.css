@@ -94,7 +94,6 @@
    margin: 0 auto;
    padding: 0 0 3em 0;
    font-size: 25px;
-   color: #EB673D;
  }
 button{
   background-color: #EB673D;
@@ -118,13 +117,17 @@ button{
 }
 a{
   text-decoration: none;
+
+}
+.tag{
+  margin-top: 0;
+  color: #000000;
+}
+.tag:hover{
   color: #EB673D;
 }
  /* ===== ABOUT SECTION ===== */
- .tag{
-   margin-top: 0;
-   color: #000000;
- }
+
  .about-me{
    grid-area: about;
    background-color: #EB673D;
