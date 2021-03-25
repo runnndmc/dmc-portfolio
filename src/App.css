@@ -92,7 +92,7 @@
    align-items: baseline;
    align-content: space-between;
    margin: 0 auto;
-   padding: 0 0 3em 0;
+   padding: 5px 0 3em 0;
    font-size: 25px;
  }
 button{
@@ -105,6 +105,11 @@ button{
   box-sizing: border-box;
   border: none;
   font-size: 25px;
+  transition: all 0.3s ease-in-out;
+}
+button:hover{
+  background-color: #E7E0CD;
+  color:#EB673D;
 }
  #home{       
   padding-bottom: 100px; 
