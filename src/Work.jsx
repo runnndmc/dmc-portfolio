@@ -47,7 +47,7 @@ const Work = () => {
                 <a href='https://moiveworm.netlify.app' target="_blank" rel="noopener noreferrer"><img className='website-still' src='https://i.imgur.com/U5lC9z8.png' alt='Movie Worm website preview'/></a>
                 <div className='built-with'> 
                             <img className='dev-icon' src="./ruby.png" alt='a ruby gem'/>
-                            <img className='dev-icon' src='https://www.iconfinder.com/data/icons/scripting-and-programming-languages/158/Ruby_on_Rails_2-512.png' alt='a rails icon'/>
+                            <img className='dev-icon' src='./rails.png' alt='a rails icon'/>
                             <img className='dev-icon' src="https://img.icons8.com/color/48/000000/react-native.png" alt='a React.js icon'/>
                 </div>
                 <div className='text'>                
