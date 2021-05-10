@@ -17,7 +17,7 @@ const projectsList = [
     devIcons: {
       src1:"https://img.icons8.com/color/48/000000/react-native.png",
       src2:"https://img.icons8.com/color/48/000000/css3.png",
-      src3:"./airtable.png"
+      src3:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
     },
     description: "A PWA with emphasis on accessibility. The site was created to host the podcast Still Positive for people who are chronically ill and/or disabled. Built with React Hooks with complete responsive modern design, Still Positive utilizes Airtable's API to fetch and store the data.",
     site:"https://stillpositive.netlify.app/",
@@ -54,6 +54,22 @@ const projectsList = [
     description: "Built a on Rails server, with three database tables which included user authentication and a join table. Created an interactive React front-end with full CRUD on all movies and the ability to create a review and rating for each specific movie.",
     site:"https://moiveworm.netlify.app",
     github:"https://github.com/runnndmc/MovieWorm"
+  },
+  {
+    id: 4,
+    title: "Landing Page",
+    photoLink: {
+      href:"https://earq.netlify.app/",
+      src:"./project-photos/landing-page.png"
+    },
+    devIcons: {
+      src1:"./dev-icons/react-small.png",
+      src2:"https://img.icons8.com/color/48/000000/css3.png",
+      src3:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    description: "A single page web application for a featured special running on a particular brand of hearing aid. The offer is only given to those who sign up with the given companies' newsletter list. Built with a React architecture with JavaScript code utilizing CSS and Flexbox for styling.",
+    site:"https://earq.netlify.app/",
+    github:"https://github.com/runnndmc/ear-q-landing"
   }
 ];
 

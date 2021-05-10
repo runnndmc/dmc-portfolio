@@ -1,11 +1,12 @@
 import React from "react";
+import "./Project.css";
 
 const Project = ({ project }) => {
 
  function openLink(link){
     window.open(link)
  }
- 
+
   return (
   <div className="project-wrapper">
       <h3 className="title">{project.title}</h3>
