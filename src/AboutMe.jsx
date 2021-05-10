@@ -1,7 +1,7 @@
 import React from 'react'
 
 const AboutMe = () => {
-    console.log('hello')
+
     return(
         <div className='about-me'>
             <span id="about"> &nbsp; </span>

@@ -2,6 +2,7 @@ import React from "react";
 import "./Work.css";
 
 const Work = () => {
+    //Project   
   return (
     <div className="work">
       <div className="stp-desc">
