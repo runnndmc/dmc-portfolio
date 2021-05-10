@@ -14,7 +14,7 @@ const App = ({ projectsList }) => {
   //exact path="/about" component={About}
   //exact path="/work" component={Work} - Projects?
   //exact path="/Contact" component={Contact}
-console.log(projectsList)
+
   return (
     <div className="body">
       <span id="home"> &nbsp; </span>
@@ -28,7 +28,7 @@ console.log(projectsList)
 
       <AboutMe />
       {/* switch to About  */}
-      <Work />
+      <Work projectsList={projectsList}/>
       <ContactForm />
     </div>
   );

@@ -1,11 +1,12 @@
 import React from "react";
 
-const Project = () => {
-    
+const Project = ({ project }) => {
+console.log(project)
+
  function openLink(link){
     console.log(link)
    // window.open(link)
-}
+ }
   return (
   <div className="project-wrapper">
       <h3 className="title"></h3>
@@ -28,6 +29,7 @@ const Project = () => {
         <button className="lookup" onClick={openLink()}>Code</button>
     </div>
   </div>
+  )
 };
 
 export default Project;

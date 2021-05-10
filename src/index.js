@@ -19,6 +19,7 @@ const projectsList = [
       src2:"https://img.icons8.com/color/48/000000/css3.png",
       src3:"./airtable.png"
     },
+    description: "A PWA with emphasis on accessibility. The site was created to host the podcast Still Positive for people who are chronically ill and/or disabled. Built with React Hooks with complete responsive modern design, Still Positive utilizes Airtable's API to fetch and store the data.",
     site:"https://stillpositive.netlify.app/",
     github:"https://github.com/runnndmc/still-positive"
   },
@@ -34,6 +35,7 @@ const projectsList = [
       src2:"https://img.icons8.com/color/48/000000/nodejs.png",
       src3:"https://img.icons8.com/color/48/000000/react-native.png"
     },
+    description: "In collaboration with a UX design team and three other software engineers, built a full-stack MERN CRUD site which took an already existing non-profit website and fully redesigned it. New Alternatives is a user friendly and interactive site with user testimonials and video carousels.",
     site:"http://new-alternatives-site.surge.sh/",
     github:"https://github.com/chrisratsimba123/new-alternatives-app/"
   },
@@ -49,6 +51,7 @@ const projectsList = [
       src2:"./rails.png",
       src3:"https://img.icons8.com/color/48/000000/react-native.png"
     },
+    description: "Built a on Rails server, with three database tables which included user authentication and a join table. Created an interactive React front-end with full CRUD on all movies and the ability to create a review and rating for each specific movie.",
     site:"https://moiveworm.netlify.app",
     github:"https://github.com/runnndmc/MovieWorm"
   }

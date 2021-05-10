@@ -1,16 +1,17 @@
 import React from "react";
+import Project from "./Project";
 import "./Work.css";
 
-const Work = () => {
-    //Project   
+const Work = ({ projectsList }) => {
+ console.log(projectsList)
   return (
     <div className="work">
       <div className="stp-desc">
-        <h2 className="work-title">
-          {" "}
-          <span id="work"> &nbsp; </span>WORK
-        </h2>
-        <h3 className="title">Still Positive</h3>
+        <h2 className="work-title">{" "}<span id="work"> &nbsp; </span>WORK</h2>
+      </div>
+      {projectsList.map((project) => <Project project={project}/>)}
+
+      {/*       <h3 className="title">Still Positive</h3>
         <a
           href="https://stillpositive.netlify.app/"
           target="_blank"
@@ -169,7 +170,7 @@ const Work = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
