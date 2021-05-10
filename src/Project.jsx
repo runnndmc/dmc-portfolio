@@ -1,32 +1,31 @@
 import React from "react";
 
 const Project = ({ project }) => {
-console.log(project)
 
  function openLink(link){
-    console.log(link)
-   // window.open(link)
+    window.open(link)
  }
+ 
   return (
   <div className="project-wrapper">
-      <h3 className="title"></h3>
+      <h3 className="title">{project.title}</h3>
         <img
             className="website-still"
-            src=""
-            onClick={openLink()}
-            alt="website preview"
+            src= {project.photoLink.src}
+            onClick= {() => openLink(`${project.photoLink.href}`)}
+            alt="Project preview"
         />
     <div className="built-with">
-        <img className="dev-icon"/>
-        <img className="dev-icon"/>
-        <img className="dev-icon"/>
+        <img className="dev-icon" src={project.devIcons.src1} alt="Tech stack Icon"/>
+        <img className="dev-icon" src={project.devIcons.src2} alt="Tech stack Icon"/>
+        <img className="dev-icon" src={project.devIcons.src3} alt="Tech stack Icon"/>
     </div>
     <div className="text">
-        <p></p>
+        <p>{project.description}</p>
     </div>
     <div className="button-container-left">
-        <button className="lookup" onClick={openLink()}>Site</button>
-        <button className="lookup" onClick={openLink()}>Code</button>
+        <button className="lookup" onClick={() => openLink(`${project.site}`)}>Site</button>
+        <button className="lookup" onClick={() => openLink(`${project.github}`)}>Code</button>
     </div>
   </div>
   )

@@ -9,7 +9,7 @@ const Work = ({ projectsList }) => {
       <div className="stp-desc">
         <h2 className="work-title">{" "}<span id="work"> &nbsp; </span>WORK</h2>
       </div>
-      {projectsList.map((project) => <Project project={project}/>)}
+      {projectsList.map((project) => <Project project={project} key={project.id}/>)}
 
       {/*       <h3 className="title">Still Positive</h3>
         <a
