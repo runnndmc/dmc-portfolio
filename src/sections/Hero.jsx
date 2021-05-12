@@ -14,10 +14,12 @@ const Hero = () => {
 
 function changeBackground(){
    const changeColor = setInterval(function(){
-        console.log(index)
+        document.querySelector('.hero').style.backgroundColor = colorList[index]
+        console.log(colorList[index])
         index++
-        if(index === 3){
+        if(index >= 3){
             clearInterval(changeColor)
+            index = 0
         }
     }, 1000)
 
