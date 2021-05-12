@@ -1,15 +1,15 @@
 import React from "react";
+
 import Layout from "../shared/layout/Layout";
+import "./hero.css";
 
 const Hero = () => {
   return (
     <Layout>
       <div className="hero">
-        <h2 className="hello">Hello World!</h2>
-        <h2 className="intro">
-          I'm <br></br>Dayna Christison
-        </h2>
-        <h3 className="job-title">Full Stack Developer</h3>
+        <p className="hello">Hello World! I'm</p>
+        <h2 className="intro">Dayna Christison</h2>
+        <p className="job-title">Full Stack Developer [ She / Her / Hers ]</p>
       </div>
     </Layout>
   );

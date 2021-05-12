@@ -1,0 +1,30 @@
+.hero{   
+    background-color: #e86521;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  .hello, .job-title{
+    color: #fff3e0 ;
+    padding: 10px 0;
+    font-size: 20px;
+    letter-spacing: .2em;
+  }
+  .hello{
+      margin-bottom: 0;
+  }
+  .intro{
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 500;
+    color: #fff3e0;
+    margin:0;
+    font-size: 80px;
+  }
+
+
+
+  /*===== MEDIA QUERIES ===== */
+.hero{
+    height: 75vh;
+}

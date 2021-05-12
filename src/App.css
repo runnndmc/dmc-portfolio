@@ -33,8 +33,6 @@ New Cement: #ccc0ae
 }
  .body{
   font-family: 'Open Sans', sans-serif;
-
-  /* font-family: 'Montserrat', sans-serif; */
   display: flex;
   flex-direction: column;
 
@@ -53,39 +51,6 @@ New Cement: #ccc0ae
  }
 
 
-  /* ===== HERO BLOCK ===== */
- .hero{   
-   grid-area: hero;
-   background-color: #E7E0CD;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
- }
- .hello{
-   color: #FFFFFF;
-   font-weight: bolder;
-   text-align: center;
-   margin-top:0;
-   font-size: 23px;
-   margin-bottom: 0;
- }
- .intro{
-   color: #EB673D;
-   font-family: 'Archivo Black', sans-serif;
-   margin-bottom: 5px;
-   font-size: 36px;
-
- }
- .job-title{
-   color: #EB673D;
-   margin-top: 0;
-   font-family: 'Archivo Black', sans-serif;
-   font-weight: 300;
-   letter-spacing: 1.7px;
- }
-
- /* ===== NAV ===== */
  
  /* ===== ABOUT SECTION ===== */
 
