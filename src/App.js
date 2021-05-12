@@ -12,7 +12,6 @@ function App() {
     <div className="body">
       <span id="home"> &nbsp; </span>
       <Hero />
-      <aside></aside>
       <AboutMe />
       <Work />
       <ContactForm />

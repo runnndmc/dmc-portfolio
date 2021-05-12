@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../shared/Layout'
+import Layout from '../shared/layout/Layout'
 import './Work.css'
 
 const Work = () => {

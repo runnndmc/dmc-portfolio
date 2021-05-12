@@ -1,7 +1,7 @@
 import React from "react";
 
-import Header from "./Header";
-import Nav from "./Nav";
+import Header from "../header/Header";
+import Nav from "../nav/Nav";
 
 const Layout = (props) => {
   return (

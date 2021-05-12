@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../shared/Layout";
+import Layout from "../shared/layout/Layout";
 
 const AboutMe = () => {
   return (
@@ -18,7 +18,7 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
-    </Layout>
+      </Layout>
   );
 };
 
