@@ -1,7 +1,9 @@
 import React from "react";
+import Layout from "../shared/Layout";
 
 const ContactForm = () => {
   return (
+    <Layout>
     <div className="contact-form">
       <h3 className="contact-title">
         <span id="contact"> &nbsp; </span>Keep In Touch!
@@ -21,6 +23,7 @@ const ContactForm = () => {
         </a>
       </div>
     </div>
+    </Layout>
   );
 };
 

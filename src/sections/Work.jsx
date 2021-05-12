@@ -1,9 +1,11 @@
 import React from 'react'
+import Layout from '../shared/Layout'
 import './Work.css'
 
 const Work = () => {
 
     return(
+        <Layout>
         <div className='work'>  
 
             <div className='stp-desc'>
@@ -60,6 +62,7 @@ const Work = () => {
             </div>
 
         </div> 
+        </Layout>
     )
 }
 
