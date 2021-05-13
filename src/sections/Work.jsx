@@ -5,15 +5,19 @@ import Project from "../components/Project";
 import "./Work.css";
 
 const Work = ({ projectsList }) => {
-
   const projectsJSX = projectsList.map((project) => (
     <Project project={project} key={project.id} />
   ));
-  
+
   return (
     <Layout>
       <span id="work"> &nbsp; </span>
-      <div className="work">{projectsJSX}</div>
+     
+      <div className="work-section">
+        {projectsJSX}
+        <div className="work"></div>
+        <div className="work-no-color"></div>
+      </div>
     </Layout>
   );
 };

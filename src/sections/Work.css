@@ -1,12 +1,22 @@
-
-.work{
+.work-section{
     display: flex;
-    flex-direction: column;
-    flex-wrap:wrap;
-    width: 50%;
-    background-color: #e86521;
+    position: relative;
+    width: 100%;
 }
 
+.work{
+    width: 50vw;
+    height: 100vh;
+    background-color: #e86521;
+    position: absolute;
+
+}
+.work-no-color{
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+
+}
 .app-still{
     width: 25vw;
     height: 60vh;
@@ -22,7 +32,7 @@
     text-align: justify;
     margin: 0px auto;
     padding: 10px;
-    width: 70vw;
+    width: 20vw;
 }
 .title{
     margin: 35px;
