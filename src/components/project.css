@@ -1,3 +1,4 @@
+
 .project-wrapper{
     display: flex;
     flex-direction: column;
@@ -5,7 +6,7 @@
     background-color: white;
     border: 1px solid #e86521;
     box-shadow:5px 0px 10px 0px #ccc0ae;
-    width: 25%;
-    height: 20%;
     z-index: 1;
+    width: 40%;
+    margin: 20px;
 }
