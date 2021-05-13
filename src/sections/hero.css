@@ -6,6 +6,10 @@
   align-content: space-around;
   padding-left: 10px;
   height: 75vh;
+  transition: 1s ease-in;
+}
+.hero:hover{
+  background-color:#af3500;
 }
 
 .hello,
