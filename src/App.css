@@ -35,6 +35,8 @@ New Cement: #ccc0ae
   font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
+  background-color: #fff3e0;
+
 
   /* grid-template-rows: 5em 70vh 5em 5em 18em 5em auto 5em 60vh 5em;
   grid-template-columns: 1fr 5fr 3fr 1fr;

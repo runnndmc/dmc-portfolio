@@ -1,6 +1,7 @@
 .about-section{
     display: flex;
     height: 90vh;
+    margin-top: 10%;
     border-top: .01em solid #000000;
 }
 .question-block{
@@ -22,19 +23,38 @@
   background-color: #fff3e0;
   width: 50%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.line{
+    border-left: .01em solid #000000;
+    height: 20%;
+    position: absolute;
+    left: 25%;
+    margin-top: 5%;
+}
+.about-photo{
+    width: 30vw;
+    height: 30vh;
+    border: 30px solid;
 }
 .statement {
   width: 90%;
-  text-align: right;
-  font-size: 13px;
-  margin-top: 0;
+  font-size: 15px;
+  border-top: .01em solid #000000;
+  border-bottom: .01em solid #000000;
+  padding: 20px 0;
+  margin: 0;
 }
 
 /*===== MEDIA QUERIES ===== */
 
 @media (max-width: 500px){
     .about-section{
-        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: fit-content;
     }
 }
 

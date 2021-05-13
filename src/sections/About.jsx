@@ -17,7 +17,10 @@ const AboutMe = () => {
           implement clean, effective technology that can directly affect the
           consumers understanding of a product.
         </p>
-        <img src="" alt="" />
+        <div className="line-wrapper">
+          <div className="line"></div>
+        </div>
+        <img className="about-photo"src="../filler.webp" alt="filler" />
       </div>
 
       <div className="question-block">"Tell me about yourself!"</div>
