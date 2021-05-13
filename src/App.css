@@ -53,15 +53,8 @@ New Cement: #ccc0ae
  }
 
 
- 
 
-  /* ===== WORK SECTION ===== */
- .work{
-   grid-area: work;
- }
- #work{
-   padding: 0;
- }
+
   /* ===== CONTACT SECTION ===== */
 
  .contact-form{
@@ -71,7 +64,7 @@ New Cement: #ccc0ae
    width: 50vw;
    height: 50%;
    background-color: #E7E0CD;
-   border: 3px solid #EB673D;
+   border: 3px solid  #e86521;
    margin-top: 50px;
  }
 .linked-in{

@@ -24,7 +24,7 @@ const Project = ({ project }) => {
     <div className="text">
         <p>{project.description}</p>
     </div>
-    <div className="button-container-left">
+    <div className="button-container">
         <button className="lookup" onClick={() => openLink(`${project.site}`)}>Site</button>
         <button className="lookup" onClick={() => openLink(`${project.github}`)}>Code</button>
     </div>
