@@ -1,0 +1,14 @@
+.section-intro{ 
+    width: 100vw;
+    height: fit-content;
+    background-color: orange;
+}
+.vertical-line{
+    border-left: 6px solid green;
+    height: 30%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    background-color: orange;
+
+}

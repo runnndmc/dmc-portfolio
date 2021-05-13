@@ -3,27 +3,25 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100vw;
+    border-top: 0.01em solid #000000;
 }
 
 .work-section{
     display: flex;
     position: relative;
     width: 100%;
+    margin-top: 30%;
 }
 
-.work{
+.work-color{
     width: 50vw;
     height: 200vh;
     background-color: #e86521;
     position: absolute;
-
+    border-top: 0.01em solid #000000;
+    border-right: 0.01em solid #000000;
 }
-.work-no-color{
-    width: 50vw;
-    height: 200vh;
-    position: absolute;
 
-}
 .app-still{
     width: 25vw;
     height: 60vh;

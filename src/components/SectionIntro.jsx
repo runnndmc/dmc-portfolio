@@ -1,9 +1,11 @@
 import React from "react"
+import './sectionIntro.css'
 
 const SectionIntro = () => {
     return(
-        <>
-        </>
+        <div className="section-intro">
+            <div className="vertical-line"></div>
+        </div>
     )
 }
 
