@@ -1,0 +1,40 @@
+.about-section{
+    display: flex;
+    height: 90vh;
+    border-top: .01em solid #000000;
+}
+.question-block{
+    font-family: "IBM Plex Serif", serif;
+    color:#fff3e0;
+    font-style: italic;
+    font-weight: 300;
+    width: 50%;
+    display: flex;
+    background-color: #e86521;
+    border-left: .01em solid #000000;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    font-size: 110px;
+    padding-right: 20px;
+}
+.about-info {
+  background-color: #fff3e0;
+  width: 50%;
+  display: flex;
+}
+.statement {
+  width: 90%;
+  text-align: right;
+  font-size: 13px;
+  margin-top: 0;
+}
+
+/*===== MEDIA QUERIES ===== */
+
+@media (max-width: 500px){
+    .about-section{
+        flex-wrap: wrap-reverse;
+    }
+}
+

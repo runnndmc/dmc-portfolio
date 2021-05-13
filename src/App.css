@@ -52,44 +52,7 @@ New Cement: #ccc0ae
 
 
  
- /* ===== ABOUT SECTION ===== */
 
- .about-me{
-   grid-area: about;
-   background-color: #EB673D;
-   position: relative;
-   box-sizing: border-box;
-   top:0;
-   height: auto;
- }
- .about-container{
-  background-color: #EB673D;
-   position: relative;
-   margin: 20px;
-   text-align: right;
- }
- .about-title{
-  margin:0;
-  width: 90%; 
-  height: 100%;
-  color:#FFFFFF;
-  margin-top:-20px;
-  font-size: 50px;
- }
- .pronouns{
-  color:#FFFFFF;
-  width: 90%; 
-  height: 100%;
-  margin-top:-5px;
-  font-size: 25px;
- }
- .statement{
-   width: 90%; 
-   text-align: right;
-   background-color: #EB673D;
-   font-size: 13px;
-   margin-top: 0;
- }
   /* ===== WORK SECTION ===== */
  .work{
    grid-area: work;
@@ -98,6 +61,7 @@ New Cement: #ccc0ae
    padding: 0;
  }
   /* ===== CONTACT SECTION ===== */
+
  .contact-form{
    grid-area: contact;
    display: flex;
@@ -144,7 +108,8 @@ New Cement: #ccc0ae
   margin-bottom: 0;
 }
 
- /* ===== MEDIA QUERIES ===== */
+/* ===== MEDIA QUERIES ===== */
+
 @media (max-width: 319px){
   .statement{
     font-size: 12px;

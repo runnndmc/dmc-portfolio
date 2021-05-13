@@ -3,7 +3,7 @@ import React from "react";
 import "./App.css";
 
 import Hero from "./sections/Hero";
-import AboutMe from "./sections/AboutMe";
+import About from "./sections/About";
 import Work from "./sections/Work";
 import ContactForm from "./sections/ContactForm";
 
@@ -12,7 +12,7 @@ function App() {
     <div className="body">
       <span id="home"> &nbsp; </span>
       <Hero />
-      <AboutMe />
+      <About />
       <Work />
       <ContactForm />
     </div>
