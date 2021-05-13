@@ -19,7 +19,7 @@ const AboutMe = () => {
           <div className="line-wrapper">
             <div className="line"></div>
           </div>
-          <img className="about-photo" src="../filler.webp" alt="filler" />
+          <img className="about-photo" src="../profile.png" alt="a white woman with showrt brown hair wearing a dark gret knit sweater and a silver necklace chain" />
         </div>
 
         <div className="question-block">

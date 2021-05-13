@@ -37,9 +37,9 @@
   margin-top: 5%;
 }
 .about-photo {
-  width: 30vw;
-  height: 30vh;
-  border: 30px solid;
+  width: 20vw;
+  height: 35vh;
+  border: 30px solid #ccc0ae;
 }
 .statement {
   width: 90%;
@@ -82,5 +82,7 @@
   }
   .about-photo {
     margin-top: 25%;
+    width: 50vw;
+    height: 30vh;
   }
 }
