@@ -1,7 +1,9 @@
 import React from "react";
-import Layout from "../shared/layout/Layout";
 
-const ContactForm = () => {
+import Layout from "../shared/layout/Layout";
+import './contact.css'
+
+const Contact = () => {
   return (
     <Layout>
     <div className="contact-form">
@@ -27,4 +29,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default Contact;
