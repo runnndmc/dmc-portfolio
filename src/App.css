@@ -65,11 +65,10 @@ New Cement: #ccc0ae
   /* ===== CONTACT SECTION ===== */
 
  .contact-form{
-   grid-area: contact;
    display: flex;
    flex-direction: column;
    justify-content: center;
-   width: 100%;
+   width: 50vw;
    height: 50%;
    background-color: #E7E0CD;
    border: 3px solid #EB673D;

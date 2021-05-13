@@ -1,22 +1,21 @@
 import React from "react";
 
-import './nav.css';
+import "./nav.css";
 
 const Nav = () => {
-
   return (
     <div className="nav">
       <ul className="nav-bar">
-        <a href="#about">
-          <h5 className="tag"> ABOUT</h5>
+        <a href="#about" className="tag">
+           About
         </a>
 
-        <a href="#work">
-          <h5 className="tag"> WORK</h5>
+        <a href="#work" className="tag">
+          Work
         </a>
 
-        <a href="#contact">
-          <h5 className="tag"> CONTACT</h5>
+        <a href="#contact" className="tag">
+          Contact
         </a>
 
         <a
@@ -24,7 +23,7 @@ const Nav = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="resume-link">RESUME</button>
+          <button className="resume-link">Resume</button>
         </a>
       </ul>
     </div>
