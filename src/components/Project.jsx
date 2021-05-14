@@ -8,23 +8,25 @@ const Project = ({ project }) => {
 
   return (
     <div className="project-wrapper">
-      <h3 className="title">{project.title}</h3>
-      <div className="built-with">
-        <img
-          className="dev-icon"
-          src={project.devIcons.src1}
-          alt="Tech stack Icon"
-        />
-        <img
-          className="dev-icon"
-          src={project.devIcons.src2}
-          alt="Tech stack Icon"
-        />
-        <img
-          className="dev-icon"
-          src={project.devIcons.src3}
-          alt="Tech stack Icon"
-        />
+      <div className="project-intro">
+        <h3 className="title">{project.title}</h3>
+        <div className="built-with">
+          <img
+            className="dev-icon"
+            src={project.devIcons.src1}
+            alt="Tech stack Icon"
+          />
+          <img
+            className="dev-icon"
+            src={project.devIcons.src2}
+            alt="Tech stack Icon"
+          />
+          <img
+            className="dev-icon"
+            src={project.devIcons.src3}
+            alt="Tech stack Icon"
+          />
+        </div>
       </div>
       <img
         className="website-still"
@@ -35,10 +37,11 @@ const Project = ({ project }) => {
       <div className="text">
         <p>{project.description}</p>
       </div>
+
       <button className="lookup" onClick={() => openLink(`${project.github}`)}>
         Code
         <img
-          className="github-icon"
+          className="github-icon-btn"
           src="../contact-icons/github.png"
           alt="github-icon"
         />
