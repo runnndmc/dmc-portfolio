@@ -1,16 +1,23 @@
+#work{
+    height: -10px;
+}
+.section-heading{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10%;
+}
+.work-section{
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 10%;
+}
 .project-cards{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100vw;
     border-top: 0.01em solid #000000;
-}
-
-.work-section{
-    display: flex;
-    position: relative;
-    width: 100%;
-    margin-top: 30%;
 }
 
 .work-color{

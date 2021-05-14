@@ -12,8 +12,9 @@ const Work = ({ projectsList }) => {
 
   return (
     <Layout>
-      <SectionIntro />
       <span id="work"> &nbsp; </span>
+      <SectionIntro />
+      <h2 className="section-heading">Work</h2>
       <div className="work-section">
         <div className="project-cards">{projectsJSX}</div>
         <div className="work-color"></div>

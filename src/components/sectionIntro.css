@@ -2,10 +2,11 @@
     width: 100vw;
     height: fit-content;
     position: absolute;
+    margin-top: -30px;
 }
 .vertical-line{
     border-left: 0.01em solid #000000;
-    height: 100%;
+    height: 50%;
     position: absolute;
     left: 50.2%;
     margin-left: -3px;
@@ -15,4 +16,5 @@
     width: 50%;
     margin-top: 10%;
     margin-left: 25%;
+    padding-bottom: 10%;
 }
