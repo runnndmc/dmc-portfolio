@@ -2,8 +2,8 @@ import React from "react";
 
 import Layout from "../shared/layout/Layout";
 import Project from "../components/Project";
-import "./Work.css";
 import SectionIntro from "../components/SectionIntro";
+import "./work.css";
 
 const Work = ({ projectsList }) => {
   const projectsJSX = projectsList.map((project) => (

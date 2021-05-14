@@ -1,15 +1,20 @@
 import React from "react";
 
 import Layout from "../shared/layout/Layout";
+import SectionIntro from "../components/SectionIntro";
 import './contact.css'
 
 const Contact = () => {
   return (
     <Layout>
+    <SectionIntro />
+    <span id="contact"> &nbsp; </span>
+    <h2 className="section-heading">Contact</h2>
     <div className="contact-form">
-      <h3 className="contact-title">
-        <span id="contact"> &nbsp; </span>Keep In Touch!
-      </h3>
+
+
+
+      <h3 className="contact-title">ello</h3>
 
       <div className="contact-links">
         <a href="mailto: dayna.christison@gmail.com" className="email-link">

@@ -4,6 +4,7 @@
   margin-top: 10%;
   border-top: 0.01em solid #000000;
 }
+
 .question-block {
   width: 50%;
   display: flex;
@@ -12,6 +13,7 @@
   justify-content: flex-end;
   align-items: center;
 }
+
 .question-text {
   text-align: right;
   font-size: 110px;

@@ -12,14 +12,14 @@
   margin-top: 100px;
 }
 .dmc {
-  font-size: 45px;
-  font-weight: 900;
+  font-size: 55px;
   color: #e86521;
   font-family: "IBM Plex Serif", serif;
   font-weight: 900;
   margin-top: 1em;
   transition: all 0.3s ease-in-out;
   width: fit-content;
+  text-decoration: none;
 }
 .dmc:hover{
   background-color: #e86521;

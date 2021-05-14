@@ -5,13 +5,17 @@
     margin: 0 auto;
     text-align: center;
     margin-top: 10%;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 40px;
 }
+
 .work-section{
     display: flex;
     position: relative;
     width: 100%;
     margin-top: 10%;
 }
+
 .project-cards{
     display: flex;
     flex-wrap: wrap;
@@ -22,11 +26,12 @@
 
 .work-color{
     width: 50vw;
-    height: 200vh;
+    height: 230vh;
     background-color: #e86521;
     position: absolute;
     border-top: 0.01em solid #000000;
     border-right: 0.01em solid #000000;
+    margin-bottom: 10%;
 }
 
 .app-still{
@@ -34,10 +39,12 @@
     height: 60vh;
     box-shadow: 10px 10px 8px grey;
 }
+
 .website-still{
     width: 10vw;
     box-shadow: 10px 10px 8px grey;
 }
+
 .text{
     display: flex;
     flex-direction: column;
@@ -46,21 +53,25 @@
     padding: 10px;
     width: 20vw;
 }
+
 .title{
     margin: 35px;
     font-family: 'IBM Plex Serif', serif;
     font-size: 30px;
     color: #e86521;
 }
+
 .button-container{
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
+
 .lookup{
     margin: 20px 0;
     width: 100px;
 }
+
 .built-with{
     align-self: center;
 }
