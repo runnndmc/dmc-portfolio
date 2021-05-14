@@ -13,12 +13,12 @@ Cement: #ccc0ae
 html {
   scroll-behavior: smooth;
 }
+
 .body {
   font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
   background-color: #fff3e0;
-
 }
 
 @media (max-width: 319px) {
@@ -46,6 +46,7 @@ html {
   .statement {
     font-size: 15px;
   }
+  
 }
 
 @media (min-width: 768px) {
