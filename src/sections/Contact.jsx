@@ -2,34 +2,27 @@ import React from "react";
 
 import Layout from "../shared/layout/Layout";
 import SectionIntro from "../components/SectionIntro";
-import './contact.css'
+import "./contact.css";
 
 const Contact = () => {
   return (
     <Layout>
-    <SectionIntro />
-    <span id="contact"> &nbsp; </span>
-    <h2 className="section-heading">Contact</h2>
-    <div className="contact-form">
-
-
-
-      <h3 className="contact-title">ello</h3>
-
-      <div className="contact-links">
+      <SectionIntro />
+      <span id="contact"> &nbsp; </span>
+      <h2 className="section-heading">Let's Connect!</h2>
+      <div className="contact-form">
         <a href="mailto: dayna.christison@gmail.com" className="email-link">
           {" "}
-          <img className="mail-link" src="./mail.png" alt="envelope to e-mail"/>
+          <img
+            className="mail-image"
+            src="../contact-icons/mail.png"
+            alt="envelope to e-mail"
+          />
         </a>
-
-        <a href="https://www.linkedin.com/in/daynachristison/">
-          <img className="linked-in" src="./linkedin.png" alt="linkedin logo"/>
-        </a>
-        <a href="https://github.com/runnndmc">
-          <img className="linked-in" src="./github.png" alt="github logo"/>
-        </a>
+        <div className="contact-text">
+        <h4>Email: <a href="mailto: dayna.christison@gmail.com" className="email-text">Dayna.christison@gmail.com</a></h4>
+        </div>
       </div>
-    </div>
     </Layout>
   );
 };

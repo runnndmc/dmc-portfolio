@@ -1,44 +1,38 @@
- .contact-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50vw;
-    height: 50%;
-    background-color: #E7E0CD;
-    border: 3px solid  #e86521;
-    margin-top: 20%;
-  }
- .linked-in{
-   max-width: 2em;
-   margin: 22px;
-   margin-top: 10px;
- }
- .dev-icon{
-   max-width: 3em;
-   margin: 10px;
- }
-  .contact-title{
-    font-family: 'Archivo Black', sans-serif;
-    color: #EB673D;
-    text-align: center;
-    font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-  .mail-link{
-   width: 2.5em;
-   margin-top: -10px;
-  }
-  .contact-links{
-    margin-top: 1em;
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-  }
-  .email-link{
-    font-weight: 800;
-  }
- 
- .label{
-   margin-bottom: 0;
- }
+.contact-form {
+  display: flex;
+  padding: 7%;
+  justify-content: flex-start;
+  align-items: space-between;
+  background-color: #e7e0cd;
+  border: 3px solid #e86521;
+  margin: 10% 30%;
+  margin-top: 5%;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.email-link {
+  display: flex;
+  justify-content: flex-start;
+}
+.email-link:hover{
+  color: #ffffff;
+  background-color: #e86521;
+}
+
+.mail-image {
+  width: 100px;
+}
+.contact-text{
+  padding-left: 10px;
+}
+.email-text{
+  color: black;
+}
+.email-text:hover{
+  color: #ffffff;
+  background-color: #e86521;
+}
+.dev-icon {
+  max-width: 3em;
+  margin: 10px;
+}
