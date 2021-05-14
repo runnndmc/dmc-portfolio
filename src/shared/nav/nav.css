@@ -6,13 +6,15 @@
   z-index: 1;
   border-top: 0.01em solid #e86521;
 }
+
 .nav-bar {
   display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
-  margin: 0 auto;
-  padding: 5px 5px 3em 5px;
+  justify-content: space-between;
+  align-items: center;
+  margin: -6px 5px 5px 5px;
+  padding: 5px 20px 2em 20px;
 }
+
 button {
   background-color: #e86521;
   border-radius: 3em;
@@ -24,13 +26,18 @@ button {
   border: 5px solid #ccc0ae;
   font-size: 25px;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 button:hover {
   background-color: #ffffff;
   color: #e86521;
 }
-
+.connect-icons{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
 .tag {
   margin: 0 5px;
   color: #000000;
@@ -38,8 +45,9 @@ button:hover {
   letter-spacing: 0.1em;
   transition: all 0.3s ease-in-out;
   font-weight: 600;
-  padding: 0 10px;
+  padding: 3px;
 }
+
 .tag:hover {
   background-color: #e86521;
   color: #fff3e0;
