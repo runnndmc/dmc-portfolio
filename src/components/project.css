@@ -1,0 +1,90 @@
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  border: 1px solid #e86521;
+  z-index: 1;
+  width: 40%;
+  margin: 50px;
+}
+.project-intro{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.title {
+  margin: 35px;
+  margin-bottom: 0;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 30px;
+}
+
+.built-with {
+  align-self: flex-end;
+  margin-top: -10%;
+  display: flex;
+  align-items: baseline;
+}
+
+.dev-icon {
+  height: 50px;
+}
+
+.website-still {
+  align-self: center;
+  width: 30vw;
+  box-shadow: 2px 2px 10px #ccc0ae;
+  margin-top: 10%;
+  transition: all ease-in-out 0.25s;
+  cursor: pointer;
+}
+
+.website-still:hover {
+  transform: scale(1.05);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin: 0px 30px;
+  padding: 10px;
+}
+
+.lookup {
+  margin-bottom: 5%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*===== MEDIA QUERIES ===== */
+
+@media (max-width: 500px) {
+  .project-wrapper {
+    width: 90%;
+    margin: 15px;
+  }
+  .project-intro {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .built-with{
+      margin:0;
+  }
+  .website-still {
+      width: 80vw;
+      margin-top: 5%;
+  }
+  .text{
+      font-size: 15px;
+  }
+  .lookup{
+      width: 60px;
+  }
+  .github-icon-btn{
+    width: 50px;
+  }
+}
