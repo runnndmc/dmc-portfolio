@@ -8,8 +8,8 @@
   height: 85vh;
   transition: 1s ease-in;
 }
-.hero:hover{
-  background-color:#af3500;
+.hero:hover {
+  background-color: #af3500;
 }
 
 .hello,
@@ -34,7 +34,7 @@
 /*===== MEDIA QUERIES ===== */
 
 @media (max-width: 500px) {
-  .hero{
+  .hero {
     height: 75vh;
   }
   .hello,

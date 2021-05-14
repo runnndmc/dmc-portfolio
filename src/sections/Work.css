@@ -6,7 +6,7 @@
   text-align: center;
   margin-top: 10%;
   font-family: "IBM Plex Serif", serif;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .work-section {
@@ -26,7 +26,7 @@
 
 .work-color {
   width: 50vw;
-  height: 190vh;
+  height: 185vh;
   background-color: #e86521;
   position: absolute;
   border-top: 0.01em solid #000000;

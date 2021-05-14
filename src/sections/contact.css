@@ -13,6 +13,8 @@
 .email-link {
   display: flex;
   justify-content: flex-start;
+  transition: all ease-in-out .5s;
+
 }
 .email-link:hover{
   color: #ffffff;
@@ -27,6 +29,7 @@
 }
 .email-text{
   color: black;
+  transition: all ease-in-out .5s;
 }
 .email-text:hover{
   color: #ffffff;

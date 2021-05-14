@@ -1,101 +1,61 @@
 /*
-#E7E0CD - tan
-#EB673D - orange
-
-
-New Orange :  #e86521
-New Cream: #fff3e0 
-New Cement: #ccc0ae 
-
-
-/// change the font
-// update the nav
-//flex box app and half the screen with two divs per section 
-//hero main div spans two
-//have on hover start gradient fade to cream 
-
+Orange :  #e86521
+Cream: #fff3e0 
+Cement: #ccc0ae 
 
 ====FONT IMPORTS====
   // main headings ======> font-family: 'IBM Plex Serif', serif;
   // main text ======> font-family: 'Open Sans', sans-serif;
 
-
-  ==== OLD FONTS ====
-   font-family: 'Montserrat', sans-serif;
 */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans&display=swap");
 
- @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poller+One&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat&family=Poller+One&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@400;700&family=Poller+One&display=swap');
- html {
+html {
   scroll-behavior: smooth;
 }
- .body{
-  font-family: 'Open Sans', sans-serif;
+.body {
+  font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
   background-color: #fff3e0;
 
+}
 
-  /* grid-template-rows: 5em 70vh 5em 5em 18em 5em auto 5em 60vh 5em;
-  grid-template-columns: 1fr 5fr 3fr 1fr;
-  grid-template-areas:"header header header header"
-                      ". hero hero ."
-                      ". nav nav ."
-                      ". . . ."
-                      "about about about about"
-                      ". . . ."
-                      "work work work work"
-                      ". . . ."
-                      ". contact contact ."
-                      "footer footer footer footer";  */
- }
-
-
-
-
-  /* ===== CONTACT SECTION ===== */
-
-
-/* ===== MEDIA QUERIES ===== */
-
-@media (max-width: 319px){
-  .statement{
+@media (max-width: 319px) {
+  .statement {
     font-size: 12px;
   }
-  .intro{
+  .intro {
     font-size: 40px;
   }
-  .job-title{
+  .job-title {
     letter-spacing: 0px;
   }
-  .nav{
+  .nav {
     margin-top: 10px;
   }
-  .nav-bar{
+  .nav-bar {
     font-size: 13px;
     align-items: baseline;
     justify-content: space-between;
     margin-top: 5px;
   }
-
 }
 
-@media (min-width: 414px){
-  .statement{
+@media (min-width: 414px) {
+  .statement {
     font-size: 15px;
   }
 }
 
-@media (min-width: 768px){
-  .statement{
+@media (min-width: 768px) {
+  .statement {
     font-size: 18px;
   }
 }
 
-@media (min-width: 1024px){
-  .statement{
+@media (min-width: 1024px) {
+  .statement {
     font-size: 23px;
   }
 }
