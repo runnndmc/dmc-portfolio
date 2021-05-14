@@ -1,0 +1,48 @@
+.hero {
+  background-color: #e86521;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-content: space-around;
+  padding-left: 10px;
+  height: 85vh;
+  transition: 1s ease-in;
+}
+.hero:hover {
+  background-color: #af3500;
+}
+
+.hello,
+.job-title {
+  color: #fff3e0;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+}
+
+.intro {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  color: #fff3e0;
+  margin: 0;
+  font-size: 80px;
+}
+
+.job-title {
+  padding-bottom: 5%;
+}
+
+/*===== MEDIA QUERIES ===== */
+
+@media (max-width: 500px) {
+  .hero {
+    height: 75vh;
+  }
+  .hello,
+  .job-title {
+    font-size: 18px;
+    letter-spacing: 0.02em;
+  }
+  .intro {
+    font-size: 50px;
+  }
+}

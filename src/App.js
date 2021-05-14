@@ -1,25 +1,20 @@
-import React from 'react';
+import React from "react";
 
-import './App.css';
+import "./App.css";
 
-import Header from './Header';
-import Hero from './Hero';
-import Nav from './Nav';
-import AboutMe from './AboutMe';
-import Work from './Work';
-import ContactForm from './ContactForm';
+import Hero from "./sections/Hero";
+import About from "./sections/About";
+import Work from "./sections/Work";
+import Contact from "./sections/Contact";
 
-function App() {
+const App = ({ projectsList }) => {
   return (
-    <div className='body'>
-      <span id='home'> &nbsp; </span>
-      <Header/>
+    <div className="body">
+      <span id="home"> &nbsp; </span>
       <Hero />
-      <aside></aside>
-      <Nav />
-      <AboutMe />
-      <Work />
-      <ContactForm />
+      <About />
+      <Work projectsList={projectsList}/>
+      <Contact />
     </div>
   );
 }
