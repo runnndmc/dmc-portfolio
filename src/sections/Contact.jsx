@@ -20,7 +20,12 @@ const Contact = () => {
           />
         </a>
         <div className="contact-text">
-        <h4>Email: <a href="mailto: dayna.christison@gmail.com" className="email-text">Dayna.christison@gmail.com</a></h4>
+          <h4>
+            Email:{" "}
+            <a href="mailto: dayna.christison@gmail.com" className="email-text">
+              Dayna.christison@gmail.com
+            </a>
+          </h4>
         </div>
       </div>
     </Layout>

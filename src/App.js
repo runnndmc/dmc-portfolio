@@ -13,10 +13,10 @@ const App = ({ projectsList }) => {
       <span id="home"> &nbsp; </span>
       <Hero />
       <About />
-      <Work projectsList={projectsList}/>
+      <Work projectsList={projectsList} />
       <Contact />
     </div>
   );
-}
+};
 
 export default App;

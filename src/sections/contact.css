@@ -7,16 +7,15 @@
   border: 3px solid #e86521;
   margin: 10% 30%;
   margin-top: 5%;
-  font-family: 'IBM Plex Serif', serif;
+  font-family: "IBM Plex Serif", serif;
 }
 
 .email-link {
   display: flex;
   justify-content: flex-start;
-  transition: all ease-in-out .5s;
-
+  transition: all ease-in-out 0.5s;
 }
-.email-link:hover{
+.email-link:hover {
   color: #ffffff;
   background-color: #e86521;
 }
@@ -24,14 +23,14 @@
 .mail-image {
   width: 100px;
 }
-.contact-text{
+.contact-text {
   padding-left: 10px;
 }
-.email-text{
+.email-text {
   color: black;
-  transition: all ease-in-out .5s;
+  transition: all ease-in-out 0.5s;
 }
-.email-text:hover{
+.email-text:hover {
   color: #ffffff;
   background-color: #e86521;
 }
@@ -42,9 +41,8 @@
 /*===== MEDIA QUERIES ===== */
 
 @media (max-width: 500px) {
-.contact-form {
-  flex-wrap: wrap;
-  margin: 10% 5% 25% 5%;
-
-}
+  .contact-form {
+    flex-wrap: wrap;
+    margin: 10% 5% 25% 5%;
+  }
 }

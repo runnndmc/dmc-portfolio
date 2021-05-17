@@ -8,11 +8,13 @@
   width: 40%;
   margin: 50px;
 }
-.project-intro{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+
+.project-intro {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
+
 .title {
   margin: 35px;
   margin-bottom: 0;
@@ -67,24 +69,30 @@
     width: 90%;
     margin: 15px;
   }
+
   .project-intro {
-      flex-wrap: wrap;
-      justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  .built-with{
-      margin:0;
+
+  .built-with {
+    margin: 0;
   }
+
   .website-still {
-      width: 80vw;
-      margin-top: 5%;
+    width: 80vw;
+    margin-top: 5%;
   }
-  .text{
-      font-size: 15px;
+
+  .text {
+    font-size: 15px;
   }
-  .lookup{
-      width: 60px;
+
+  .lookup {
+    width: 60px;
   }
-  .github-icon-btn{
+
+  .github-icon-btn {
     width: 50px;
   }
 }
