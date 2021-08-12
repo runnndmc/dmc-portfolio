@@ -3,8 +3,8 @@
   padding: 7%;
   justify-content: flex-start;
   align-items: space-between;
-  background-color: #e7e0cd;
-  border: 3px solid #e86521;
+  background-color: #fff3e0;
+  border: 1px solid #e86521;
   margin: 10% 30%;
   margin-top: 5%;
   font-family: "IBM Plex Serif", serif;
@@ -25,10 +25,14 @@
 }
 .contact-text {
   padding-left: 10px;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
 }
 .email-text {
   color: black;
   transition: all ease-in-out 0.5s;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
 }
 .email-text:hover {
   color: #ffffff;

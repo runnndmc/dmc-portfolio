@@ -35,16 +35,17 @@ const Project = ({ project }) => {
         alt="Project preview"
       />
       <div className="text">
-        <p>{project.description}</p>
+        <p className="text">{project.description}</p>
       </div>
 
       <button className="lookup" onClick={() => openLink(`${project.github}`)}>
-        Code
-        <img
+      <img
           className="github-icon-btn"
           src="../contact-icons/github.png"
           alt="github-icon"
+          width="40px"
         />
+        Code
       </button>
     </div>
   );
