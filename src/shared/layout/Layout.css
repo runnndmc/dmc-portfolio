@@ -1,11 +1,10 @@
 .layout {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
 }
 .layout-children {
     flex: 2;
-    padding: 100px;
 }
 
 /*==== MEDIA QUERIES =====*/

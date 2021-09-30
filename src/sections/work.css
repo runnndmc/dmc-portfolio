@@ -1,6 +1,4 @@
-#work {
-  height: -10px;
-}
+
 .section-heading {
   margin: 0 auto;
   text-align: center;
@@ -21,17 +19,15 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100vw;
-  border-top: 0.01em solid #000000;
+  border: 0.01em solid #000000;
 }
 
 .work-color {
   width: 50vw;
-  height: 195vh;
+  height: 99.9%;
   background-color: #e86521;
   position: absolute;
-  border-top: 0.01em solid #000000;
-  border-right: 0.01em solid #000000;
-  margin-bottom: 10%;
+  border: 0.01em solid #000000;
 }
 
 /*===== MEDIA QUERIES ===== */

@@ -1,12 +1,13 @@
 .about-section {
   display: flex;
-  height: 90vh;
+  height: 100vh;
   margin-top: 10%;
   border-top: 0.01em solid #000000;
 }
 
 .question-block {
   width: 50%;
+  height: 104%;
   display: flex;
   background-color: #e86521;
   border-left: 0.01em solid #000000;

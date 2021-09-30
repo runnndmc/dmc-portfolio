@@ -5,7 +5,7 @@ import "./nav.css";
 const Nav = () => {
   return (
     <div className="nav">
-      <ul className="nav-bar">
+      <div className="nav-bar">
         <a href="#work">
           <button className="work-link">Work</button>
         </a>
@@ -42,7 +42,7 @@ const Nav = () => {
         >
           <button className="resume-link">Resume</button>
         </a>
-      </ul>
+      </div>
     </div>
   );
 };
