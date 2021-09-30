@@ -9,7 +9,9 @@ const Project = ({ project }) => {
   return (
     <div className="project-wrapper">
       <div className="project-intro">
-        <h3 className="title">{project.title}</h3>
+        <h3 className="title"
+        onClick={() => openLink(`${project.photoLink.src}`)}
+        >{project.title}</h3>
         <div className="built-with">
           <img
             className="dev-icon"
@@ -28,25 +30,36 @@ const Project = ({ project }) => {
           />
         </div>
       </div>
-      <img
+      <iframe
         className="website-still"
         src={project.photoLink.src}
-        onClick={() => openLink(`${project.photoLink.href}`)}
-        alt="Project preview"
-      />
+        height="400"
+        width="200"
+        title="Project preview"
+      ></iframe>
       <div className="text">
         <p className="text">{project.description}</p>
       </div>
-
-      <button className="lookup" onClick={() => openLink(`${project.github}`)}>
-      <img
+      <div className="project__button-wrapper">
+      <button className="lookup" onClick={() => openLink(`${project.photoLink.src2}`)}>
+      {/* <img
           className="github-icon-btn"
           src="../contact-icons/github.png"
           alt="github-icon"
           width="40px"
-        />
+        /> */}
+        Site
+      </button>     
+      <button className="lookup" onClick={() => openLink(`${project.github}`)}>
+      {/* <img
+          className="github-icon-btn"
+          src="../contact-icons/github.png"
+          alt="github-icon"
+          width="40px"
+        /> */}
         Code
       </button>
+      </div>
     </div>
   );
 };

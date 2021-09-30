@@ -24,13 +24,14 @@
 }
 .contact-text {
   padding-left: 10px;
-  font-size: 17px;
+  font-size: 15px;
   font-family: 'Open Sans', sans-serif;
 }
 .email-text {
   color: black;
   transition: all ease-in-out 0.5s;
   font-weight: 700;
+  font-size: 15px;
   font-family: 'Open Sans', sans-serif;
 }
 .email-text:hover {

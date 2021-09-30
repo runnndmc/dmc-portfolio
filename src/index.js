@@ -8,10 +8,29 @@ import { BrowserRouter as Router } from "react-router-dom";
 const projectsList = [
   {
     id: 1,
+    title: "Admin Feature Sort and Filter",
+    photoLink: {
+        src: "https://www.youtube.com/embed/o7cGMn5_jx8",
+        src2: "https://www.youtube.com/embed/o7cGMn5_jx8",
+      // href: "https://moiveworm.netlify.app",
+      // src: "https://i.imgur.com/U5lC9z8.png",
+    },
+    devIcons: {
+      src1: "./dev-icons/react-small.png",
+      src2: "./dev-icons/scss.png",
+      src3: "./dev-icons/material-ui.png",
+    },
+    description:
+      "Utilizing React, JavaScript, material ui and SCSS, I made a feature on an administration page to view all of the students who have enrolled in a program. The user is able to filter the students by their enrollment status and sort the students by date, email or username in either ascending or descending order.",
+    github: "https://www.youtube.com/embed/tFt5vCWaR94",
+  },
+  {
+    id: 2,
     title: "Still Positive",
     photoLink: {
-      href: "https://stillpositive.netlify.app/",
-      src: "../project-photos/StillPositive.png",
+      src: "https://www.youtube.com/embed/t8Pp8n53530",
+      src2: "https://stillpositive.netlify.app/",
+      // src: "../project-photos/StillPositive.png",
     },
     devIcons: {
       src1: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
@@ -23,11 +42,12 @@ const projectsList = [
     github: "https://github.com/runnndmc/still-positive",
   },
   {
-    id: 2,
+    id: 3,
     title: "New Alternatives",
     photoLink: {
-      href: "http://new-alternatives-site.surge.sh/",
-      src: "https://i.imgur.com/1aUVjGC.png",
+      src: "https://www.youtube.com/embed/Kt9lTI7pgHQ",
+      src2: "http://new-alternatives-site.surge.sh/",
+      // src: "https://i.imgur.com/1aUVjGC.png",
     },
     devIcons: {
       src1: "https://img.icons8.com/color/48/000000/mongodb.png",
@@ -39,27 +59,12 @@ const projectsList = [
     github: "https://github.com/chrisratsimba123/new-alternatives-app/",
   },
   {
-    id: 3,
-    title: "Movie Worm",
-    photoLink: {
-      href: "https://moiveworm.netlify.app",
-      src: "https://i.imgur.com/U5lC9z8.png",
-    },
-    devIcons: {
-      src1: "./dev-icons/ruby.png",
-      src2: "./dev-icons/rails.png",
-      src3: "./dev-icons/react-small.png",
-    },
-    description:
-      "Built a on Rails server, with three database tables which included user authentication and a join table. Created an interactive React front-end with full CRUD on all movies and the ability to create a review and rating for each specific movie.",
-    github: "https://github.com/runnndmc/MovieWorm",
-  },
-  {
     id: 4,
-    title: "Landing Page",
+    title: "EarQ Landing Page",
     photoLink: {
-      href: "https://earq.netlify.app/",
-      src: "./project-photos/landing-page.png",
+      src: "https://www.youtube.com/embed/84UZarfMwMw",
+      src2: "https://earq.netlify.app/",
+      // src: "./project-photos/landing-page.png",
     },
     devIcons: {
       src1: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
@@ -70,6 +75,23 @@ const projectsList = [
       "A single page web application for a featured special running on a particular brand of hearing aid. The offer is only given to those who sign up with the given companies' newsletter list. Built with a React architecture with JavaScript code utilizing CSS and Flexbox for styling.",
     github: "https://github.com/runnndmc/ear-q-landing",
   },
+
+  // {
+  //   id: 3,
+  //   title: "Movie Worm",
+  //   photoLink: {
+  //     href: "https://moiveworm.netlify.app",
+  //     src: "https://i.imgur.com/U5lC9z8.png",
+  //   },
+  //   devIcons: {
+  //     src1: "./dev-icons/ruby.png",
+  //     src2: "./dev-icons/rails.png",
+  //     src3: "./dev-icons/react-small.png",
+  //   },
+  //   description:
+  //     "Built a on Rails server, with three database tables which included user authentication and a join table. Created an interactive React front-end with full CRUD on all movies and the ability to create a review and rating for each specific movie.",
+  //   github: "https://github.com/runnndmc/MovieWorm",
+  // },
 ];
 
 ReactDOM.render(
