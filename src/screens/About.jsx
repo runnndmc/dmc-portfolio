@@ -8,6 +8,7 @@ const AboutMe = () => {
     <Layout>
       <span id="about"> &nbsp; </span>
       <div className="about-section">
+
         <div className="about-info">
           <p className="statement">
             I'm passionate about delivering end-to-end experiences and care
@@ -16,18 +17,32 @@ const AboutMe = () => {
             applications, I aim to implement clean, effective technology that
             can directly affect the consumers understanding of a product.
           </p>
+
           <div className="line-wrapper">
             <div className="line"></div>
           </div>
+
           <img className="about-photo" src="../profile.png" alt="a white woman with showrt brown hair wearing a dark gret knit sweater and a silver necklace chain" />
         </div>
 
         <div className="question-block">
           <h2 className="question-text">"Tell me about yourself!"</h2>
         </div>
+
       </div>
     </Layout>
   );
 };
 
 export default AboutMe;
+
+/* ===== NOTES ===== */
+// check up on statement -  add EarQ
+// line wrapper needed ?
+// about-info -> about-me__wrapper
+// about-me__photo
+// img accessible? 
+//check height on question block
+// padding-right needed?
+// flex wrap on about-section instead of about-info?
+// photo adjust.. instead of height and width 

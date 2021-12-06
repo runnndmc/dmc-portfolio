@@ -16,3 +16,11 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
+/* ===== NOTES ===== */
+//  h2 -> h1 
+// Front End Developer
+// p's ? 
+// scss ? 
+// view my work button?

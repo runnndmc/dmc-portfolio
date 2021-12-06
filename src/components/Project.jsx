@@ -65,3 +65,7 @@ const Project = ({ project }) => {
 };
 
 export default Project;
+
+
+/* ===== NOTES ===== */
+//  clean up  unused // card info in general 

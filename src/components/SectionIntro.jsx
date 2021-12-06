@@ -11,3 +11,6 @@ const SectionIntro = () => {
 };
 
 export default SectionIntro;
+
+/* ===== NOTES ===== */
+// possible for cleaner css?

@@ -24,3 +24,11 @@ const Work = ({ projectsList }) => {
 };
 
 export default Work;
+
+/* ===== NOTES ===== */
+// check in on projectsJSX in index.js
+// are all details needed? - simmplified ?
+// work-color changed to a background-color-card or somehting
+// similar to the project cards 
+// also-- is there a better way? scss?
+// add ear q site and vida site
