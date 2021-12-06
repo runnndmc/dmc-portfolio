@@ -68,4 +68,4 @@ export default Project;
 
 
 /* ===== NOTES ===== */
-//  clean up  unused // card info in general 
+//  clean up  unused // card info in general !
