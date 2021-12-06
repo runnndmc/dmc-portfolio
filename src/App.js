@@ -2,10 +2,10 @@ import React from "react";
 
 import "./App.css";
 
-import Hero from "./sections/Hero";
-import About from "./sections/About";
-import Work from "./sections/Work";
-import Contact from "./sections/Contact";
+import Hero from "./screens/Hero";
+import About from "./screens/About";
+import Work from "./screens/Work";
+import Contact from "./screens/Contact";
 
 const App = ({ projectsList }) => {
   return (

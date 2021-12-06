@@ -48,3 +48,7 @@ const Nav = () => {
 };
 
 export default Nav;
+
+/* ===== NOTES ===== */
+// nav to nav tag
+// clean up css
