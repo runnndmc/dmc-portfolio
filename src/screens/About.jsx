@@ -40,9 +40,11 @@ export default AboutMe;
 // check up on statement -  add EarQ
 // line wrapper needed ?
 // about-info -> about-me__wrapper
-// about-me__photo
+// about-me__photo name 
 // img accessible? 
-//check height on question block
+// check height on question block - try to fit on fold
 // padding-right needed?
 // flex wrap on about-section instead of about-info?
-// photo adjust.. instead of height and width 
+// photo adjust.. instead of height and width and border adjust, 
+// full section - raised background with just shadow instead of border and annimation to arrive on scroll
+//

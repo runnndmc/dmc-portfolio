@@ -52,3 +52,5 @@ export default Nav;
 /* ===== NOTES ===== */
 // nav to nav tag
 // clean up css
+// button update!
+// icons from font-awesome && removed from icons 

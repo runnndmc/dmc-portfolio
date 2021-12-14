@@ -31,4 +31,6 @@ export default Work;
 // work-color changed to a background-color-card or somehting
 // similar to the project cards 
 // also-- is there a better way? scss?
-// add ear q site and vida site
+// add ear q site and update vida site name
+// work title and T border up instead of down 
+// button update with nav button 

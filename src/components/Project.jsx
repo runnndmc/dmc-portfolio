@@ -69,3 +69,4 @@ export default Project;
 
 /* ===== NOTES ===== */
 //  clean up  unused // card info in general !
+// jump up on full card instead of video? - if not maybe lose that 
