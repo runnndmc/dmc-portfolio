@@ -8,12 +8,26 @@ import { BrowserRouter as Router } from "react-router-dom";
 const projectsList = [
   {
     id: 1,
-    title: "Admin Feature Sort and Filter",
+    title: "Lakeland Hearing Care",
+    photoLink: {
+      // src: "https://www.youtube.com/embed/84UZarfMwMw",
+      // src2: "https://earq.netlify.app/",
+    },
+    devIcons: {
+      src1: "./dev-icons/wordpress.png",
+      src2: "https://img.icons8.com/color/48/000000/css3.png",
+      src3: "./dev-icons/elementor.png",
+    },
+    description:
+      "A live webpage for Lakeland Hearing Care in Lakeland Florida. I built a designed layout by a team of designers. From the desgin layout, the design team created a customer specific design that I then developed on WordPress.",
+  },
+
+  {
+    id: 2,
+    title: "VIDA Admin: Sort and Filter Feature",
     photoLink: {
         src: "https://www.youtube.com/embed/o7cGMn5_jx8",
         src2: "https://www.youtube.com/embed/o7cGMn5_jx8",
-      // href: "https://moiveworm.netlify.app",
-      // src: "https://i.imgur.com/U5lC9z8.png",
     },
     devIcons: {
       src1: "./dev-icons/react-small.png",
@@ -25,7 +39,7 @@ const projectsList = [
     github: "https://www.youtube.com/embed/tFt5vCWaR94",
   },
   {
-    id: 2,
+    id: 3,
     title: "Still Positive",
     photoLink: {
       src: "https://www.youtube.com/embed/t8Pp8n53530",
@@ -42,7 +56,7 @@ const projectsList = [
     github: "https://github.com/runnndmc/still-positive",
   },
   {
-    id: 3,
+    id: 4,
     title: "New Alternatives",
     photoLink: {
       src: "https://www.youtube.com/embed/Kt9lTI7pgHQ",
@@ -57,23 +71,6 @@ const projectsList = [
     description:
       "In collaboration with a UX design team and three other software engineers, built a full-stack MERN CRUD site which took an already existing non-profit website and fully redesigned it. New Alternatives is a user friendly and interactive site with user testimonials and video carousels.",
     github: "https://github.com/chrisratsimba123/new-alternatives-app/",
-  },
-  {
-    id: 4,
-    title: "EarQ Landing Page",
-    photoLink: {
-      src: "https://www.youtube.com/embed/84UZarfMwMw",
-      src2: "https://earq.netlify.app/",
-      // src: "./project-photos/landing-page.png",
-    },
-    devIcons: {
-      src1: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-      src2: "https://img.icons8.com/color/48/000000/css3.png",
-      src3: "./dev-icons/react-small.png",
-    },
-    description:
-      "A single page web application for a featured special running on a particular brand of hearing aid. The offer is only given to those who sign up with the given companies' newsletter list. Built with a React architecture with JavaScript code utilizing CSS and Flexbox for styling.",
-    github: "https://github.com/runnndmc/ear-q-landing",
   },
 
   // {
