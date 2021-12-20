@@ -4,8 +4,8 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <div className="header">
-      <a href="#home" className="dmc">
+    <div className="header__wrapper">
+      <a href="#home" className="header__dmc">
         DMC
       </a>
     </div>
