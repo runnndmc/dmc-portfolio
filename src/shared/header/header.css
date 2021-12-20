@@ -9,7 +9,7 @@
 }
 .header__dmc {
   font-size: 50px;
-  color: #e86521;
+  color: #C64401;
   font-family: "IBM Plex Serif", serif;
   font-weight: 500;
   padding: 1%;
@@ -17,6 +17,6 @@
   text-decoration: none;
 }
 .dmc:hover {
-  background-color: #e86521;
+  background-color: #C64401;
   color: #fff3e0;
 }

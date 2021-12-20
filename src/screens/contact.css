@@ -4,7 +4,7 @@
   justify-content: flex-start;
   align-items: space-between;
   background-color: #fff3e0;
-  border: 1px solid #e86521;
+  border: 1px solid #C64401;
   margin: 10% 30%;
   margin-top: 5%;
   font-family: "IBM Plex Serif", serif;
@@ -17,7 +17,7 @@
 }
 .email-link:hover {
   color: #ffffff;
-  background-color: #e86521;
+  background-color: #C64401;
 }
 .mail-image {
   width: 100px;
@@ -36,7 +36,7 @@
 }
 .email-text:hover {
   color: #ffffff;
-  background-color: #e86521;
+  background-color: #C64401;
 }
 .dev-icon {
   max-width: 3em;

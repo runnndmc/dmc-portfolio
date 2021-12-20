@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: flex-start;
   background-color: #ffff;
-  border: 1px solid #e86521;
+  border: 1px solid #C64401;
   z-index: 1;
   width: 40%;
   margin: 50px;
@@ -24,7 +24,7 @@
   transition: all ease-in-out 0.25s;
 }
 .title:hover{
-  background-color: #e86521;
+  background-color: #C64401;
   color:#ffff;
 }
 

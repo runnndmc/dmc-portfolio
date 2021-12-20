@@ -15,7 +15,7 @@
 }
 
 button {
-  background-color: #e86521;
+  background-color: #C64401;
   color: #ffffff;
   text-decoration: none;
   font-size: 25px;
@@ -30,7 +30,8 @@ button {
 
 button:hover {
   background-color: #ffffff;
-  color: #e86521;
+  color: #C64401;
+  ;
 }
 
 .connect-icons {
@@ -51,7 +52,7 @@ button:hover {
 }
 
 .tag:hover {
-  background-color: #e86521;
+  background-color: #C64401;
   color: #fff3e0;
 }
 
