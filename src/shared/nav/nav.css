@@ -1,39 +1,33 @@
-.nav {
+nav {
   position: fixed;
   top: 90%;
-  width: 100vw;
+  width: 100%;
   background-color: #fff3e0;
   z-index: 1;
 }
-
-.nav-bar {
+.nav__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: -6px 5px 5px 5px;
-  padding: 5px 20px 2em 20px;
+  margin: 0 2%;
 }
-
 button {
   background-color: #C64401;
-  color: #ffffff;
+  color: #fff3e0;
   text-decoration: none;
-  font-size: 25px;
-  font-weight: 700;
-  border-radius: 3em;
-  padding: 0.5em 1.5em;
-  border: 3px solid #ccc0ae;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5em;
+  padding: .5em 2em;
+  border:none;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
 }
-
 button:hover {
   background-color: #ffffff;
   color: #C64401;
-  ;
 }
-
 .connect-icons {
   width: 20%;
   display: flex;
@@ -65,7 +59,7 @@ button:hover {
     padding: 0.5em 0.5em;
     font-size: 23px;
   }
-  .nav-bar {
+  .nav__wrapper {
     padding-left: 3px;
     padding-right: 3px;
   }

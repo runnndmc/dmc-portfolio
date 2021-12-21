@@ -1,16 +1,20 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaGithubAlt } from "react-icons/fa";
+
 
 import "./nav.css";
 
 const Nav = () => {
   return (
-    <div className="nav">
-      <div className="nav-bar">
+    <nav>
+      <div className="nav__wrapper">
         <a href="#work">
-          <button className="work-link">Work</button>
+          <button className="nav__work-btn">Work</button>
         </a>
         <div className="connect-icons">
-          <a
+          <FaGithubAlt/>
+          {/* <a
             href="https://github.com/runnndmc"
             target="_blank"
             rel="noopener noreferrer"
@@ -21,7 +25,7 @@ const Nav = () => {
               src="../contact-icons/github.png"
               alt="github-icon"
             />
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/daynachristison/"
             target="_blank"
@@ -43,14 +47,13 @@ const Nav = () => {
           <button className="resume-link">Resume</button>
         </a>
       </div>
-    </div>
+    </nav>
   );
 };
 
 export default Nav;
 
 /* ===== NOTES ===== */
-// nav to nav tag
 // clean up css
 // button update!
-// icons from font-awesome && removed from icons 
+// icons from font-awesome && removed from icons
