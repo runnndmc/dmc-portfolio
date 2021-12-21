@@ -12,6 +12,7 @@ nav {
   margin: 0 2%;
 }
 button {
+  font-family: 'Open Sans', sans-serif;
   background-color: #C64401;
   color: #fff3e0;
   text-decoration: none;
@@ -22,40 +23,36 @@ button {
   border:none;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
 }
 button:hover {
   background-color: #ffffff;
   color: #C64401;
 }
-.connect-icons {
+.nav__button-a{
+  padding-bottom: 1em;
+}
+.nav__icons-wrapper {
   width: 20%;
   display: flex;
   justify-content: space-around;
-  padding-top: 5px;
+  align-content: baseline;
 }
-
-.tag {
-  margin: 0 5px;
+.nav__social-icons {
   color: #000000;
-  font-size: 20px;
-  letter-spacing: 0.1em;
   transition: all 0.3s ease-in-out;
-  font-weight: 600;
-  padding: 3px;
+  cursor: pointer;
+  padding: 1em;
 }
-
-.tag:hover {
+.nav__social-icons:hover {
   background-color: #C64401;
   color: #fff3e0;
 }
 
-
 /*===== MEDIA QUERIES ===== */
 
 @media (max-width: 500px) {
-  .work-link,
-  .resume-link {
+  .nav__work-btn,
+  .nav__resume-btn {
     padding: 0.5em 0.5em;
     font-size: 23px;
   }
