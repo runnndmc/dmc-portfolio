@@ -10,11 +10,11 @@ const Nav = () => {
         <a href="#work" className="nav__button-a"><button className="nav__work-btn">Work</button></a>
 
         <div className="nav__icons-wrapper">
-          <a href="https://github.com/runnndmc" className="nav__social-icons" target="_blank" rel="noopener noreferrer">
-            <FaGithubAlt style={{fontSize: '50px'}}/>
+          <a href="https://github.com/runnndmc" className="nav__social-icon" target="_blank" rel="noopener noreferrer">
+            <FaGithubAlt style={{fontSize: '50px', color:'#C64401'}}/>
           </a>
-          <a href="https://www.linkedin.com/in/daynachristison/" className="nav__social-icons" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin style={{fontSize: '45px'}}/>
+          <a href="https://www.linkedin.com/in/daynachristison/" className="nav__social-icon" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin style={{fontSize: '45px', color:'#C64401'}}/>
           </a>
         </div>
 
@@ -30,6 +30,4 @@ const Nav = () => {
 export default Nav;
 
 /* ===== NOTES ===== */
-// clean up css
 // button update!
-// check responsiveness
