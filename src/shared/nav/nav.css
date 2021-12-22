@@ -48,6 +48,12 @@ button:hover {
 
 /*===== MEDIA QUERIES ===== */
 
+@media (max-width: 1024px) {
+  .nav__social-icon{
+    padding:1.8em;
+
+  }
+}
 @media (max-width: 500px) {
   .nav__work-btn,
   .nav__resume-btn {
@@ -77,5 +83,15 @@ button:hover {
   }
   .nav__icons-wrapper{
     padding-bottom: 1em;
+  }
+}
+@media (max-width: 280px) {
+  .nav__wrapper {
+    padding:1%
+  }
+  .nav__work-btn,
+  .nav__resume-btn {
+    padding: 0.5em;
+    font-size: 18px;
   }
 }
