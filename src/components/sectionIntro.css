@@ -2,20 +2,23 @@
   width: 100vw;
   height: fit-content;
   position: absolute;
+  background-color: #C64401;
+
 }
 
 .vertical-line {
-  border-left: 0.01em solid #000000;
+  border-left: 0.01em solid #fff3e0;
   height: 50%;
   position: absolute;
   left: 50.2%;
+  top: -5px;
   margin-left: -3px;
 }
 
 .horizontal-line {
-  border-top: 0.01em solid #000000;
+  border-top: 0.01em solid #fff3e0;
   width: 50%;
-  margin-top: 10%;
+  margin-top: 9.5%;
   margin-left: 25%;
   padding-bottom: 10%;
 }

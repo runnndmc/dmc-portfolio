@@ -1,39 +1,43 @@
 
-.section-heading {
+.work__heading {
   margin: 0 auto;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 18%;
   font-family: "IBM Plex Serif", serif;
-  font-size: 50px;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 110px;
+  background-color: #C64401;
+  color: #fff3e0;
+  
 }
 
-.work-section {
+.work__section-wrapper {
   display: flex;
   position: relative;
   width: 100%;
-  margin-top: 10%;
+  background-color: #C64401;
+
 }
 
-.project-cards {
+.work__project-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100vw;
-  border: 0.01em solid #000000;
 }
 
-.work-color {
+.work__color-section {
   width: 50vw;
   height: 99.9%;
   background-color: #C64401;
   position: absolute;
-  border: 0.01em solid #000000;
 }
 
 /*===== MEDIA QUERIES ===== */
 
 @media (max-width: 500px) {
-  .work-color {
+  .work__color-section {
     width: 100vw;
   }
 }
