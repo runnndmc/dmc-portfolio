@@ -1,49 +1,35 @@
-.project-wrapper {
+.project__card {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   background-color: #fff3e0;
   border-radius: 10px;
   z-index: 1;
-  width: 40%;
   margin: 50px;
+  padding: 2%;
 }
 
 .project-intro {
   display: flex;
   width: 100%;
-  justify-content: space-between;
 }
 
-.title {
-  margin: 35px;
-  margin-bottom: 0;
+.project__title {
   font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
   font-size: 30px;
   text-decoration: underline;
   transition: all ease-in-out 0.25s;
+  cursor: pointer;
 }
-.title:hover{
+.project__title:hover{
   background-color: #C64401;
   color:#ffff;
-}
-
-.built-with {
-  align-self: flex-end;
-  margin-top: -10%;
-  display: flex;
-  align-items: baseline;
-}
-
-.dev-icon {
-  height: 50px;
+  padding: 2px;
 }
 
 .website-still {
   align-self: center;
-  width: 30vw;
   box-shadow: 2px 2px 10px #ccc0ae;
-  margin-top: 10%;
   transition: all ease-in-out 0.25s;
   cursor: pointer;
 }
@@ -56,10 +42,8 @@
   display: flex;
   flex-direction: column;
   text-align: justify;
-  margin: 0px 30px;
-  padding: 10px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
 }
 .project__button-wrapper{
   width: 40vw;
@@ -79,7 +63,7 @@
 /*===== MEDIA QUERIES ===== */
 
 @media (max-width: 500px) {
-  .project-wrapper {
+  .project__card {
     width: 90%;
     margin: 15px;
   }
@@ -89,9 +73,6 @@
     justify-content: center;
   }
 
-  .built-with {
-    margin: 0;
-  }
 
   .website-still {
     width: 80vw;

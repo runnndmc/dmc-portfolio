@@ -2,41 +2,19 @@ import React from "react";
 import "./project.css";
 
 const Project = ({ project }) => {
+
   function openLink(link) {
     window.open(link);
   }
 
   return (
-    <div className="project-wrapper">
-      <div className="project-intro">
-        <h3 className="title"
-        onClick={() => openLink(`${project.photoLink.src}`)}
-        >{project.title}</h3>
-        <div className="built-with">
-          <img
-            className="dev-icon"
-            src={project.devIcons.src1}
-            alt="Tech stack Icon"
-          />
-          <img
-            className="dev-icon"
-            src={project.devIcons.src2}
-            alt="Tech stack Icon"
-          />
-          <img
-            className="dev-icon"
-            src={project.devIcons.src3}
-            alt="Tech stack Icon"
-          />
-        </div>
-      </div>
-      <iframe
-        className="website-still"
-        src={project.photoLink.src}
-        height="400"
-        width="200"
-        title="Project preview"
-      ></iframe>
+    <div className="project__card">
+        <h3 className="project__title" onClick={() => openLink(`${project.photoLink.src}`)}>{project.title}</h3>
+        <iframe
+          className="website-still"
+          src={project.photoLink.src}
+          title="Project preview"
+        ></iframe>
       <div className="text">
         <p className="text">{project.description}</p>
       </div>
@@ -70,3 +48,5 @@ export default Project;
 /* ===== NOTES ===== */
 //  clean up  unused // card info in general !
 // jump up on full card instead of video? - if not maybe lose that 
+
+// ifram instead to hover and play video 

@@ -13,6 +13,7 @@ const Nav = () => {
           <a href="https://github.com/runnndmc" className="nav__social-icon" target="_blank" rel="noopener noreferrer">
             <FaGithubAlt style={{fontSize: '50px', color:'#C64401'}}/>
           </a>
+          
           <a href="https://www.linkedin.com/in/daynachristison/" className="nav__social-icon" target="_blank" rel="noopener noreferrer">
             <FaLinkedin style={{fontSize: '45px', color:'#C64401'}}/>
           </a>

@@ -6,7 +6,8 @@ import SectionIntro from "../components/SectionIntro";
 import "./work.css";
 
 const Work = ({ projectsList }) => {
-  const projectsJSX = projectsList.map((project) => (
+
+  const projectCards = projectsList.map((project) => (
     <Project project={project} key={project.id} />
   ));
 
@@ -16,7 +17,7 @@ const Work = ({ projectsList }) => {
       <SectionIntro />
       <h2 className="work__heading">Work</h2>
       <div className="work__section-wrapper">
-        <div className="work__project-cards">{projectsJSX}</div>
+        <div className="work__project-cards">{projectCards}</div>
         <div className="work__color-section"></div>
       </div>
     </Layout>
