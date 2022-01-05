@@ -43,9 +43,9 @@ const projectsList = [
     id: 3,
     title: "Still Positive",
     photoLink: {
-      src: "https://www.youtube.com/embed/t8Pp8n53530",
+      //src: "https://www.youtube.com/embed/t8Pp8n53530",
       src2: "https://stillpositive.netlify.app/",
-      // src: "../project-photos/StillPositive.png",
+      src: "../project-photos/StillPositive.png",
     },
     devIcons: {
       src1: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
@@ -60,9 +60,9 @@ const projectsList = [
     id: 4,
     title: "New Alternatives",
     photoLink: {
-      src: "https://www.youtube.com/embed/Kt9lTI7pgHQ",
+      //src: "https://www.youtube.com/embed/Kt9lTI7pgHQ",
       src2: "http://new-alternatives-site.surge.sh/",
-      // src: "https://i.imgur.com/1aUVjGC.png",
+      src: "https://i.imgur.com/1aUVjGC.png",
     },
     devIcons: {
       src1: "https://img.icons8.com/color/48/000000/mongodb.png",
