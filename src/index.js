@@ -9,7 +9,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 const projectsList = [
   {
     id: 1,
-    title: "Lakeland Hearing Care",
+    title: "Birmingham Speech and Hearing: Live Website",
     photoLink: {
       // src: "https://www.youtube.com/embed/84UZarfMwMw",
       // src2: "https://earq.netlify.app/",
@@ -20,12 +20,12 @@ const projectsList = [
       src3: "./dev-icons/elementor.png",
     },
     description:
-      "A live webpage for Lakeland Hearing Care in Lakeland Florida. I built a designed layout by a team of designers. From the desgin layout, the design team created a customer specific design that I then developed on WordPress.",
+      "A live webpage for Birmingham Speech and Hearing in Lakeland Florida. I built a designed layout by a team of designers. From the desgin layout, the design team created a customer specific design that I then developed on WordPress.",
   },
 
   {
     id: 2,
-    title: "VIDA Admin: Sort and Filter Feature",
+    title: "VIDA & Co.: Admin Feature",
     photoLink: {
         src: "https://www.youtube.com/embed/o7cGMn5_jx8",
         src2: "https://www.youtube.com/embed/o7cGMn5_jx8",
@@ -41,7 +41,7 @@ const projectsList = [
   },
   {
     id: 3,
-    title: "Still Positive",
+    title: "Still Positive: Podcast Website",
     photoLink: {
       //src: "https://www.youtube.com/embed/t8Pp8n53530",
       src2: "https://stillpositive.netlify.app/",
@@ -58,7 +58,7 @@ const projectsList = [
   },
   {
     id: 4,
-    title: "New Alternatives",
+    title: "New Alternatives: Non-Profit Project",
     photoLink: {
       //src: "https://www.youtube.com/embed/Kt9lTI7pgHQ",
       src2: "http://new-alternatives-site.surge.sh/",

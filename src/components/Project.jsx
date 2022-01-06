@@ -1,9 +1,6 @@
 import React from "react";
 import {
   FaGithubAlt,
-  FaEye,
-  FaRegEye,
-  FaGlasses,
   FaExternalLinkAlt,
 } from "react-icons/fa";
 
@@ -30,14 +27,13 @@ const Project = ({ project }) => {
             src="../videos/dmc_portfolio-earq.mp4"
             onMouseEnter={(e) => e.target.play()}
             onMouseLeave={(e) => e.target.pause()}
+            muted
             type="video/mp4"
           ></video>
         </div>
       </div>
-
-
   
-        <p className="project__text">{project.description}</p>
+      <p className="project__text">{project.description}</p>
 
       <div className="project__buttons-wrapper">
         <button onClick={() => openLink(`${project.photoLink.src2}`)}>
@@ -56,6 +52,3 @@ export default Project;
 
 /* ===== NOTES ===== */
 //  clean up  unused // card info in general !
-// jump up on full card instead of video? - if not maybe lose that
-
-// ifram instead to hover and play video
