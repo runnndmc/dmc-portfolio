@@ -15,7 +15,7 @@ const Project = ({ project }) => {
     <div className="project__card">
       <h3
         className="project__title"
-        onClick={() => openLink(`${project.photoLink.src}`)}
+        onClick={() => openLink(`${project.videoLink.src}`)}
       >
         {project.title}
       </h3>
@@ -36,7 +36,7 @@ const Project = ({ project }) => {
       <p className="project__text">{project.description}</p>
 
       <div className="project__buttons-wrapper">
-        <button onClick={() => openLink(`${project.photoLink.src2}`)}>
+        <button onClick={() => openLink(`${project.videoLink.src2}`)}>
           <FaExternalLinkAlt style={{ fontSize: "30px", color: "white" }} />
         </button>
 

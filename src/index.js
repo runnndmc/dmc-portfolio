@@ -12,13 +12,8 @@ const projectsList = [
     title: "Birmingham Speech and Hearing: Live Website",
     videoLink: {
       src: "../videos/project_BirminghamS:H.mp4",
-      // src2: "https://earq.netlify.app/",
+      src2: "https://earq.netlify.app/",
     },
-    devIcons: {
-      src1: "./dev-icons/wordpress.png",
-      src2: "https://img.icons8.com/color/48/000000/css3.png",
-      src3: "./dev-icons/elementor.png",
-    },  
     description:
       "A live webpage for Birmingham Speech and Hearing in Lakeland Florida. I built a designed layout by a team of designers. From the desgin layout, the design team created a customer specific design that I then developed on WordPress.",
   },
@@ -28,11 +23,6 @@ const projectsList = [
     videoLink: {
         src: "../videos/form-sort-and-filter.mp4",
         src2: "https://www.youtube.com/embed/o7cGMn5_jx8",
-    },
-    devIcons: {
-      src1: "./dev-icons/react-small.png",
-      src2: "./dev-icons/scss.png",
-      src3: "./dev-icons/material-ui.png",
     },
     description:
       "Utilizing React, JavaScript, material ui and SCSS, I made a feature on an administration page to view all of the students who have enrolled in a program. The user is able to filter the students by their enrollment status and sort the students by date, email or username in either ascending or descending order.",
@@ -44,11 +34,6 @@ const projectsList = [
     videoLink: {
       src: "../videos/stp_ preview.mp4",
       src2: "../project-photos/StillPositive.png",
-    },
-    devIcons: {
-      src1: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-      src2: "https://img.icons8.com/color/48/000000/css3.png",
-      src3: "./dev-icons/react-small.png",
     },
     description:
       "A PWA with emphasis on accessibility. The site was created to host the podcast Still Positive for people who are chronically ill and/or disabled. Built with React Hooks with complete responsive modern design, Still Positive utilizes Airtable's API to fetch and store the data.",
