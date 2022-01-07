@@ -10,24 +10,23 @@ const projectsList = [
   {
     id: 1,
     title: "Birmingham Speech and Hearing: Live Website",
-    photoLink: {
-      // src: "https://www.youtube.com/embed/84UZarfMwMw",
+    videoLink: {
+      src: "../videos/project_BirminghamS:H.mp4",
       // src2: "https://earq.netlify.app/",
     },
     devIcons: {
       src1: "./dev-icons/wordpress.png",
       src2: "https://img.icons8.com/color/48/000000/css3.png",
       src3: "./dev-icons/elementor.png",
-    },
+    },  
     description:
       "A live webpage for Birmingham Speech and Hearing in Lakeland Florida. I built a designed layout by a team of designers. From the desgin layout, the design team created a customer specific design that I then developed on WordPress.",
   },
-
   {
     id: 2,
     title: "VIDA & Co.: Admin Feature",
-    photoLink: {
-        src: "https://www.youtube.com/embed/o7cGMn5_jx8",
+    videoLink: {
+        src: "../videos/form-sort-and-filter.mp4",
         src2: "https://www.youtube.com/embed/o7cGMn5_jx8",
     },
     devIcons: {
@@ -42,10 +41,9 @@ const projectsList = [
   {
     id: 3,
     title: "Still Positive: Podcast Website",
-    photoLink: {
-      //src: "https://www.youtube.com/embed/t8Pp8n53530",
-      src2: "https://stillpositive.netlify.app/",
-      src: "../project-photos/StillPositive.png",
+    videoLink: {
+      src: "../videos/stp_ preview.mp4",
+      src2: "../project-photos/StillPositive.png",
     },
     devIcons: {
       src1: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
@@ -59,10 +57,10 @@ const projectsList = [
   {
     id: 4,
     title: "New Alternatives: Non-Profit Project",
-    photoLink: {
-      //src: "https://www.youtube.com/embed/Kt9lTI7pgHQ",
+    videoLink: {
+      src: "../videos/new-alternatives_preview.mp4",
       src2: "http://new-alternatives-site.surge.sh/",
-      src: "https://i.imgur.com/1aUVjGC.png",
+      //src: "https://i.imgur.com/1aUVjGC.png",
     },
     devIcons: {
       src1: "https://img.icons8.com/color/48/000000/mongodb.png",
@@ -77,9 +75,10 @@ const projectsList = [
   // {
   //   id: 3,
   //   title: "Movie Worm",
-  //   photoLink: {
+  //   videoLink: {
   //     href: "https://moiveworm.netlify.app",
   //     src: "https://i.imgur.com/U5lC9z8.png",
+  //     src: "../videos/project_BirminghamS:H.mp4"
   //   },
   //   devIcons: {
   //     src1: "./dev-icons/ruby.png",

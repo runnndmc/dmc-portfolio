@@ -24,7 +24,7 @@ const Project = ({ project }) => {
         <div className="project__video-box">
           <video
             className="project__clip"
-            src="../videos/dmc_portfolio-earq.mp4"
+            src={project.videoLink.src}
             onMouseEnter={(e) => e.target.play()}
             onMouseLeave={(e) => e.target.pause()}
             muted
