@@ -36,16 +36,20 @@ button:hover {
   align-items: center;
 }
 .nav__social-icon {
-  color: #000000;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
   padding: 8%;
 }
-.nav__social-icon:hover {
+
+.fa-icon{
+  font-size: 45px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  color: #C64401;
+}
+
+.fa-icon:hover{
   background-color: #C64401;
   color: #fff3e0;
 }
-
 /*===== MEDIA QUERIES ===== */
 
 @media (max-width: 1024px) {

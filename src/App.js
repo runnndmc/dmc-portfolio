@@ -13,8 +13,8 @@ const App = ({ projectsList }) => {
       <span id="home"> &nbsp; </span>
       <Hero />
       <About />
-      <Work projectsList={projectsList} />
       <Tech/>
+      <Work projectsList={projectsList} />
       <Contact />
     </div>
   );

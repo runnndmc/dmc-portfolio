@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithubAlt, FaLinkedin } from "react-icons/fa";
 import "./nav.css";
 
+
 const Nav = () => {
   return (
     <nav>
@@ -11,11 +12,10 @@ const Nav = () => {
 
         <div className="nav__icons-wrapper">
           <a href="https://github.com/runnndmc" className="nav__social-icon" target="_blank" rel="noopener noreferrer">
-            <FaGithubAlt style={{fontSize: '50px', color:'#C64401'}}/>
+            <FaGithubAlt className="fa-icon"/>
           </a>
-          
           <a href="https://www.linkedin.com/in/daynachristison/" className="nav__social-icon" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin style={{fontSize: '45px', color:'#C64401'}}/>
+            <FaLinkedin className="fa-icon"/>
           </a>
         </div>
 

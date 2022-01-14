@@ -1,20 +1,18 @@
 .project__card {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   background-color: #fff3e0;
   border-radius: 10px;
   z-index: 1;
-  margin: 50px;
+  margin: 10px;
   padding: 2%;
-  width: 100%;
-
+  width: 40%;
 }
-
 .project-intro {
   display: flex;
   width: 100%;
 }
-
 .project__title {
   font-family: "IBM Plex Serif", serif;
   font-weight: 500;
@@ -23,51 +21,39 @@
   transition: all ease-in-out 0.25s;
   cursor: pointer;
 }
-.project__title:hover{
-  background-color: #C64401;
-  color:#ffff;
+.project__title:hover {
+  background-color: #c64401;
+  color: #ffff;
   padding: 2px;
 }
-.project__video-container{
+.project__video-container {
   display: flex;
-  justify-content: center;
-  align-self: center;
-  width: 70%;
-  border: 1px solid black;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
-
-.project__video-container .project__video-box{
+.project__video-container .project__video-box {
   position: relative;
   filter: grayscale(1);
   width: 100%;
 }
-
-.project__video-container .project__video-box:hover{
+.project__video-container .project__video-box:hover {
   filter: grayscale(0);
-
 }
-
-.project__video-container .project__video-box video{
-
-}
-
-video{
+video {
   width: 100%;
 }
-
 .project__text {
   text-align: justify;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
-  width: 70%;
   align-self: center;
 }
-.project__buttons-wrapper{
+.project__buttons-wrapper {
   width: 100%;
   display: flex;
   justify-content: space-around;
 }
-
 
 /*===== MEDIA QUERIES ===== */
 
@@ -81,7 +67,6 @@ video{
     flex-wrap: wrap;
     justify-content: center;
   }
-
 
   .website-still {
     width: 80vw;

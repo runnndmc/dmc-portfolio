@@ -1,34 +1,34 @@
 import React from "react";
+import { SiExpress, SiMaterialui, SiMongodb } from "react-icons/si";
 import {
-    FaWordpress,
-    FaHtml5,
-    FaJsSquare,
-    FaNodeJs, 
-    FaPhp, 
-    FaSass,
-    FaElementor,
-    FaCss3Alt,
-    FaReact
-    
-  } from "react-icons/fa";
-  import { SiExpress, SiMaterialui, SiMongodb } from "react-icons/si"
+  FaWordpress,
+  FaHtml5,
+  FaJsSquare,
+  FaNodeJs,
+  FaPhp,
+  FaSass,
+  FaElementor,
+  FaCss3Alt,
+  FaReact,
+} from "react-icons/fa";
+import "./tech.css"
 
 import Layout from "../shared/layout/Layout";
 
 const Tech = () => {
   return (
     <Layout>
-      <div className="tech__wrapper">
-        <h2>Technologies</h2>
-        <FaWordpress></FaWordpress>
+      <h2 className="tech__heading">Technologies</h2>
+      <div className="tech__wrapper" style={{ color: "#C64401", fontSize:"4em"}}>
         <FaHtml5></FaHtml5>
         <FaJsSquare></FaJsSquare>
+        <FaReact></FaReact>
         <FaNodeJs></FaNodeJs>
         <FaPhp></FaPhp>
-        <FaSass></FaSass>
+        <FaWordpress></FaWordpress>
         <FaElementor></FaElementor>
         <FaCss3Alt></FaCss3Alt>
-        <FaReact></FaReact>
+        <FaSass></FaSass>
         <SiMaterialui></SiMaterialui>
         <SiExpress></SiExpress>
         <SiMongodb></SiMongodb>
@@ -39,8 +39,7 @@ const Tech = () => {
 
 export default Tech;
 
-
 /* ===== NOTES ===== */
-// scss ? 
+// scss ?
 // annimation instead?
-// link to check out work in hero 
+// link to check out work in hero

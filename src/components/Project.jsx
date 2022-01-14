@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  FaGithubAlt,
-  FaExternalLinkAlt,
-} from "react-icons/fa";
+import { FaGithubAlt, FaExternalLinkAlt } from "react-icons/fa";
 
 import "./project.css";
 
@@ -31,9 +28,9 @@ const Project = ({ project }) => {
             type="video/mp4"
           ></video>
         </div>
+        <p className="project__text">{project.description}</p>
       </div>
-  
-      <p className="project__text">{project.description}</p>
+
 
       <div className="project__buttons-wrapper">
         <button onClick={() => openLink(`${project.videoLink.src2}`)}>
@@ -52,3 +49,6 @@ export default Project;
 
 /* ===== NOTES ===== */
 //  clean up  unused // card info in general !
+//padding on buttons 
+// font on the card titles
+//new videos with no browser 

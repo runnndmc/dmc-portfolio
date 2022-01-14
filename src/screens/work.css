@@ -2,14 +2,14 @@
 .work__heading {
   margin: 0 auto;
   text-align: center;
-  margin-top: 18%;
+  margin-top: 12.2%;
   font-family: "IBM Plex Serif", serif;
   font-weight: 500;
   font-style: italic;
   font-size: 110px;
   background-color: #C64401;
   color: #fff3e0;
-  
+  padding-bottom: 10%;
 }
 
 .work__section-wrapper {
@@ -17,7 +17,6 @@
   position: relative;
   width: 100%;
   background-color: #C64401;
-
 }
 
 .work__project-cards {
