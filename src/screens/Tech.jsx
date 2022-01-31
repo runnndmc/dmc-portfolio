@@ -25,7 +25,7 @@ const Tech = () => {
         <FaReact></FaReact>
         <FaNodeJs></FaNodeJs>
         <FaPhp></FaPhp>
-        <FaWordpress></FaWordpress>
+        <FaWordpress></FaWordpress
         <FaElementor></FaElementor>
         <FaCss3Alt></FaCss3Alt>
         <FaSass></FaSass>
