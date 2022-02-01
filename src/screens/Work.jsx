@@ -18,7 +18,7 @@ const Work = ({ projectsList }) => {
       <h2 className="work__heading">Work</h2>
       <div className="work__section-wrapper">
         <div className="work__project-cards">{projectCards}</div>
-        <div className="work__color-section"></div>
+        {/* <div className="work__color-section"></div> */}
       </div>
     </Layout>
   );

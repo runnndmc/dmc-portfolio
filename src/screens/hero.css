@@ -4,7 +4,7 @@
   justify-content: flex-end;
   flex-direction: column;
   padding-left: 2%;
-  height: 90vh;
+  height: 92vh;
 }
 .hero__hello,
 .hero__job-title {
@@ -21,7 +21,7 @@ h1 {
   font-size: 80px;
 }
 .hero__job-title {
-  margin-bottom: 5%;
+  margin-bottom: 6%;
 }
 
 /*===== MEDIA QUERIES ===== */
