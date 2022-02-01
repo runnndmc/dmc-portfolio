@@ -33,12 +33,14 @@ button:hover {
   background-color: #ffffff;
   color: #e86521;
 }
+
 .connect-icons {
   width: 20%;
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
 }
+
 .tag {
   margin: 0 5px;
   color: #000000;
@@ -53,6 +55,8 @@ button:hover {
   background-color: #e86521;
   color: #fff3e0;
 }
+
+
 /*===== MEDIA QUERIES ===== */
 
 @media (max-width: 500px) {
