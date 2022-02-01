@@ -14,3 +14,4 @@ export default SectionIntro;
 
 /* ===== NOTES ===== */
 // possible for cleaner css?
+// possibly cut this up and make it a seperate component for contact intro 

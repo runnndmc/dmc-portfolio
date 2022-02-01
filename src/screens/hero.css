@@ -1,48 +1,43 @@
-.hero {
-  background-color: #e86521;
+.hero__wrapper {
+  background-color: #c64401;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
-  align-content: space-around;
-  padding-left: 10px;
-  height: 85vh;
-  transition: 1s ease-in;
+  padding-left: 2%;
+  height: 92vh;
 }
-.hero:hover {
-  background-color: #af3500;
-}
-
-.hello,
-.job-title {
+.hero__hello,
+.hero__job-title {
   color: #fff3e0;
   font-size: 20px;
   letter-spacing: 0.2em;
+  margin-top: 0;
 }
-
-.intro {
+h1 {
   font-family: "IBM Plex Serif", serif;
   font-weight: 500;
   color: #fff3e0;
   margin: 0;
   font-size: 80px;
 }
-
-.job-title {
-  padding-bottom: 5%;
+.hero__job-title {
+  margin-bottom: 6%;
 }
 
 /*===== MEDIA QUERIES ===== */
 
 @media (max-width: 500px) {
-  .hero {
-    height: 75vh;
+
+  .hero__wrapper {
+    height: 85vh;
   }
-  .hello,
-  .job-title {
+  .hero__hello,
+  .hero__job-title {
     font-size: 18px;
     letter-spacing: 0.02em;
   }
-  .intro {
+  h1 {
     font-size: 50px;
   }
+  
 }

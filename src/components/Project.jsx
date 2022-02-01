@@ -1,4 +1,6 @@
 import React from "react";
+import { FaGithubAlt, FaExternalLinkAlt } from "react-icons/fa";
+
 import "./project.css";
 
 const Project = ({ project }) => {
@@ -7,58 +9,37 @@ const Project = ({ project }) => {
   }
 
   return (
-    <div className="project-wrapper">
-      <div className="project-intro">
-        <h3 className="title"
-        onClick={() => openLink(`${project.photoLink.src}`)}
-        >{project.title}</h3>
-        <div className="built-with">
-          <img
-            className="dev-icon"
-            src={project.devIcons.src1}
-            alt="Tech stack Icon"
-          />
-          <img
-            className="dev-icon"
-            src={project.devIcons.src2}
-            alt="Tech stack Icon"
-          />
-          <img
-            className="dev-icon"
-            src={project.devIcons.src3}
-            alt="Tech stack Icon"
-          />
+    <div className="project__card">
+      <h3
+        className="project__title"
+        onClick={() => openLink(`${project.videoLink.src}`)}
+      >
+        {project.title}
+      </h3>
+
+      <div className="project__video-container">
+        <div className="project__video-box">
+          <video
+            className="project__clip"
+            src={project.videoLink.src}
+            onMouseEnter={(e) => e.target.play()}
+            onMouseLeave={(e) => e.target.pause()}
+            muted
+            type="video/mp4"
+          ></video>
         </div>
+        <p className="project__text">{project.description}</p>
       </div>
-      <iframe
-        className="website-still"
-        src={project.photoLink.src}
-        height="400"
-        width="200"
-        title="Project preview"
-      ></iframe>
-      <div className="text">
-        <p className="text">{project.description}</p>
-      </div>
-      <div className="project__button-wrapper">
-      <button className="lookup" onClick={() => openLink(`${project.photoLink.src2}`)}>
-      {/* <img
-          className="github-icon-btn"
-          src="../contact-icons/github.png"
-          alt="github-icon"
-          width="40px"
-        /> */}
-        Site
-      </button>     
-      <button className="lookup" onClick={() => openLink(`${project.github}`)}>
-      {/* <img
-          className="github-icon-btn"
-          src="../contact-icons/github.png"
-          alt="github-icon"
-          width="40px"
-        /> */}
-        Code
-      </button>
+
+
+      <div className="project__buttons-wrapper">
+        <button onClick={() => openLink(`${project.videoLink.src2}`)}>
+          <FaExternalLinkAlt style={{ fontSize: "30px", color: "white" }} />
+        </button>
+
+        <button onClick={() => openLink(`${project.github}`)}>
+          <FaGithubAlt style={{ fontSize: "40px", color: "white" }} />
+        </button>
       </div>
     </div>
   );
@@ -66,6 +47,8 @@ const Project = ({ project }) => {
 
 export default Project;
 
-
 /* ===== NOTES ===== */
 //  clean up  unused // card info in general !
+//padding on buttons 
+// font on the card titles
+//new videos with no browser 
