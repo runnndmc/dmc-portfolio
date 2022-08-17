@@ -5,6 +5,7 @@
   flex-direction: column;
   padding-left: 2%;
   height: 92vh;
+  position: relative;
 }
 .hero__hello,
 .hero__job-title {
@@ -12,6 +13,8 @@
   font-size: 20px;
   letter-spacing: 0.2em;
   margin-top: 0;
+  position: relative;
+
 }
 h1 {
   font-family: "IBM Plex Serif", serif;
@@ -19,11 +22,49 @@ h1 {
   color: #fff3e0;
   margin: 0;
   font-size: 80px;
+  position: relative;
+
 }
-.hero__job-title {
+.hero__job-title { 
   margin-bottom: 6%;
+  position: relative;
+
 }
 
+/*===== ANIMATIONS ===== */
+.animate{
+  animation: animate-slide 1.5s 1;
+  animation-delay: 0.5s;
+  animation-name: animate-slide;
+}
+.animate-slide{
+  animation-name: animate-slide;
+  animation-timing-function: ease;
+}
+@keyframes animate-slide{
+  from { left: 100%;}
+  to { left: 0%;}
+}
+
+/*animate up*/
+/* 
+.animate.up{
+  animation-name: animate-up;
+  animation-delay: 2s;
+
+}
+
+@keyframes animate-up{
+  from{
+    bottom: 100%;
+    opacity: 0;
+    visibility: hidden;
+  }
+  to{
+    bottom: 0%;
+    opacity: 1;
+  }
+} */
 /*===== MEDIA QUERIES ===== */
 
 @media (max-width: 500px) {

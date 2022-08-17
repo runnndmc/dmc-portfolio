@@ -4,7 +4,6 @@ import { Axios, db } from "../firebase/firebaseConfig";
 import Layout from "../shared/layout/Layout";
 // import SectionIntro from "../components/SectionIntro";
 import "./contact.css";
-import e from "cors";
 
 const Contact = () => {
   const [formData, setFormData] = useState({})

@@ -22,12 +22,16 @@ button {
   border-radius: 5em;
   padding: .8em 2em;
   border:none;
-  transition: all 0.3s ease-in-out;
   cursor: pointer;
+  position: relative;
+  top: 0;
+  transition: all 0.2s ease-in-out;
 }
 button:hover {
   background-color: #ffffff;
   color: #C64401;
+  border: 2px solid #C64401;
+  top: -5px;
 }
 .nav__icons-wrapper {
   width: 24%;
@@ -41,14 +45,14 @@ button:hover {
 
 .fa-icon{
   font-size: 50px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
+  position: relative;
+  top: 0;
+  transition: all 0.2s ease-in-out;
   color: #C64401;
 }
 
 .fa-icon:hover{
-  background-color: #C64401;
-  color: #fff3e0;
+  top: -5px;
 }
 /*===== MEDIA QUERIES ===== */
 
