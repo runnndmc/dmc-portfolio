@@ -19,7 +19,7 @@ const Nav = () => {
           </a>
         </div>
 
-        <a href="https://drive.google.com/file/d/1k_wNLq3TvGvQ8nmJBkKg7FrS1E7YoiGu/view?usp=sharing" className="nav__button-a" target="_blank"rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1IS9DjcqWjl6D7jj3Sd_8t2vo7jrC7Upk/view?usp=sharing" className="nav__button-a" target="_blank"rel="noopener noreferrer">
           <button className="nav__resume-btn">Resume</button>
         </a>
 
@@ -29,6 +29,3 @@ const Nav = () => {
 };
 
 export default Nav;
-
-/* ===== NOTES ===== */
-// button update!
