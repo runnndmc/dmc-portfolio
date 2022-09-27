@@ -8,7 +8,9 @@ const Nav = () => {
     <nav>
       <div className="nav__wrapper">
 
-        <a href="#work" className="nav__button-a"><button className="nav__work-btn">Work</button></a>
+        <a href="#work" className="nav__button-a">
+          <button className="nav__work-btn">Work</button>
+        </a>
 
         <div className="nav__icons-wrapper">
           <a href="https://github.com/runnndmc" className="nav__social-icon" target="_blank" rel="noopener noreferrer">

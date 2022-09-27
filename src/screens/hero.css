@@ -7,6 +7,9 @@
   height: 92vh;
   position: relative;
 }
+.hero__hello{
+  margin-bottom: 0;
+}
 .hero__hello,
 .hero__job-title {
   color: #fff3e0;
@@ -14,8 +17,8 @@
   letter-spacing: 0.2em;
   margin-top: 0;
   position: relative;
-
 }
+
 h1 {
   font-family: "IBM Plex Serif", serif;
   font-weight: 500;
@@ -23,62 +26,65 @@ h1 {
   margin: 0;
   font-size: 80px;
   position: relative;
-
 }
+
 .hero__job-title { 
   margin-bottom: 6%;
   position: relative;
-
 }
 
 /*===== ANIMATIONS ===== */
+
 .animate{
   animation: animate-slide 1.5s 1;
-  animation-delay: 0.5s;
   animation-name: animate-slide;
 }
+
 .animate-slide{
   animation-name: animate-slide;
   animation-timing-function: ease;
 }
+
 @keyframes animate-slide{
   from { left: 100%;}
   to { left: 0%;}
 }
 
-/*animate up*/
-/* 
-.animate.up{
-  animation-name: animate-up;
-  animation-delay: 2s;
-
-}
-
-@keyframes animate-up{
-  from{
-    bottom: 100%;
-    opacity: 0;
-    visibility: hidden;
-  }
-  to{
-    bottom: 0%;
-    opacity: 1;
-  }
-} */
 /*===== MEDIA QUERIES ===== */
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
+  .hero__wrapper {
+    height: 90vh;
+  }
+}
 
+@media (max-width: 800px) {
+  .hero__wrapper {
+    height: 55vh;
+    width: 100vw;
+  }
+}
+
+
+@media (max-width: 500px) {
   .hero__wrapper {
     height: 85vh;
   }
+
   .hero__hello,
   .hero__job-title {
     font-size: 18px;
     letter-spacing: 0.02em;
   }
+
   h1 {
     font-size: 50px;
   }
-  
+}
+
+
+@media (max-width: 418px) {
+  .hero__wrapper {
+    height: 88vh;
+  }
 }
