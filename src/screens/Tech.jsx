@@ -38,8 +38,3 @@ const Tech = () => {
 };
 
 export default Tech;
-
-/* ===== NOTES ===== */
-// scss ?
-// annimation instead?
-// link to check out work in hero

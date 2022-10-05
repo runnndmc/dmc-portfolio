@@ -1,5 +1,6 @@
 .contact__wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 .contact__heading {
   text-align: left;
@@ -8,7 +9,7 @@
   font-weight: 500;
   line-height: 5rem;
   font-style: italic;
-  font-size: 110px;
+  font-size: 3rem;
   color: #c64401;
 }
 .contact__form {
