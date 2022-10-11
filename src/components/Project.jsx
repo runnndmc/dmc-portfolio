@@ -48,7 +48,8 @@ const Project = ({ project }) => {
 export default Project;
 
 /* ===== NOTES ===== */
-//  clean up  unused // card info in general !
-//padding on buttons 
-// font on the card titles
-//new videos with no browser 
+//https://yourhearingconnection.com/
+// - remove github button 
+//Vida - Sort and Filter 
+//on hover - giuthub and page icon - color 
+// add accessAble in replacement of Still Positive

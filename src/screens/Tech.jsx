@@ -10,6 +10,7 @@ import {
   FaElementor,
   FaCss3Alt,
   FaReact,
+  FaNpm,
 } from "react-icons/fa";
 import "./tech.css"
 
@@ -32,6 +33,7 @@ const Tech = () => {
         <SiMaterialui></SiMaterialui>
         <SiExpress></SiExpress>
         <SiMongodb></SiMongodb>
+        <FaNpm></FaNpm>
       </div>
     </Layout>
   );
