@@ -9,19 +9,19 @@ import { BrowserRouter as Router } from "react-router-dom";
 const projectsList = [
   {
     id: 1,
-    title: "Birmingham Speech and Hearing: Live Website",
-    videoLink: {
-      src: "../videos/project_BirminghamS:H.mp4",
-      src2: "https://earq.netlify.app/",
+    title: "Becker Hearing Center: Live Website",
+    links: {
+      videoSrc: "https://www.beckerhearing.com/",
+      src2: "https://www.beckerhearing.com/",
     },
     description:
-      "A live webpage for Birmingham Speech and Hearing in Lakeland Florida. I built a designed layout by a team of designers. From the desgin layout, the design team created a customer specific design that I then developed on WordPress.",
+      "A live webpage for Becker Hearing Center. Developed with WordPress, Elementor, CSS, HTML5 and JavaScript.",
   },
   {
     id: 2,
     title: "VIDA & Co.: Admin Feature",
-    videoLink: {
-        src: "../videos/form-sort-and-filter.mp4",
+    links: {
+      videoSrc: "../videos/form-sort-and-filter.mp4",
         src2: "https://www.youtube.com/embed/o7cGMn5_jx8",
     },
     description:
@@ -31,8 +31,8 @@ const projectsList = [
   {
     id: 3,
     title: "Still Positive: Podcast Website",
-    videoLink: {
-      src: "../videos/stp_ preview.mp4",
+    links: {
+      videoSrc: "../videos/stp_ preview.mp4",
       src2: "../project-photos/StillPositive.png",
     },
     description:
@@ -42,8 +42,8 @@ const projectsList = [
   {
     id: 4,
     title: "New Alternatives: Non-Profit Project",
-    videoLink: {
-      src: "../videos/new-alternatives_preview.mp4",
+    links: {
+      videoSrc: "../videos/new-alternatives_preview.mp4",
       src2: "http://new-alternatives-site.surge.sh/",
       //src: "https://i.imgur.com/1aUVjGC.png",
     },
@@ -60,10 +60,10 @@ const projectsList = [
   // {
   //   id: 3,
   //   title: "Movie Worm",
-  //   videoLink: {
+  //   links: {
   //     href: "https://moiveworm.netlify.app",
   //     src: "https://i.imgur.com/U5lC9z8.png",
-  //     src: "../videos/project_BirminghamS:H.mp4"
+  //     videoSrc: "../videos/project_BirminghamS:H.mp4"
   //   },
   //   devIcons: {
   //     src1: "./dev-icons/ruby.png",
@@ -74,6 +74,13 @@ const projectsList = [
   //     "Built a on Rails server, with three database tables which included user authentication and a join table. Created an interactive React front-end with full CRUD on all movies and the ability to create a review and rating for each specific movie.",
   //   github: "https://github.com/runnndmc/MovieWorm",
   // },
+
+/* ===== NOTES ===== */
+//https://yourhearingconnection.com/
+// - remove github button 
+//Vida - Sort and Filter 
+//on hover - giuthub and page icon - color 
+// add accessAble in replacement of Still Positive
 ];
 
 ReactDOM.render(

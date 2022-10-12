@@ -12,7 +12,7 @@ const Project = ({ project }) => {
     <div className="project__card">
       <h3
         className="project__title"
-        onClick={() => openLink(`${project.videoLink.src}`)}
+        onClick={() => openLink(`${project.links.videoSrc}`)}
       >
         {project.title}
       </h3>
@@ -21,7 +21,7 @@ const Project = ({ project }) => {
         <div className="project__video-box">
           <video
             className="project__clip"
-            src={project.videoLink.src}
+            src={project.links.videoSrc}
             onMouseEnter={(e) => e.target.play()}
             onMouseLeave={(e) => e.target.pause()}
             muted
@@ -33,12 +33,12 @@ const Project = ({ project }) => {
 
 
       <div className="project__buttons-wrapper">
-        <button onClick={() => openLink(`${project.videoLink.src2}`)}>
-          <FaExternalLinkAlt style={{ fontSize: "30px", color: "white" }} />
+        <button onClick={() => openLink(`${project.links.src2}`)}>
+          <FaExternalLinkAlt style={{ fontSize: "30px"}} />
         </button>
 
         <button onClick={() => openLink(`${project.github}`)}>
-          <FaGithubAlt style={{ fontSize: "40px", color: "white" }} />
+          <FaGithubAlt style={{ fontSize: "40px"}} />
         </button>
       </div>
     </div>
@@ -46,10 +46,3 @@ const Project = ({ project }) => {
 };
 
 export default Project;
-
-/* ===== NOTES ===== */
-//https://yourhearingconnection.com/
-// - remove github button 
-//Vida - Sort and Filter 
-//on hover - giuthub and page icon - color 
-// add accessAble in replacement of Still Positive
