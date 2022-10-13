@@ -83,8 +83,7 @@ button:hover {
 
 @media (max-width: 418px) {
   .nav__wrapper {
-    padding: 2.4%;
-    align-items: flex-start;
+    padding: 0;
   }
 }
 

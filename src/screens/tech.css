@@ -15,5 +15,12 @@
   padding: 5%;
 }
 .tech__wrapper > * {
- padding: 1%;
+  padding: 1%;
+}
+
+@media (max-width: 500px) {
+  .tech__heading {
+    font-size: 3rem;
+    padding-top: 10%;
+  }
 }
