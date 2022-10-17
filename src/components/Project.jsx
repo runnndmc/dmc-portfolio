@@ -19,14 +19,15 @@ const Project = ({ project }) => {
 
       <div className="project__video-container">
         <div className="project__video-box">
-          <video
+          {/* <video
             className="project__clip"
             src={project.links.videoSrc}
             onMouseEnter={(e) => e.target.play()}
             onMouseLeave={(e) => e.target.pause()}
             muted
             type="video/mp4"
-          ></video>
+          ></video> */}
+          <img src={project.imgSrc} alt="project preview" width="100%"></img>
         </div>
         <p className="project__text">{project.description}</p>
       </div>
