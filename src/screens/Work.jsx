@@ -6,7 +6,6 @@ import SectionIntro from "../components/SectionIntro";
 import "./work.css";
 
 const Work = ({ projectsList }) => {
-
   const projectCards = projectsList.map((project) => (
     <Project project={project} key={project.id} />
   ));
@@ -24,5 +23,3 @@ const Work = ({ projectsList }) => {
 };
 
 export default Work;
-
-
