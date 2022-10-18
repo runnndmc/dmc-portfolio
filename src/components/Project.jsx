@@ -40,12 +40,3 @@ const Project = ({ project }) => {
 };
 
 export default Project;
-
-/* <video
-            className="project__clip"
-            src={project.links.videoSrc}
-            onMouseEnter={(e) => e.target.play()}
-            onMouseLeave={(e) => e.target.pause()}
-            muted
-            type="video/mp4"
-          ></video> */

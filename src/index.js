@@ -19,7 +19,7 @@ const projectsList = [
   },
   {
     id: 2,
-    title: "VIDA & Co.: Admin Feature",
+    title: "VIDA & Co.: Sort and Filter Feature",
     links: {
       videoSrc: "../videos/form-sort-and-filter.mp4",
       src2: "https://www.youtube.com/embed/o7cGMn5_jx8",
@@ -33,7 +33,7 @@ const projectsList = [
     id: 3,
     title: "AccessAble",
     links: {
-      videoSrc: "../videos/stp_ preview.mp4",
+      videoSrc: "https://codepen.io/Daynac143/pen/yLvKWGW",
       src2: "https://codepen.io/Daynac143/pen/yLvKWGW",
     },
     description:
@@ -44,7 +44,7 @@ const projectsList = [
     id: 4,
     title: "New Alternatives: Non-Profit Project",
     links: {
-      videoSrc: "../videos/new-alternatives_preview.mp4",
+      videoSrc: "http://new-alternatives-site.surge.sh/",
       src2: "http://new-alternatives-site.surge.sh/",
     },
     devIcons: {
@@ -60,14 +60,11 @@ const projectsList = [
 
 // New notes //
 
-// Becker - github link removed 
-// Accessable - heading link  - github link removed 
-
 //images black and white?
 //all imgs correctly sized
 // beef decriptions
-//keep videos?
 //responsive 
+//clean up index keys - rename and put in correct locations
 
 
 
@@ -101,12 +98,7 @@ const projectsList = [
   //   github: "https://github.com/runnndmc/still-positive",
   // },
 
-  /* ===== NOTES ===== */
-  //https://yourhearingconnection.com/
-  // - remove github button
-  //Vida - Sort and Filter
-  //on hover - giuthub and page icon - color
-  // add accessAble in replacement of Still Positive
+
 ];
 
 ReactDOM.render(
