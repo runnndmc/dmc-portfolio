@@ -14,20 +14,20 @@ const projectsList = [
       src2: "https://www.beckerhearing.com/",
     },
     description:
-      "A live webpage for Becker Hearing Center. Developed with WordPress, Elementor Pro, CSS, HTML5 and JavaScript.",
+      "A live webpage for Becker Hearing Center. Developed from scratch with WordPress, Elementor Pro, CSS, HTML5 and JavaScript. Implemented a responsive web design and ensured the site was completely accessible for all users with performance results for each screen is above 97%.",
     imgSrc: "../project-photos/becker-front-end.png",
   },
   {
     id: 2,
-    title: "VIDA & Co.: Sort and Filter Feature",
+    title: "VIDA & Co. Feature: Sort and Filter",
     links: {
       videoSrc: "../videos/form-sort-and-filter.mp4",
       src2: "https://www.youtube.com/embed/o7cGMn5_jx8",
     },
     description:
-      "Utilizing React, JavaScript, material ui and SCSS, I made a feature on an administration page to view all of the students who have enrolled in a program. The user is able to filter the students by their enrollment status and sort the students by date, email or username in either ascending or descending order.",
+      "Utilizing React, JavaScript, material UI and SCSS, I built a feature on the administration page to view every student enrolled. The user is able to filter the students by their enrollment status and sort the students by date, email or username in either ascending or descending order. I utilized React useState hook in addition to a switch statement to sort the data either ascending or descending.",
     github: "https://www.youtube.com/embed/tFt5vCWaR94",
-    imgSrc: "../project-photos/front-end-filter-feature.png",
+    imgSrc: "../project-photos/one-league.png",
   },
   {
     id: 3,
