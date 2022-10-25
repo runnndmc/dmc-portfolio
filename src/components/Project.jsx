@@ -12,7 +12,7 @@ const Project = ({ project }) => {
     <div className="project__card">
       <h3
         className="project__title"
-        onClick={() => openLink(`${project.links.videoSrc}`)}
+        onClick={() => openLink(`${project.links.src}`)}
       >
         {project.title}
       </h3>
@@ -20,9 +20,9 @@ const Project = ({ project }) => {
       <div className="project__container">
         <div
           className="project__wrapper"
-          onClick={() => openLink(`${project.links.videoSrc}`)}
+          onClick={() => openLink(`${project.links.src}`)}
         >
-          <img src={project.imgSrc} alt="project preview" width="100%"></img>
+          <img src={project.links.imgSrc} alt={project.alt} width="100%"></img>
         </div>
         <p className="project__text">{project.description}</p>
       </div>
@@ -32,8 +32,13 @@ const Project = ({ project }) => {
           <FaExternalLinkAlt style={{ fontSize: "30px" }} />
         </button>
 
-        { project.hasOwnProperty('github') ? (<button onClick={() => openLink(`${project.github}`)}><FaGithubAlt style={{ fontSize: "40px" }} /></button>) : ''}
-
+        {project.hasOwnProperty("github") ? (
+          <button onClick={() => openLink(`${project.github}`)}>
+            <FaGithubAlt style={{ fontSize: "40px" }} />
+          </button>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
