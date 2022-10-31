@@ -28,13 +28,13 @@ const Project = ({ project }) => {
       </div>
 
       <div className="project__buttons-wrapper">
-        <button onClick={() => openLink(`${project.links.src2}`)}>
-          <FaExternalLinkAlt style={{ fontSize: "30px" }} />
+        <button onClick={() => openLink(`${project.links.src}`)}>
+          <FaExternalLinkAlt style={{ fontSize: "25px" }} />
         </button>
 
         {project.hasOwnProperty("github") ? (
           <button onClick={() => openLink(`${project.github}`)}>
-            <FaGithubAlt style={{ fontSize: "40px" }} />
+            <FaGithubAlt style={{ fontSize: "35px" }} />
           </button>
         ) : (
           ""

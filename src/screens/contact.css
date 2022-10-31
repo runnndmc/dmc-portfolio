@@ -1,76 +1,27 @@
 .contact__wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% auto;
+  margin-bottom: 10%;
+  border: 2px solid #c64401;
+  border-radius: 10px;
+  width: 60%;
 }
 .contact__heading {
-  text-align: left;
-  margin: 12% 4%;
   font-family: "IBM Plex Serif", serif;
   font-weight: 500;
   line-height: 5rem;
   font-style: italic;
-  font-size: 3rem;
+  font-size: 4rem;
   color: #c64401;
+  margin-bottom:0;
 }
-.contact__form {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  align-items: space-around;
-  margin: 10%;
-  border: 1px solid #c64401;
-  font-family: "IBM Plex Serif", serif;
-}
-input, textarea{
-  margin: 20px;
-  padding: 10px;
-  font-family: "Open Sans", sans-serif;
-
+.contact__wrapper > p{
+  margin: 0;
+  font-size: .8em;
 }
 .contact__btn{
-  margin: 20px;
-}
-
-input{
-  padding: 10px;
-}
-/* .email-link {
-  display: flex;
-  justify-content: flex-start;
-  transition: all ease-in-out 0.5s;
-}
-.email-link:hover {
-  color: #ffffff;
-  background-color: #c64401;
-}
-.mail-image {
-  width: 100px;
-}
-.contact-text {
-  padding-left: 10px;
-  font-size: 15px;
-  font-family: "Open Sans", sans-serif;
-}
-.email-text {
-  color: black;
-  transition: all ease-in-out 0.5s;
-  font-weight: 700;
-  font-size: 15px;
-  font-family: "Open Sans", sans-serif;
-}
-.email-text:hover {
-  color: #ffffff;
-  background-color: #c64401;
-}
-.dev-icon {
-  max-width: 3em;
-  margin: 10px;
-} */
-/*===== MEDIA QUERIES ===== */
-
-@media (max-width: 500px) {
-  .contact-form {
-    flex-wrap: wrap;
-    margin: 10% 5% 25% 5%;
-  }
+  margin: 3% auto 7%;
 }
