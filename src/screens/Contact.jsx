@@ -16,10 +16,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-/* ===== NOTES ===== */
-// more interactive -posssibly a form for email here
-//
-//http://findmatthew.com/
-
-//https://mailtrap.io/blog/react-contact-form/

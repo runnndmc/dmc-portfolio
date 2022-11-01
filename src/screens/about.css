@@ -31,7 +31,7 @@
 }
 .about__statement {
   width: 60%;
-  font-size: .8em;
+  font-size: 0.8em;
   border-top: 0.01em solid #000000;
   border-bottom: 0.01em solid #000000;
   padding: 25px 0;
@@ -55,6 +55,15 @@
 
 /*===== MEDIA QUERIES ===== */
 
+@media (max-width: 920px) {
+.about__info-wrapper {
+  align-content: center;
+}
+  .about-photo {
+    margin: 5%;
+    width: 70%;
+  }
+}
 @media (max-width: 820px) {
   .about-section {
     height: 65vh;
@@ -66,9 +75,9 @@
   }
 
   .question-text {
-    font-size: 4em;
+    font-size: 3em;
   }
-  
+
   .about-photo {
     margin-top: 5%;
     width: 70%;
@@ -81,7 +90,6 @@
   .about__info-wrapper {
     align-content: space-evenly;
   }
-
 }
 @media (max-width: 500px) {
   .about-section {
@@ -108,7 +116,6 @@
     margin-top: 5%;
     width: 70%;
   }
-
 }
 
 @media (max-width: 375px) {
