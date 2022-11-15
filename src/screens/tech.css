@@ -1,16 +1,26 @@
 .tech__heading {
-  margin: 0 auto;
+  margin: 5% auto;
+  margin-bottom: 0;
   text-align: center;
-  margin-top: 12.2%;
   font-family: "IBM Plex Serif", serif;
   font-weight: 500;
   font-style: italic;
-  font-size: 110px;
+  font-size: 4rem;
   color: #c64401;
 }
 .tech__wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 10%;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+.tech__wrapper > * {
+  padding: 1%;
+}
+
+@media (max-width: 500px) {
+  .tech__heading {
+    font-size: 3rem;
+    padding-top: 10%;
+  }
 }

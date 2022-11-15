@@ -19,6 +19,7 @@ html {
   display: flex;
   flex-direction: column;
   background-color: #fff3e0;
+  margin: 0;
 }
 
 @media (max-width: 319px) {

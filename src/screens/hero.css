@@ -3,20 +3,22 @@
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
-  padding-left: 2%;
+  padding: 0;
   height: 92vh;
   position: relative;
 }
 .hero__hello{
   margin-bottom: 0;
+  margin-left: 3%;
 }
 .hero__hello,
 .hero__job-title {
   color: #fff3e0;
-  font-size: 20px;
+  font-size: 1.2em;
   letter-spacing: 0.2em;
   margin-top: 0;
   position: relative;
+  margin-left: 3%;
 }
 
 h1 {
@@ -24,8 +26,9 @@ h1 {
   font-weight: 500;
   color: #fff3e0;
   margin: 0;
-  font-size: 80px;
+  font-size: 5em;
   position: relative;
+  margin-left: 2%;
 }
 
 .hero__job-title { 
@@ -50,6 +53,8 @@ h1 {
   to { left: 0%;}
 }
 
+
+
 /*===== MEDIA QUERIES ===== */
 
 @media (max-width: 1024px) {
@@ -65,26 +70,31 @@ h1 {
   }
 }
 
+@media (max-width: 769px) {
+  .hero__wrapper {
+    height: 90vh;
+    width: 100vw;
+  }
+}
+
 
 @media (max-width: 500px) {
   .hero__wrapper {
     height: 85vh;
   }
-
   .hero__hello,
   .hero__job-title {
     font-size: 18px;
     letter-spacing: 0.02em;
   }
-
   h1 {
-    font-size: 50px;
+    font-size: 3.5rem;
   }
 }
 
 
 @media (max-width: 418px) {
   .hero__wrapper {
-    height: 88vh;
+    height: 85vh;
   }
 }

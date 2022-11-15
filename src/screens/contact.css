@@ -1,75 +1,70 @@
 .contact__wrapper {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% auto;
+  margin-bottom: 10%;
+  border: 2px solid #c64401;
+  border-radius: 10px;
+  width: 60%;
 }
 .contact__heading {
-  text-align: left;
-  margin: 12% 4%;
   font-family: "IBM Plex Serif", serif;
   font-weight: 500;
   line-height: 5rem;
   font-style: italic;
-  font-size: 110px;
+  font-size: 4rem;
+  line-height: 1.2em;
   color: #c64401;
+  margin-bottom: 0;
 }
-.contact__form {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  align-items: space-around;
-  margin: 10%;
-  border: 1px solid #c64401;
-  font-family: "IBM Plex Serif", serif;
+.contact__wrapper > p {
+  margin: 0;
+  font-size: 0.8em;
 }
-input, textarea{
-  margin: 20px;
-  padding: 10px;
-  font-family: "Open Sans", sans-serif;
-
+.contact__btn {
+  margin: 3% auto 7%;
 }
-.contact__btn{
-  margin: 20px;
+/* ===== MEDIA QUERIES ===== */
+@media (max-width: 920px) {
+  .contact__wrapper {
+    margin-bottom: 20%;
+  }
 }
 
-input{
-  padding: 10px;
+@media (max-width: 820px) {
+  .contact__wrapper {
+    width: 70%;
+    padding: 2%;
+    margin-bottom: 20%;
+  }
+  .contact__btn {
+    margin: 3% auto 12%;
+  }
 }
-/* .email-link {
-  display: flex;
-  justify-content: flex-start;
-  transition: all ease-in-out 0.5s;
-}
-.email-link:hover {
-  color: #ffffff;
-  background-color: #c64401;
-}
-.mail-image {
-  width: 100px;
-}
-.contact-text {
-  padding-left: 10px;
-  font-size: 15px;
-  font-family: "Open Sans", sans-serif;
-}
-.email-text {
-  color: black;
-  transition: all ease-in-out 0.5s;
-  font-weight: 700;
-  font-size: 15px;
-  font-family: "Open Sans", sans-serif;
-}
-.email-text:hover {
-  color: #ffffff;
-  background-color: #c64401;
-}
-.dev-icon {
-  max-width: 3em;
-  margin: 10px;
-} */
-/*===== MEDIA QUERIES ===== */
 
-@media (max-width: 500px) {
-  .contact-form {
-    flex-wrap: wrap;
-    margin: 10% 5% 25% 5%;
+@media (max-width: 540px) {
+  .contact__wrapper {
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 30%;
+  }
+  .contact__heading {
+    font-size: 3rem;
+    letter-spacing: -2px;
+    margin-bottom: 3%;
+  }
+  .contact__wrapper > p {
+    text-align: center;
+  }
+  .contact__btn {
+    margin: 5% auto 7%;
+  }
+}
+
+@media (max-width: 360px) {
+  .contact__heading {
+    letter-spacing: -3px;
   }
 }
