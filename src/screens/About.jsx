@@ -16,11 +16,11 @@ const AboutMe = () => {
           />
 
           <p className="about__statement">
-            I'm passionate about delivering end-to-end experiences and care
-            about the software architecture across the frontend, backend, and
-            the APIs that glue them together. By building full stack
-            applications, I aim to implement clean, effective technology that
-            can directly affect the consumers understanding of a product.
+            I'm passionate about delivering high functioning end-to-end experiences.
+            I build effective coding techniques across the frontend, backend, and
+            the APIs that glue them all together. In building web applications,
+            I aim to implement lean, effective and accessible technology standards to my applications that
+            directly affect the consumers understanding of a product, goal or misssion.
           </p>
 
         </div>
