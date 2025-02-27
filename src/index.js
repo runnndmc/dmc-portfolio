@@ -10,14 +10,14 @@ import { BrowserRouter as Router } from "react-router-dom";
 const projectsList = [
   {
     id: 1,
-    title: "Becker Hearing Center: Live Website",
+    title: "Love to Hear Again Audiology",
     links: {
-      src: "https://www.beckerhearing.com/",
-      imgSrc: "../project-photos/becker-front-end.png",
+      src: "https://www.love2hearagain.com/",
+      imgSrc: "../project-photos/love-to-hear-again-aud.png",
     },
-    alt: "Website preview of Becker Hearing Center's landing page.",
+    alt: "Website preview of Love to Hear Again Audiology's website.",
     description:
-      "A live webpage for Becker Hearing Center. Developed from scratch with WordPress, Elementor Pro, CSS, HTML5 and JavaScript. Implemented a responsive web design and ensured the site was completely accessible for all users with performance results for each screen is above 97%.",
+      "A live webpage for Love to Hear Again Audiology. Developed from scratch with WordPress, Elementor Pro, CSS, HTML5 and JavaScript. Implemented a responsive web design and ensured the site was completely accessible for all users with performance results for each screen is above 97%.",
   },
   {
     id: 2,
