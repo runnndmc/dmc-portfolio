@@ -8,21 +8,19 @@ const AboutMe = () => {
       <span id="about"> &nbsp; </span>
       <div className="about-section">
         <div className="about__info-wrapper">
-
-        <img
+          <img
             className="about-photo"
             src="../profile.png"
             alt="Dayna, a white woman with short broown hair smiling against a purple mountian painting"
           />
 
           <p className="about__statement">
-            I'm passionate about delivering high functioning end-to-end experiences.
-            I build effective coding techniques across the frontend, backend, and
-            the APIs that glue them all together. In building web applications,
-            I aim to implement lean, effective and accessible technology standards to my applications that
-            directly affect the consumers understanding of a product, goal or misssion.
+            I strive to develop seamless, end-to-end web experiences with a
+            strong focus on front-end engineering, front-end architecture, and
+            API integration. I'm skilled at building web applications that are
+            high-performing, accessible, and scalable, so that they offer an
+            inclusive experience to anyone with access to the internet.
           </p>
-
         </div>
 
         <div className="question-block">
