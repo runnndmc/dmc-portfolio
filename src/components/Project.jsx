@@ -12,43 +12,36 @@ const Project = ({ project }) => {
     <div className="project__card">
       <h3
         className="project__title"
-        onClick={() => openLink(`${project.videoLink.src}`)}
+        onClick={() => openLink(`${project.links.src}`)}
       >
         {project.title}
       </h3>
 
-      <div className="project__video-container">
-        <div className="project__video-box">
-          <video
-            className="project__clip"
-            src={project.videoLink.src}
-            onMouseEnter={(e) => e.target.play()}
-            onMouseLeave={(e) => e.target.pause()}
-            muted
-            type="video/mp4"
-          ></video>
+      <div className="project__container">
+        <div
+          className="project__wrapper"
+          onClick={() => openLink(`${project.links.src}`)}
+        >
+          <img src={project.links.imgSrc} alt={project.alt} width="100%"></img>
         </div>
         <p className="project__text">{project.description}</p>
       </div>
 
-
       <div className="project__buttons-wrapper">
-        <button onClick={() => openLink(`${project.videoLink.src2}`)}>
-          <FaExternalLinkAlt style={{ fontSize: "30px", color: "white" }} />
+        <button onClick={() => openLink(`${project.links.src}`)}>
+          <FaExternalLinkAlt style={{ fontSize: "25px" }} />
         </button>
 
-        <button onClick={() => openLink(`${project.github}`)}>
-          <FaGithubAlt style={{ fontSize: "40px", color: "white" }} />
-        </button>
+        {project.hasOwnProperty("github") ? (
+          <button onClick={() => openLink(`${project.github}`)}>
+            <FaGithubAlt style={{ fontSize: "35px" }} />
+          </button>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
 };
 
 export default Project;
-
-/* ===== NOTES ===== */
-//  clean up  unused // card info in general !
-//padding on buttons 
-// font on the card titles
-//new videos with no browser 

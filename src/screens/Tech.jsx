@@ -10,6 +10,7 @@ import {
   FaElementor,
   FaCss3Alt,
   FaReact,
+  FaNpm,
 } from "react-icons/fa";
 import "./tech.css"
 
@@ -32,14 +33,10 @@ const Tech = () => {
         <SiMaterialui></SiMaterialui>
         <SiExpress></SiExpress>
         <SiMongodb></SiMongodb>
+        <FaNpm></FaNpm>
       </div>
     </Layout>
   );
 };
 
 export default Tech;
-
-/* ===== NOTES ===== */
-// scss ?
-// annimation instead?
-// link to check out work in hero

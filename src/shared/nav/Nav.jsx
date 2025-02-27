@@ -4,10 +4,9 @@ import "./nav.css";
 
 
 const Nav = () => {
-  return (
-    <nav>
-      <div className="nav__wrapper">
 
+  return (
+    <nav className="nav__wrapper">
         <a href="#work" className="nav__button-a">
           <button className="nav__work-btn">Work</button>
         </a>
@@ -16,6 +15,7 @@ const Nav = () => {
           <a href="https://github.com/runnndmc" className="nav__social-icon" target="_blank" rel="noopener noreferrer">
             <FaGithubAlt className="fa-icon"/>
           </a>
+
           <a href="https://www.linkedin.com/in/daynachristison/" className="nav__social-icon" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="fa-icon"/>
           </a>
@@ -25,7 +25,6 @@ const Nav = () => {
           <button className="nav__resume-btn">Resume</button>
         </a>
 
-      </div>
     </nav>
   );
 };
