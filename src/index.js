@@ -5,11 +5,8 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router } from "react-router-dom";
 
-<<<<<<< HEAD
 //test
 
-=======
->>>>>>> 649754489c80f0782e375b79d5f573855be18006
 const projectsList = [
   {
     id: 1,
