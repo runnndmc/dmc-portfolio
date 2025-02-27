@@ -21,7 +21,7 @@ const Nav = () => {
           </a>
         </div>
 
-        <a href="https://drive.google.com/file/d/1IS9DjcqWjl6D7jj3Sd_8t2vo7jrC7Upk/view?usp=sharing" className="nav__button-a" target="_blank"rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1gN1ZUQLc4Y14rACGRCGNbFRnik_3v5K4/view?usp=sharing" className="nav__button-a" target="_blank"rel="noopener noreferrer">
           <button className="nav__resume-btn">Resume</button>
         </a>
 
