@@ -17,13 +17,11 @@ nav {
 }
 
 button {
-  font-family: "Open Sans", sans-serif;
   background-color: #c64401;
   border: 2px solid #c64401;
   color: #fff3e0;
   text-decoration: none;
   font-size: 18px;
-  font-weight: 700;
   letter-spacing: 0.2px;
   border-radius: 5em;
   padding: 1em 3em;
