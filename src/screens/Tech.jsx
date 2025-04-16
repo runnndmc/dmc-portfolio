@@ -11,6 +11,7 @@ import {
   FaCss3Alt,
   FaReact,
   FaNpm,
+  FaWebflow,
 } from "react-icons/fa";
 import "./tech.css"
 
@@ -26,6 +27,7 @@ const Tech = () => {
         <FaReact></FaReact>
         <FaNodeJs></FaNodeJs>
         <FaPhp></FaPhp>
+        <FaWebflow />
         <FaWordpress></FaWordpress>
         <FaElementor></FaElementor>
         <FaCss3Alt></FaCss3Alt>
