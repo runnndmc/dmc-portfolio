@@ -37,8 +37,7 @@
 }
 .project__text {
   text-align: justify;
-  font-family: "Open Sans", sans-serif;
-  font-size: .8em;
+  font-size: 1em;
   align-self: center;
 }
 .project__buttons-wrapper {
