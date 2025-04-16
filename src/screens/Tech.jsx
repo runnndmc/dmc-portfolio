@@ -1,5 +1,5 @@
 import React from "react";
-import { SiExpress, SiMaterialui, SiMongodb } from "react-icons/si";
+import { SiExpress, SiMaterialui, SiMongodb, SiWebflow } from "react-icons/si";
 import {
   FaWordpress,
   FaHtml5,
@@ -11,7 +11,6 @@ import {
   FaCss3Alt,
   FaReact,
   FaNpm,
-  FaWebflow,
 } from "react-icons/fa";
 import "./tech.css"
 
@@ -27,7 +26,7 @@ const Tech = () => {
         <FaReact></FaReact>
         <FaNodeJs></FaNodeJs>
         <FaPhp></FaPhp>
-        <FaWebflow />
+        <SiWebflow></SiWebflow>
         <FaWordpress></FaWordpress>
         <FaElementor></FaElementor>
         <FaCss3Alt></FaCss3Alt>
