@@ -10,6 +10,17 @@ import { BrowserRouter as Router } from "react-router-dom";
 const projectsList = [
   {
     id: 1,
+    title: "United Martial Arts Centers",
+    links: {
+      src: "https://www.umacenters.com/",
+      imgSrc: "../project-photos/WebFlow-UMAC.png",
+    },
+    alt: "Project preview of United Martial Arts Centers website.",
+    description:
+      "Built a Webflow site for United Martial Arts Centers to increase student enrollment, streamline class scheduling, and reflect their values. Handled end-to-end design and development — from design to launch. Worked directly with the client to define user flows and built the site using Webflow CMS to manage class schedules, and location-specific content. Integrated Google Analytics and Pably Connect for lead tracking and automation.",
+  },
+  {
+    id: 2,
     title: "Love to Hear Again Audiology",
     links: {
       src: "https://www.love2hearagain.com/",
@@ -20,7 +31,7 @@ const projectsList = [
       "A live webpage for Love to Hear Again Audiology. Developed from scratch with WordPress, Elementor Pro, CSS, HTML5 and JavaScript. Implemented a responsive web design and ensured the site was completely accessible for all users with performance results for each screen is above 97%.",
   },
   {
-    id: 2,
+    id: 3,
     title: "VIDA & Co. Feature: Sort and Filter",
     links: {
       src: "../videos/form-sort-and-filter.mp4",
@@ -32,7 +43,7 @@ const projectsList = [
     github: "https://www.youtube.com/embed/tFt5vCWaR94",
   },
   {
-    id: 3,
+    id: 4,
     title: "AccessAble",
     links: {
       src: "https://codepen.io/Daynac143/pen/yLvKWGW",
@@ -41,19 +52,7 @@ const projectsList = [
     alt: "Project preview two input fields with the title 'AccesssAble' centered at the top",
     description:
       "A PWA made on CodePen with HTML, CSS, and JavaScript. The app is set to take in a sentence and convert it into an accessable hashtag with the first letter of each word capitalized with no spaces in the hashtag.",
-  },
-  {
-    id: 4,
-    title: "New Alternatives: Non-Profit Project",
-    links: {
-      src: "http://new-alternatives-site.surge.sh/",
-      imgSrc: "../project-photos/front-end-newAlternatives.png",
-    },
-    alt: "Project preview of a landing page for New Alternatives.",
-    description:
-      "In collaboration with a UX design team and three other software engineers, built a full-stack MERN CRUD site which took an already existing non-profit website and fully redesigned it. New Alternatives is a user friendly and interactive site with user testimonials and video carousels.",
-    github: "https://github.com/chrisratsimba123/new-alternatives-app/",
-  },
+  }
 
   // {
   //   id: 3,
